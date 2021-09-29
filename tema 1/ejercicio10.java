@@ -1,6 +1,4 @@
 import java.util.*;
-
-import org.xml.sax.SAXException;
 public class ejercicio10 {
     public static void main(String[] args) {
         

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class ejercicio11 {
     public static void main(String[] args) {
         System.out.println("Introduce un valor ");
@@ -17,6 +17,6 @@ public class ejercicio11 {
             System.out.println(v2);
             System.out.println(v1);
            }
-           inputValue.close();
+        inputValue.close();
     }
 }
