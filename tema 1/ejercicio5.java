@@ -14,5 +14,6 @@ public class ejercicio5 {
     System.out.println("la resta de " + numero1 + "-" + numero2 + "="+(numero1-numero2));
     System.out.println("la division de " + numero1 + ":" + numero2 + "="+(numero1/numero2));
     System.out.println("la multiplicacion de " + numero1 + "x" + numero2 + "="+(numero1*numero2));
-	}
+	sc.close();
+    }
 }

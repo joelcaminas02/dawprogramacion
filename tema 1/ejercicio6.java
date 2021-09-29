@@ -7,5 +7,6 @@ public class ejercicio6 {
     double PI = 3.14159;
     System.out.println("La longitud del circulo es: "+ (2*radio)*PI);
     System.out.println("El area del circulo es: "+ (radio*radio)*PI);
+    sc.close();
     }
 }

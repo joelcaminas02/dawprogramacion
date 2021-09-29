@@ -10,6 +10,7 @@ public class ejercicio7 {
 
         System.out.println("El descuente es de un: "+(pr-po)*100/pr
         +"%");
+        sc.close();
     }
     
 }
