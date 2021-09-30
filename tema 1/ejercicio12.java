@@ -15,6 +15,6 @@ public class ejercicio12 {
         }else{
             System.out.println(v2);
            }
-           inputValue.close();
+        inputValue.close();
     }
 }
