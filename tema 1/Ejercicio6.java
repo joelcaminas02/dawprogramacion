@@ -1,5 +1,5 @@
 import java.util.*;
-public class ejercicio6 {
+public class Ejercicio6 {
     public static void main(String[] args) {
     System.out.println("Introduce el radio: ");
     Scanner sc = new Scanner(System.in);

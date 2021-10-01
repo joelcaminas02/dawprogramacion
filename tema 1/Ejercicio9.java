@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ejercicio9 {
+public class Ejercicio9 {
     public static void main(String[] args) {
         System.out.println("Introduce la edad: ");
         Scanner inputValue;

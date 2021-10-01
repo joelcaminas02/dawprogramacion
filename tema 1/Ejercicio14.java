@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ejercicio14 {
+public class Ejercicio14 {
     public static void main(String[] args) {
         System.out.println("Introduce la nota: ");
         Scanner inputValue;

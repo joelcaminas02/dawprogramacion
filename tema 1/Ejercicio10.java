@@ -1,5 +1,5 @@
 import java.util.*;
-public class ejercicio10 {
+public class Ejercicio10 {
     public static void main(String[] args) {
         
         System.out.println("Introduzca un número para saber si es positivo o negativo: ");

@@ -1,5 +1,5 @@
 import java.util.*;
-public class ejercicio7 {
+public class Ejercicio7 {
     public static void main(String[] args) {
         System.out.println("Introduce el precio real: ");
         Scanner sc = new Scanner(System.in);
