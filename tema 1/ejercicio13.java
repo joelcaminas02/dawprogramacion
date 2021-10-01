@@ -1,8 +1,7 @@
 import java.util.Scanner;
 public class ejercicio13 {
     public static void main(String[] args) {
-        String primera="ascendente";
-        boolean b1 = Boolean.valueOf(primera);
+        String primera = 'ascendente';
         System.out.println("Como quieres el orden?");
         Scanner inputValue;
         inputValue = new Scanner(System.in);
@@ -16,7 +15,7 @@ public class ejercicio13 {
         inputValue = new Scanner(System.in);
         int v2 = inputValue.nextInt();
 
-        if ( orden = b1 ){
+        if ( primera ){
             if (v1 > v2){
             System.out.println("v1");
             System.out.println("v2");
