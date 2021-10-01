@@ -7,7 +7,6 @@ public class ejercicio12 {
         int v1 = inputValue.nextInt();
         
         System.out.println("Introduce el segundo valor");
-        inputValue = new Scanner(System.in);
         int v2 = inputValue.nextInt();
 
         if ( v1 > v2 ){
