@@ -29,8 +29,8 @@ public class Ejercicio16 {
                 System.out.println("La division de "+v1+"/"+v2+"="+(v1/v2));
                 break;
             default:
+            System.out.println("Error");
                 break;
-                System.out.println("Error");
     }
     inputValue.close();
     miScanner.close();
