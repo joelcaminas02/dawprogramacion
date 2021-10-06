@@ -8,7 +8,7 @@ public class Ejercicio11 {
         
         System.out.println("Introduce el segundo valor");
         int v2 = inputValue.nextInt();
-        
+        System.out.println(" ");
         if ( v1 > v2 ){
             System.out.println(v1);
             System.out.println(v2);
