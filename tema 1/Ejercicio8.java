@@ -7,7 +7,7 @@ public class Ejercicio8 {
         int edad = inputValue.nextInt();
 
         if (edad >= 18) {
-            System.out.println("El usuario es mayor de edad");
+            System.out.println("You have the legal age");
     }
     inputValue.close();
  }
