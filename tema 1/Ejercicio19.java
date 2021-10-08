@@ -12,6 +12,7 @@ public class Ejercicio19 {
         int horas = lector.nextInt();
 
         lector.close(); 
+        
         int horasExtra= horas - 35;
         double calcEuros = euros*horas;
         double calcExtra = (euros*1.5)*horasExtra;
