@@ -15,11 +15,12 @@ public class Ejercicio23 {
         positives = 0;
         while (num != 0){
             
-            num = lector.nextInt();
+  
             
             if (num >= 0){
                 positives = positives + 1;
             }
+            num = lector.nextInt();
         }    
         lector.close();
         System.out.println("Hay "+positives+" numeros positivos");
