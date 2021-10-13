@@ -15,9 +15,26 @@ public class Ejercicio24 {
         lector = new Scanner(System.in);
 
         System.out.println("Introduce tu nota: ");
-        grade = lector.nextInt();
 
-        while ( grade != -1)
-        
+        while ( grade != -1){
+            grade = lector.nextInt();
+
+            if (grade != -1) {
+               sum = sum + grade;
+                i = i +1;
+                if ( grade == 10){
+                    wasTen = true;
+                }
+
+            }
+
+        }
+        System.out.println("La nota media es: "+(sum/i));
+        if (wasTen ) {
+            System.out.println("There was a ten");
+            
+        }else{
+            System.out.println("There was not a 10");
+        }lector.close();
     }
 }

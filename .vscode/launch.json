@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ejercicio24",
+            "request": "launch",
+            "mainClass": "Ejercicio24",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio23",
+            "request": "launch",
+            "mainClass": "Ejercicio23",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio22",
+            "request": "launch",
+            "mainClass": "Ejercicio22",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejercicio21",
             "request": "launch",
             "mainClass": "Ejercicio21",
