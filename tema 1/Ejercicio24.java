@@ -14,6 +14,7 @@ public class Ejercicio24 {
         Scanner lector;
         lector = new Scanner(System.in);
 
+        //Programa principal
         System.out.println("Introduce tu nota: ");
 
         while ( grade != -1){
