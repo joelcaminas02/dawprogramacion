@@ -13,11 +13,12 @@ public class Ejercicio28 {
         numero = lector.nextInt();
 
         lector.close();
-        
-        if (numero % divisor == 0){
-            System.out.println("No es primo");
-            }else{
-                System.out.println("Es primo");
+        while ((divisor < numero) && (numero % divisor != 0)){
+            System.out.println(numero+"/"+divisor+"="+(numero/divisor+"Es primo"));
+            divisor ++;
+            if (numero % divisor == 0){
+            System.out.println(numero+"/"+divisor+"="+(numero/divisor+"No es primo"));
             }
+        }
     }
 }
