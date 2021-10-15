@@ -7,18 +7,23 @@ public class Ejercicio28 {
         Scanner lector;
         lector = new Scanner(System.in);
         divisor = 2;
+        boolean esPrimo = true ;
 
         //Programa principal
         System.out.println("Introduce el numero que desees averiguar si es primo: ");
         numero = lector.nextInt();
 
         lector.close();
-        while ((divisor < numero) && (numero % divisor != 0)){
-            System.out.println(numero+"/"+divisor+"="+(numero/divisor+"Es primo"));
-            divisor ++;
+        while ((divisor < numero) && esPrimo ){
             if (numero % divisor == 0){
-            System.out.println(numero+"/"+divisor+"="+(numero/divisor+"No es primo"));
+            esPrimo = false;
             }
+            divisor++;
         }
-    }
+        if (esPrimo){
+        System.out.println(numero+" es primo");
+        }else{
+            System.out.println(numero+" no es primo");
+        }
+    }   
 }
