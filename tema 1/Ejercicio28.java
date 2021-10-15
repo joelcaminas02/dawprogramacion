@@ -6,7 +6,7 @@ public class Ejercicio28 {
         int numero, divisor;
         Scanner lector;
         lector = new Scanner(System.in);
-        divisor = 1;
+        divisor = 2;
 
         //Programa principal
         System.out.println("Introduce el numero que desees averiguar si es primo: ");
@@ -15,9 +15,9 @@ public class Ejercicio28 {
         lector.close();
         
         if (numero % divisor == 0){
-            System.out.println("Es primo");
+            System.out.println("No es primo");
             }else{
-                System.out.println("No es primo");
+                System.out.println("Es primo");
             }
     }
 }
