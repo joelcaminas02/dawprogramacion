@@ -8,7 +8,7 @@ public class Ejercicio25 {
         lector = new Scanner(System.in);
 
         //Programa principal
-        System.out.println("Introduce un numero para saber el factorial de este: ");
+        System.out.println("Introduce un numero para saber el factorial: ");
         numero = lector.nextInt();
         
         while ( numero!=0) {
