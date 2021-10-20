@@ -18,12 +18,13 @@ public class Ejercicio30 {
         tamaño = frase.length();
         mitad = tamaño/2;
 
-        for (i = 0; i < mitad; i++){
-            char caracter1= frase.charAt(1);
-            char caracter2= frase.charAt(frase.length());
+        for (i = 1; i < mitad; i++){
+            char caracter1= frase.charAt(i-1);
+            char caracter2= frase.charAt(tamaño-i);
             if ( caracter1 != caracter2){
                 palindromo = false;
-            }if (palindromo){
+            }
+        if (palindromo){
             System.out.println(frase+" No es palindromo");
         }else{
             System.out.println(frase+" es palindromo");
