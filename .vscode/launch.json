@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MatesPruebas",
+            "request": "launch",
+            "mainClass": "MatesPruebas",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch Mates",
             "request": "launch",
             "mainClass": "Mates",
