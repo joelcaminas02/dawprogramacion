@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Mates",
+            "request": "launch",
+            "mainClass": "Mates",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgumentosMain",
+            "request": "launch",
+            "mainClass": "ArgumentosMain",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejercicio34",
             "request": "launch",
             "mainClass": "Ejercicio34",
