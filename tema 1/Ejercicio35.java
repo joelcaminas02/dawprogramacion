@@ -25,7 +25,8 @@ public class Ejercicio35 {
             if (operadores[i]==10){
                 wasTen = true;
             }
-        }lector.close();
+        }
+        lector.close();
         System.out.println("La nota media es: "+(sum/i));
         if (wasTen ) {
             System.out.println("There was a ten");
