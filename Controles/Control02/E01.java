@@ -9,7 +9,7 @@ public class E01 {
         lector  = new Scanner(System.in);
 
         //Inicio del programa
-        System.out.println("Ingrese su nombre: "); nombre = lector.nextLine();
+        System.out.println("Ingrese su nombre: "+(nombre = lector.nextLine()));
         lector.close();
         System.out.println("Hola, "+nombre);
     }
