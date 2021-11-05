@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch E01",
             "request": "launch",
+            "mainClass": "Control02.E01",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch E01",
+            "request": "launch",
             "mainClass": "E01",
             "projectName": "dawprogramacion_68fd9e42"
         },
