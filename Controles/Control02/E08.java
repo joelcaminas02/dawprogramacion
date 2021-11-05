@@ -7,7 +7,7 @@ public class E08 {
 		double numero;
         Scanner lector;
         lector = new Scanner(System.in);
-		System.out.println("Ingrese un numero");numero= lector.nextDouble(); 
+		System.out.println("Ingrese un numero "+(numero= lector.nextDouble())); 
         lector.close();
 		double parteDecimal = numero % 1;
 		System.out.println(parteDecimal);

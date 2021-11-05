@@ -7,11 +7,10 @@ public class E04 {
         //Declaracion de varibales
         Scanner lector;
         lector = new Scanner(System.in);
-
+        int longitud;
         //Inicio Programa
-        System.out.println("Ingrese longitud: ");
-        int longitud1 = lector.nextInt();
-        System.out.println(longitud1+" cm = "+longitud1/2.54);
+        System.out.println("Ingrese longitud: "+(longitud = lector.nextInt()));
+        System.out.println(longitud+" cm = "+longitud/2.54+" in");
         
         lector.close();
     }
