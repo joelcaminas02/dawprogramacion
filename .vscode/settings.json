@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "tema 1",
         "Tema2",
+        "DAWProgramacion/AceptoElReto",
         "Controles",
-        "DAWProgramacion/AceptoElReto"
+        "DAWProgramacion/Controles/Control02"
     ]
 }
