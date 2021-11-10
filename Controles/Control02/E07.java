@@ -11,6 +11,6 @@ public class E07 {
         System.out.println("Hora actual: "+(horaActual = lector.nextInt()));
         System.out.println("Cantidad de horas: "+(horaFutura= lector.nextInt()));
         lector.close();
-        System.out.println("En "+horaFutura+" horas, el reloj marcara las "+horaActual+horaFutura);
+        System.out.println("En "+horaFutura+" horas, el reloj marcara las "+(horaActual+horaFutura)%12);
     }
 }

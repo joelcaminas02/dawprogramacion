@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Primos",
+            "request": "launch",
+            "mainClass": "Primos",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch E04",
+            "request": "launch",
+            "mainClass": "Control02.E04",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch EjercicioT2",
             "request": "launch",
             "mainClass": "EjercicioT2",
