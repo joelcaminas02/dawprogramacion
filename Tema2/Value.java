@@ -24,8 +24,7 @@ public class Value {
         }
     }
 
-    public static int positivos (){
-        int [] anArray = {1,2,3,4,5,-2,-5,-3,7,-10};
+    public static int positivos (int anArray[]){
         int positivos = 0;
         for (int i = 0;i<anArray.length;i++){
             if (anArray[i] > 0){
