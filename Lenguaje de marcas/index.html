@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 <head><!--cabezera y titulo de la pagina-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="autor" content="Joel Carrillero García"></meta>
 <title>Joel Carrillero Garcia</title>
 </head>
 
@@ -16,13 +17,12 @@
 <hr /><!--separador horizontal-->
 <p>Los pokemons iniciales de esta generacion son</p>
     <ul>
-        <li><acronym title="Tipo Fuego">Charmadner<a href="tipos.html">(fuego)</a></acronym></li>
-        <img src="imagenes/charmander.jpeg" width="200" height="200" alt="charmander"/>
-        <li><acronym title="Tipo Agua">Squirtle<a href="tipos.html">(agua)</a></acronym></li>
-        <img src="imagenes/squirtle.jpeg" width="200" height="200" alt="squirtle"/>
-        <li><acronym title="Tipo Planta">Bulbasur<a href="tipos.html">(planta)</a></acronym></li>
-        <img src="imagenes/bulbasur.jpeg" width="200" height="200" alt="bulbasur"/>
-
+        <li>Charmadner<a href="tipos.html">(fuego)</a></li>
+        <li><p><img src="imagenes/charmander.jpeg" width="200" height="200" alt="charmander"/></p></li>
+        <li>Squirtle<a href="tipos.html">(agua)</a></li>
+        <li><p><img src="imagenes/squirtle.jpeg" width="200" height="200" alt="squirtle"/></p></li>
+        <li>Bulbasur<a href="tipos.html">(planta)</a></li>
+        <li><p><img src="imagenes/bulbasur.jpeg" width="200" height="200" alt="bulbasur"/></p></li>
     </ul>
 <hr />
 <h2>Pokemons Singulares</h2>
@@ -43,8 +43,19 @@ Mew es el ancestro de todos los Pokémon, ya que tiene todos los genes de los Po
 Además, es el único Pokémon capaz de aprender todas las máquinas técnicas (MT), máquinas ocultas (MO),<br />
 discos técnicos (DT) y la mayoría de movimientos de tutor de movimientos.<br />
 </p>
-<img src="imagenes/mew.jpeg" width="250" height="250" alt="MEW"/>
+<p><img src="imagenes/mew.jpeg" width="250" height="250" alt="MEW"/></p>
 <hr />
-
+<form action="/action_page.php">
+    <p><label for="fname">First name:</label><br /></p>
+    <p><input type="text" id="fname" name="fname" value=""></input><br /></p>
+    <p><label for="lname">Last name:</label><br /></p>
+    <p><input type="text" id="lname" name="lname" value=""></input><br /></p>
+    <p><input type="submit" value="enviar"></input><br /></p>
+    <p><input type="reset" value="borrar"></input><br /></p>
+  </form> 
+<hr />
+<p><a href="kanto.html" title="Region de Kanto">Información de Kanto.</a></p>
+<p><a href="tipos.html">Información sobre los tipos</a></p>
+<p><a href="https://pokemon.fandom.com/es/wiki/WikiDex">Informacio extraida de aqui</a></p>
 </body>
 </html>
