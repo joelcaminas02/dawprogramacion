@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MayorDeTres",
+            "request": "launch",
+            "mainClass": "MayorDeTres",
+            "projectName": "dawprogramacion_8b43d5b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Positivos",
+            "request": "launch",
+            "mainClass": "Positivos",
+            "projectName": "dawprogramacion_8b43d5b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nota",
+            "request": "launch",
+            "mainClass": "Nota",
+            "projectName": "dawprogramacion_8b43d5b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Descendente",
+            "request": "launch",
+            "mainClass": "Descendente",
+            "projectName": "dawprogramacion_8b43d5b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mayor",
+            "request": "launch",
+            "mainClass": "Mayor",
+            "projectName": "dawprogramacion_8b43d5b6"
+        },
+        {
+            "type": "java",
             "name": "Launch Primos",
             "request": "launch",
             "mainClass": "Primos",
