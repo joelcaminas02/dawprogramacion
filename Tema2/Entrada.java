@@ -24,6 +24,7 @@ public class Entrada {
         }
         //lector.close();
         System.out.println("Es entero " + number);
+        lector.close();
         return number;
     }
 }
