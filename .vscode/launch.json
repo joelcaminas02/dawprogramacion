@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SumarIgual",
+            "request": "launch",
+            "mainClass": "SumarIgual",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Comunes",
+            "request": "launch",
+            "mainClass": "Comunes",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Duplicados",
+            "request": "launch",
+            "mainClass": "Duplicados",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Eliminar",
+            "request": "launch",
+            "mainClass": "Eliminar",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejercicio40",
             "request": "launch",
             "mainClass": "Ejercicio40",
