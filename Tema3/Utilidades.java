@@ -58,6 +58,12 @@ public class Utilidades {
 		}
 	}
 
+	public static void 	mostrarArray(int array[]) { 
+		// Recorrido de la array
+		for (int i=0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+	}
 	public static void 	mostrarMatriz(int matriz[][]) {
 		int i,j; 
 		int filas = matriz.length;

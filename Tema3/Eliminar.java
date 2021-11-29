@@ -5,14 +5,18 @@ public class Eliminar {
         if (numero > indice.length){
             do {
                 numero = Utilidades.leerEntero("Introduce otro numero");
-            }while(numero > indice.length);
+            }while(numero > indice.length - 1);
+            
+            eliminarIndice(indice, numero);
+            
+            Utilidades.mostrarArray(indice);
         }
+    }
+
+    public static void eliminarIndice(int[] indice, int numero) {
         for (int i = numero+1; i < indice.length; i++){
             indice[i-1]= indice[i];
         }
         indice[indice.length-1]= 0;
-        for(int i = 0; i < indice.length; i++){
-            System.out.println(indice[i]);
-        }   
     }
 }

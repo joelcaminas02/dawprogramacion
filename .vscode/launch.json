@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ParesImpares",
+            "request": "launch",
+            "mainClass": "ParesImpares",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch SumarIgual",
             "request": "launch",
             "mainClass": "SumarIgual",
