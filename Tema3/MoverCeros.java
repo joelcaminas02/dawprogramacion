@@ -1,5 +1,3 @@
-import org.w3c.dom.css.ElementCSSInlineStyle;
-
 public class MoverCeros {
     public static void main(String[] args) {
         int [] array = {1,2,3,4,0,0,6,7,8,0,2,1};
