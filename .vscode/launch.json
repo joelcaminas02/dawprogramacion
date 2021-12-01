@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RellenarMatriz",
+            "request": "launch",
+            "mainClass": "RellenarMatriz",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoverCeros",
+            "request": "launch",
+            "mainClass": "MoverCeros",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch ParesImpares",
             "request": "launch",
             "mainClass": "ParesImpares",
