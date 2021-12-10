@@ -76,4 +76,27 @@ public class Utilidades {
 			}
 		}
 	}
+	public static void 	mostrarMatrizChar(char matriz[][]) {
+		int i,j; 
+		int filas = matriz.length;
+		int columnas = matriz[0].length;
+		// Recorrido de las filas de la matriz
+		for (i=0; i < filas; i++) {
+			  // Recorrido de las celdas de una fila
+			  for (j=0; j<columnas; j++) {
+				  System.out.println("matriz[" + i + "][" + j + "]=" + matriz[i][j] );
+			}
+		}
+	}
+	public static void rellenaMatrizchar(char[][] matriz, int min, int max){
+	// Producir nuevo int aleatorio entre 0 y (max-1)
+	
+	int filas = matriz.length;
+	int columnas = matriz[0].length;
+	for (int i = 0; i < filas; i++){
+		for (int j = 0; j < columnas; j++){
+			matriz[i][j] = (char) (Math.random() * (max - min + 1) + min);
+		}
+	}
+}
 }
