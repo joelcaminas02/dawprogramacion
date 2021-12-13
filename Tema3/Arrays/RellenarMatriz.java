@@ -1,3 +1,4 @@
+package Arrays;
 public class RellenarMatriz {
     public static void main(String[] args) {
     int [][] matriz = new int [10][10];

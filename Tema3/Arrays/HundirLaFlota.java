@@ -1,3 +1,4 @@
+package Arrays;
 public class HundirLaFlota {
     public static void crearBarco(int numBarcos, int[][] barcoPosicion) {
         int r1, r2;

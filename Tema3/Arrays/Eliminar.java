@@ -1,3 +1,4 @@
+package Arrays;
 public class Eliminar {
     public static void main(String[] args) {
         int [] indice = {1,2,3,4,5};

@@ -1,3 +1,4 @@
+package Arrays;
 public class ParesImpares {
     public static void main(String[] args) {
         int [] array = new int [10];

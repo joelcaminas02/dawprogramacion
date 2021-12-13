@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Digitos",
+            "request": "launch",
+            "mainClass": "Strings.Digitos",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longitud3",
+            "request": "launch",
+            "mainClass": "Strings.Longitud3",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longitud2",
+            "request": "launch",
+            "mainClass": "Strings.Longitud2",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longitud",
+            "request": "launch",
+            "mainClass": "Strings.Longitud",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch LastIndexOf",
+            "request": "launch",
+            "mainClass": "Strings.LastIndexOf",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch IndexOf",
+            "request": "launch",
+            "mainClass": "Strings.IndexOf",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reemplazar",
+            "request": "launch",
+            "mainClass": "Strings.Reemplazar",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Acaba",
+            "request": "launch",
+            "mainClass": "Strings.Acaba",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Contains",
+            "request": "launch",
+            "mainClass": "Strings.Contains",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concat",
+            "request": "launch",
+            "mainClass": "Strings.Concat",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompararIgnoreCase",
+            "request": "launch",
+            "mainClass": "Strings.CompararIgnoreCase",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Comparar",
+            "request": "launch",
+            "mainClass": "Strings.Comparar",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch HundirLaFlota",
             "request": "launch",
             "mainClass": "HundirLaFlota",
