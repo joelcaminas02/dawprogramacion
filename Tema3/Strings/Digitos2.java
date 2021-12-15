@@ -7,8 +7,8 @@ public class Digitos2 {
         String cadena2 []= Utilidades.dividirEnPalabras(cadena);
         String palabra = "";
         for  (int i = 0; i < cadena2.length; i++){
-            
-            if (palabra.matches(cadena2[i])){
+            palabra = cadena2[i];
+            if (palabra.matches(cadena2[i]) == true){
             contador++;
             }
         }
