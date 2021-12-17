@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Alfabeticamente",
+            "request": "launch",
+            "mainClass": "Strings.Alfabeticamente",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch Siglas",
             "request": "launch",
             "mainClass": "Strings.Siglas",
