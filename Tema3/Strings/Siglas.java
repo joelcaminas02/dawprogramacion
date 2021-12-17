@@ -9,7 +9,7 @@ public class Siglas {
         return palabras;
     }
 
-    public static String Siglas (String[] palabras){
+    public static String siglas (String[] palabras){
         String resultado = "";
         for(int i = 0; i<palabras.length; i++){
             
@@ -22,7 +22,7 @@ public class Siglas {
         String frase = "hola mundo jeje";
         String []array = palabras(frase);
 
-        System.out.println(Siglas(array));
+        System.out.println(siglas(array));
 
    }
 
