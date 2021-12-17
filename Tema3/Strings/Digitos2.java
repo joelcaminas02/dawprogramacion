@@ -2,16 +2,18 @@ package Strings;
 
 public class Digitos2 {
     public static void main(String[] args) {
-        String cadena = Utilidades.leerCadena("Introduce una cadena con digitos");
+        String cadena = "un 1 un 20 un 234";
+        //        String cadena = Utilidades.leerCadena("Introduce una cadena con digitos");
         int contador = 0;
-        String cadena2 []= Utilidades.dividirEnPalabras(cadena);
-        String palabra = "";
-        for  (int i = 0; i < cadena2.length; i++){
-            palabra = cadena2[i];
-            if (palabra.matches(cadena2[i]) == true){
-            contador++;
+        for  (int i = 0; i < cadena.length(); i++){
+            if (Character.isDigit(cadena.charAt(i))){
+                contador++;
+                if(Character.isDigit(cadena.charAt(i-1))){
+                    contador--;
+                }
             }
         }
-     System.out.println("Tiene "+contador+" digitos");
+     System.out.println("Tiene "+contador+" numeros");
+
     }
 }

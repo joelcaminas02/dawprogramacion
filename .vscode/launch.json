@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FraseInvertida",
+            "request": "launch",
+            "mainClass": "Strings.FraseInvertida",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch Digitos2",
             "request": "launch",
             "mainClass": "Strings.Digitos2",
