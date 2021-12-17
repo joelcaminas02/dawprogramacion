@@ -1,7 +1,7 @@
 package Strings;
 
 public class FraseInvertida {
-    public static String[] palabras (String frase){
+    public static String[] dividirpalabras (String frase){
         frase=frase.trim();
     	frase=frase.replaceAll(" +", " ");
         String [] palabras = frase.split(" ");
@@ -20,7 +20,7 @@ public class FraseInvertida {
     }
     public static void main(String[] args) {
         String frase = "hola mundo jeje";
-        String []array = palabras(frase);
+        String []array = dividirpalabras(frase);
 
         System.out.println(invertir(array));
 
