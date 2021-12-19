@@ -54,3 +54,18 @@ body{
   color: #ffffff ;
   text-align: center;
 }
+
+/*SINOPSIS*/
+.Sinopsis{
+  margin: 3px;
+  padding: 10px;
+  color: #ffffff;
+}
+.listaSinopsis{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.liSinopsis{
+  float: left;
+}
