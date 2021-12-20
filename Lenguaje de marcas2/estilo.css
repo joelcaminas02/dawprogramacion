@@ -3,6 +3,7 @@
 
 body{
   background-color: #000;
+  
 }
 .imagen{
   background-image: url("imagenes/spider-man-no-way-home-trailer-6124a5c711f05.jpeg");
@@ -61,14 +62,7 @@ body{
   padding: 10px;
   color: #ffffff;
 }
-.listaSinopsis{
-  display:inline;
-  list-style: none;
-  padding-left: 3px;
-  padding-right: 3px;
-  margin: 0;
-  padding: 0;
-}
-.liSinopsis{
-  float: left;
+.SinopsisS{
+  margin-top: 0;
+  margin-bottom: 20;
 }
