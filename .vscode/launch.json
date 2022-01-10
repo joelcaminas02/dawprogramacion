@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Encriptar",
+            "request": "launch",
+            "mainClass": "Strings.Encriptar",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pasatiempos",
+            "request": "launch",
+            "mainClass": "Strings.Pasatiempos",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnalizaString",
+            "request": "launch",
+            "mainClass": "Strings.AnalizaString",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch Alfabeticamente",
             "request": "launch",
             "mainClass": "Strings.Alfabeticamente",
