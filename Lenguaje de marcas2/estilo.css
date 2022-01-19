@@ -73,3 +73,26 @@ body{
   margin: 10px;
   
 }
+.bodyReparto{
+  color: #ffffff;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.tableReparto{
+  background-color: gray;
+}
+.cuerpoContacto{
+  color: #ffffff;
+  
+
+}
+.contacto{
+  padding-left: 250px;
+  padding-right: 250px;
+  margin-top: 50px;
+  margin-left: 650PX;
+  margin-right: 650PX;
+  background-color: gray;
+  text-align: ceneter;
+}
