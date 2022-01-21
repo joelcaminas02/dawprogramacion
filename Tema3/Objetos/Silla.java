@@ -1,5 +1,6 @@
 package Objetos;
 import java.awt.*;
+
 public class Silla {
     //Atributos de objetos
     private String color;
@@ -8,8 +9,80 @@ public class Silla {
     private int comodidad;
     private String material;
     private Point ubicacion;
+    
+    private static String [] colores = {"verde","azul","rojo","amarillo","morado","negra","gris"};
+    private static String [] materiales = {"madera","plastico","metal","aluminio"};
+
+    public static String colorAleatorio(){
+        int min = 0;
+        int max = colores.length-1;
+
+        int aleatorio = (int) (Math.random()* (max -min +1)+min);
+
+        return colores[aleatorio];
+    }
+
+    public static int comodidadAleatorio(){
+        int min = 0;
+        int max = 10;
+
+        int aleatorio = (int) (Math.random()* (max -min +1)+min);
+
+        return aleatorio;
+    }
+
+    public static boolean respaldoAleatorio(){
+        int min = 0;
+        int max = 1;
+
+        int aleatorio = (int) (Math.random()* (max -min +1)+min);
+
+        if (aleatorio == 0){
+            return false;
+        }else{
+            return true;
+        }
+    }
+
+    public static int patasAleatorio(){
+        int min = 0;
+        int max = 4;
+
+        int aleatorio = (int) (Math.random()* (max -min +1)+min);
+
+        return aleatorio;
+    }
+
+    public static String materialAleatorio(){
+        int min = 0;
+        int max = materiales.length-1;
+
+        int aleatorio = (int) (Math.random()* (max -min +1)+min);
+
+        return materiales[aleatorio];
+    }
+
+    public static Point ubicacionAleatorio (){
+        Point punto = new Point();
+
+        int min = 0;
+        int max = 100;
+
+        int x = (int) (Math.random()* (max -min +1)+min);
+        int y = (int) (Math.random()* (max -min +1)+min);
+
+        punto.setLocation(x, y);
+
+        return punto;
+    }
 
     public Silla (){
+        this.color = Silla.colorAleatorio();
+        this.material = Silla.materialAleatorio();
+        this.patas = Silla.patasAleatorio();
+        this.comodidad = Silla.comodidadAleatorio();
+        this.respaldo = Silla.respaldoAleatorio();
+        this.ubicacion = Silla.ubicacionAleatorio();
     }
     public Silla (String color, boolean respaldo, String material, int patas, int comodidad, Point ubicacion){
         this.color = color;
