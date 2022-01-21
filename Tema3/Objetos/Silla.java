@@ -12,6 +12,13 @@ public class Silla {
     
     private static String [] colores = {"verde","azul","rojo","amarillo","morado","negra","gris"};
     private static String [] materiales = {"madera","plastico","metal","aluminio"};
+    private static final int CoordenadaMin = 0;
+    private static final int CoordenadaMax = 100;
+    private static final int PatasMin = 0;
+    private static final int PatasMax = 4;
+    private static final int ComodidadMin = 0;
+    private static final int ComodidadMax = 10;
+
 
     public static String colorAleatorio(){
         int min = 0;
@@ -23,8 +30,8 @@ public class Silla {
     }
 
     public static int comodidadAleatorio(){
-        int min = 0;
-        int max = 10;
+        int min = Silla.ComodidadMin;
+        int max = Silla.ComodidadMax;
 
         int aleatorio = (int) (Math.random()* (max -min +1)+min);
 
@@ -45,8 +52,8 @@ public class Silla {
     }
 
     public static int patasAleatorio(){
-        int min = 0;
-        int max = 4;
+        int min = Silla.PatasMin;
+        int max = Silla.PatasMax;
 
         int aleatorio = (int) (Math.random()* (max -min +1)+min);
 
@@ -65,8 +72,8 @@ public class Silla {
     public static Point ubicacionAleatorio (){
         Point punto = new Point();
 
-        int min = 0;
-        int max = 100;
+        int min = Silla.CoordenadaMin;
+        int max = Silla.CoordenadaMax;
 
         int x = (int) (Math.random()* (max -min +1)+min);
         int y = (int) (Math.random()* (max -min +1)+min);
