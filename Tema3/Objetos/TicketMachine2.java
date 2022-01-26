@@ -6,26 +6,30 @@ public class TicketMachine2
 
 
 
-    public int emptyMachine(int total){
-        System.out.println(total);
+    public int emptyMachine(){
+        int acum= total;
         total = 0;
-        return total;
+        return acum;
     }
 
 
     public void printTickets(){
-        int amountToPay= price - balance;
+        int actual = price*(100-discount/100);
+        int amountToPay= actual - balance;
         if(amountToPay <= 0 ){
-            System.out.println(price);
+            System.out.println(actual);
         }else{
             System.out.println("Falta por introducir: "+amountToPay);
         }
     }
 
-    public int setDiscount (int balance){
-        balance = Integer.valueOf(balance*0.2);
-        return balance*0.20;
-    }
+    public void setDiscount (){this.discount=20;}
+
+    public int getDiscount (){return this.discount;}
+
+    public void resetDiscount(){this.discount=0;}
+
+    public void setPrice (int cost){ this.price = cost;}
 
     // The price of a ticket from this machine.
     private int price;
@@ -34,6 +38,8 @@ public class TicketMachine2
     // The total amount of money collected by this machine.
     private int total;
 
+
+    private int discount;
     /**
      * Create a machine that issues tickets of the given price.
      */
