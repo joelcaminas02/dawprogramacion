@@ -6,6 +6,8 @@ public class BookTest {
         b1.getRefNumber();
         b1.setRefNumber("1001");
         b1.getRefNumber();
+        b1.borrowBook();
+        b1.printDetails();
     }
     
     
