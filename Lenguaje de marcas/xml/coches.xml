@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE oferta SYSTEM "coches.dtd">
+<?xmml version"1.0" encoding"UTF-8"?>
+
+<?xml-stylesheet href="coches.css"?>
+<!DOCTYPE oferta>
 <oferta>
-  <vehiculo>
+  <vehiculo id="vehiculo1">
     <marca>Marca:  Ford</marca>
-    <modelo color="blanco">Modelo: Focus RS 2017</modelo>
+    <modelo color="blanco">Modelo: Mustang GT 2021</modelo>
     <motor combustible="gasolina">Motor: duratorc 14  </motor>
     <matricula>Matricula: 1234AAA</matricula>
     <kilometros>Kilometros:  12500 </kilometros>
@@ -11,11 +13,11 @@
     <precio_oferta>Precio oferta 10000&#8364;</precio_oferta>
     <extra valor="250">pintura metalizada</extra>
     <extra valor="300">llantas</extra>
-    <foto imagen="fordblanco"/>
-   <foto imagen="fordblanco2"/>
+    <foto imagen="fordmustang"/>
+   <foto imagen="fordmustang2"/>
 </vehiculo>
 
-<vehiculo>
+<vehiculo id="vehiculo2">
     <marca>Marca:  MERCEDES-BENZ</marca>
 	<modelo color="champagne">Modelo:  Clase CLA</modelo>
 	<motor combustible="diesel">CLA 200 d, 136cv</motor>
@@ -29,7 +31,7 @@
     <foto imagen="mercedes2"/>
 </vehiculo>
 
-<vehiculo>
+<vehiculo id="vehiculo3">
     <marca>Marca:  Audi</marca>
 	<modelo color="blanco">Modelo:  A5 S line coupe</modelo>
 	<motor combustible="gasolina">2.0 TDI 190CV</motor>
@@ -43,7 +45,7 @@
     <foto imagen="audiA52"/>
 </vehiculo>
 
-  <vehiculo>
+  <vehiculo id="vehiculo4">
     <marca>Maraca: Opel</marca>
     <modelo color="gris">Modelo: Astra</modelo>
     <motor combustible="diesel">Motor: Turbo 2.0 </motor>

@@ -1,0 +1,28 @@
+oferta{
+    background-color: rgb(206, 205, 205);
+    display: block;
+}
+vehiculo{
+    display: block;
+    font-size: 14pt;
+    margin-top: 15px;
+}
+
+marca{
+display: block;
+font-size: 20pt;
+color: black
+}
+modelo{
+display: block;
+font-size: 18pt;
+color: black;
+}
+motor,matricula,kilometros,precio_inicial,precio_oferta,extra,foto{
+display: block;
+font-size: 14pt;
+color: rgb(91, 164, 192);
+}
+
+
+

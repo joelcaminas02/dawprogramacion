@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="es-CO" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:addthis="https://www.addthis.com/help/api-spec" >
+<head>
+	<script type="text/javascript" src="https://ads.vidoomy.com/el-carro-colombiano_14498.js" async></script>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="profile" href="https://gmpg.org/xfn/11"/>
+	<link rel="pingback" href="https://www.elcarrocolombiano.com/xmlrpc.php"/>
+	    <style type="text/css">
+        /*Custom Css*/ 
+
+        .fp_gdpr_popup_wrapper_terms {
+            display:none;
+        }
+        .fp_gdpr_popup_wrapper_ppy {
+            display:none;
+        }
+        
+        .fp_gdpr_frontend_wrapper{
+            width:100%;
+            height:auto;
+            float:left;
+            padding:0px;
+        }
+        .fp_gdpr_frontend_container{
+            width:100%;
+            height:auto;
+            margin:0;
+            padding:15px;
+            float:left;
+            background:#f1f1f1;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container ul.fp_gdpr_front_tab_ul{
+            margin: 0;
+            width: 20%;
+            min-height: 250px;
+            float: left;
+            line-height: 1em;
+            padding: 0 0 10px;
+            position: relative;
+            box-sizing: border-box;
+
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container ul.fp_gdpr_front_tab_ul li{
+            margin: 0;
+            padding: 0;
+            display: block;
+            position: relative;
+            border-bottom:1px solid #cccccc;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container ul.fp_gdpr_front_tab_ul li:before{
+            content:none !important;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container ul.fp_gdpr_front_tab_ul li a{
+            margin: 0;
+            padding: 10px 10px 10px 25px;
+            display: block;
+            box-shadow: none;
+            text-decoration: none;
+            line-height: 20px !important;
+            color:#000000;
+            font-size:12pxpx;
+            text-transform: none;
+            outline:none !important;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container ul.fp_gdpr_front_tab_ul li.fp_active a{
+            color:#f55b11;
+
+            font-weight:bold;
+        }
+        .fp_gdpr_tab_1, .fp_gdpr_tab_2, .fp_gdpr_tab_3, .fp_gdpr_tab_4 , .fp_gdpr_tab_5, .fp_gdpr_tab_6, .fp_gdpr_tab_7, .fp_gdpr_tab_8, .fp_gdpr_tab_9, .fp_gdpr_tab_10, .fp_gdpr_tab_11 {
+            padding:10px;
+
+        }
+        .fp_gdpr_tab_2, .fp_gdpr_tab_3, .fp_gdpr_tab_4 , .fp_gdpr_tab_5, .fp_gdpr_tab_6, .fp_gdpr_tab_7, .fp_gdpr_tab_8, .fp_gdpr_tab_9, .fp_gdpr_tab_10 {
+            display:none;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content{
+            width: 78%;
+            margin-left:10px;
+            border:1px solid #cccccc;
+            min-height:450px;
+            float:left;
+            border-radius:10px;
+
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content .fpgdpr_data_rectification_request_form, .fpgdpr_data_erasure_request_form, .fpgdpr_data_access_request_form, .fpgdpr_contact_dpo_request_form{
+            border:none !important;
+            background:none !important;
+            box-shadow:none !important;
+            padding: 0px !important;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content .fpgdpr_data_rectification_request_form .fp_gdpr_label, .fpgdpr_data_access_request_form .fp_gdpr_label, .fpgdpr_data_erasure_request_form label .fp_gdpr_label, .fpgdpr_contact_dpo_request_form .fp_gdpr_label{
+            color:#555555 !important;
+            width:100%;
+            font-size:12px !important;
+            display:block;
+            padding:0px 0px 5px 0px !important;
+            text-indent: 0px !important;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content .fpgdpr_data_rectification_request_form textArea, .fpgdpr_data_erasure_request_form textArea, .fpgdpr_data_access_request_form textArea,.fpgdpr_contact_dpo_request_form textArea{
+            background:#ffffff !important;
+            width:100%;
+            border-radius:10px;
+            height:120px;
+            border:1px solid #d2d2d2 !important;
+            padding:0px !important;
+            margin:0px !important;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content .fpgdpr_data_rectification_request_form input[type='text'], .fpgdpr_data_erasure_request_form input[type='text'], .fpgdpr_data_access_request_form input[type='text'], .fpgdpr_contact_dpo_request_form input[type='text']{
+            background:#ffffff !important;
+            width:100%;
+            height:40px;
+            border-radius:10px;
+            border:1px solid #d2d2d2 !important;
+            padding:0px !important;
+            margin:0px !important;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content .fpgdpr_data_rectification_request_form input[type='checkbox'], .fpgdpr_data_erasure_request_form input[type='checkbox'], .fpgdpr_data_access_request_form input[type='checkbox'], .fpgdpr_contact_dpo_request_form input[type='checkbox']{
+            outline: none !important;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content .fpgdpr_data_rectification_request_form p, .fpgdpr_data_erasure_request_form p, .fpgdpr_data_access_request_form p, .fpgdpr_contact_dpo_request_form p{
+            font-size:14px;
+            color:#f00 !important;
+            width:100%;
+        }
+        .fp_gdpr_content{
+            font-size:12px;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content .fpgdpr_data_rectification_request_form #fpgdpr_success_msg, .fpgdpr_data_erasure_request_form #fpgdpr_success_msg, .fpgdpr_data_access_request_form #fpgdpr_success_msg, .fpgdpr_contact_dpo_request_form #fpgdpr_success_msg{
+            font-size:12px;
+            color:#02773d !important;
+            width:100%;
+        }
+        .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content .fpgdpr_data_rectification_request_form .fp_gdpr_submit, .fpgdpr_data_erasure_request_form .fp_gdpr_submit, .fpgdpr_data_access_request_form .fp_gdpr_submit, .fpgdpr_contact_dpo_request_form .fp_gdpr_submit, .fpgdpr_privacy_settings_form .fp_gdpr_submit{
+            background:#000000 !important;
+            color:#ffffff !important;
+            border:1px solid #000000 !important;
+            font-size:12px !important;
+            text-transform: none !important;
+            border-radius:5px !important;
+            box-shadow:none !important;
+            padding:7px 15px !important;
+            font-weight:bold;
+            outline: none !important;
+            margin-top:10px !important;
+        }
+
+        .fp_gdpr_submit:hover{
+            box-shadow:0 0 3px #000 !important;
+        }
+        .fp_gdpr_frontend_fields input:hover, .fp_gdpr_frontend_fields textArea:hover{
+            box-shadow:0 0 3px #000 !important;
+        }
+        table.fpgdpr_privacy_settings_table{
+            border-collapse:collapse;
+            width:100%;
+            margin-top:20px;
+            border:1px solid #bbb;
+        }
+        table.fpgdpr_privacy_settings_table thead{
+            background:#333;
+        }
+        table.fpgdpr_privacy_settings_table thead td{
+            color:#fff !important;
+        }
+        table.fpgdpr_privacy_settings_table tbody{
+            background:#fff;
+        }
+        table.fpgdpr_privacy_settings_table tfoot{
+            background:#fff;
+        }
+        table.fpgdpr_privacy_settings_table tr td{
+            padding:15px;
+            border-bottom:1px solid #bbb;
+            text-align:left;
+            color:#000;
+        }
+        table.fpgdpr_privacy_settings_table tr:nth-child(even)
+        {
+            background:#f1f1f1;
+        }
+
+        /*  Error notice display design  */
+
+        .fpgdpr_success_notice, .fpgdpr_error_notice{
+            width:100%;
+            float:left;
+            height:40px;
+            background:#f1f1f1;
+            display:block;
+            margin-bottom:20px;
+        }
+        .fpgdpr_error_notice{
+            border-left:4px solid #f00;
+        }
+        .fpgdpr_success_notice{
+            border-left:4px solid #0f0;
+        }
+        .fpgdpr_success_notice p, .fpgdpr_error_notice p{
+            color:#000 !important;
+            float:left;
+            margin:10px 0px 0px 20px;
+            font-size:14px;
+            font-weight:bold;
+        }
+        /*  Error notice display design end */
+        /*    terms and conditin page css    */
+        .fpgdpr_terms_content{
+            width: 640px; 
+            height: 450px; 
+            margin: 20px auto; 
+            overflow-y: scroll
+        }
+        .fp-gdpr-accept-tac, .fp-gdpr-accept-ppy{
+            background:#000 !important;
+            color:#fff !important;
+            border:none !important;
+            font-size:14px !important;
+            text-transform: none !important;
+            border-radius:5px !important;
+            box-shadow:none !important;
+            padding:10px 20px !important;
+            font-weight:bold;
+            outline: none !important; 
+        }
+        /*    terms and conditin page css  end  */
+
+        /*      small box design      */
+                        /* box method - bottom right Position    */ 
+
+                .fp_cookie_page_disable{
+                    position: fixed !important;
+                    width:100%;
+                    height:100%;
+                    top:0;
+                    left:0;
+                    background:rgba(0,0,0,0.4);
+                    z-index:99998 !important;
+                    display:none;
+                }
+                html body .fp_cookie{
+                    line-height: 20px;
+                    box-shadow: rgb(0, 0, 0) 0 0 8px;
+                    border-radius: 5px;
+                    z-index: 99999 !important;
+                    position: fixed;
+                    padding: 15px 15px 0;
+                    width: 30%;
+                    min-height:25%;
+                    font-weight: normal;
+                    text-align: left;
+                    color: #542d04;
+                    bottom: 10px;
+                    right: 10px;
+                    display:none;
+                }
+                .fp_cookie .fp_cookie_inner_box{
+                    position:absolute;
+                    width:100%;
+                    height:100%;
+                    top:0px;
+                    left:0px;
+                    background:#000000 !important;
+                    opacity:1;
+                    border-radius:5px;
+                }
+                .fp_cookie_content{                
+                    position: relative;
+                    top:0;
+                    left:0;
+                    width:100%;
+                    height:100%;
+                }
+                .cookie_notice_content{
+                    float:left;
+                    width:100%;
+                    min-height:100px;
+                    padding:20px 10px 10px 10px;
+                    max-height:500px;
+                    overflow-y:scroll;
+                }
+                .cookie_notice_accept_btn{
+                    float:left;
+                    width:100%;
+                    padding:10px;
+                    min-height:60px;
+                }
+                .fp_cookie_content img.fpgdpr_cookie_close{
+                    position:absolute;
+                    top:-10px;
+                    right:-10px;
+                }
+                @media only screen and (max-width: 768px) {
+                    html body .fp_cookie{
+                        line-height: 20px;
+                        box-shadow: rgb(0, 0, 0) 0 0 8px;
+                        border-radius: 5px;
+                        z-index: 99999 !important;
+                        position: fixed;
+                        padding: 15px 15px 0;
+                        width: 100%;
+                        min-height:25%;
+                        font-weight: normal;
+                        text-align: left;
+                        color: #542d04;
+                        bottom: 0;
+                        right: 0;
+                        display:none;
+                    }
+                    .cookie_notice_content{
+                        float:left;
+                        width:100%;
+                        min-height:100px;
+                        padding:20px 10px 10px 10px;
+                        max-height:200px;
+                        overflow-y:scroll;
+                    }
+                    .fp_cookie form input[type='button']{
+                        background:#000000 !important;
+                        color:#ffffff !important;
+                        border:1px solid #000000 !important;
+                        font-size:14px !important;
+                        text-transform: none !important;
+                        border-radius:5px !important;
+                        box-shadow:none !important;
+                        padding:7px 10px !important;
+                        outline: none !important;
+                        float:left;
+                        margin-right:0px;
+                        margin-bottom:10px;
+                        width:100%;    
+                    }
+                    .fp_cookie form a {
+                        color:#f55b11 !important;
+                        font-size:14px !important;
+                        text-decoration: underline !important;
+                        float:left;
+                        display:block;
+                        text-align: center !important;
+                        height:30px;
+                        width:100%;
+                        padding:10px 0px 0px 0px !important;
+                        outline:none !important;
+                        margin-right:5px;
+                    }
+
+                }
+                        .fp_cookie form{
+            border:none !important;
+            background:none !important;
+            box-shadow:none !important;
+            padding: 0px !important;
+        }
+        .fp_cookie form p
+        {
+            color:#ffffff !important;
+            font-size:14px !important;
+            text-decoration: none !important;
+            min-height:80px;
+            text-align:center;
+            /*overflow-y: scroll;*/
+            margin:0px !important;
+        }
+        .fp_cookie form input[type='button']
+        {
+            background:#000000 !important;
+            color:#ffffff !important;
+            border:1px solid #000000 !important;
+            font-size:14px !important;
+            text-transform: none !important;
+            border-radius:5px !important;
+            box-shadow:none !important;
+            padding:7px 10px !important;
+            outline: none !important;
+            float:left;
+            margin-right:5px;
+        }
+        .fp_cookie form .cookie_notice_content a{
+            font-size:14px !important;
+            text-decoration: underline !important;
+            height:auto;
+            padding:0px !important;
+            outline:none !important;
+            margin:0px;
+            float:none;
+            display:initial;
+        }
+        .fp_cookie form a
+        {
+            color:#f55b11 !important;
+            font-size:14px !important;
+            text-decoration: underline !important;
+            float:left;
+            display:block;
+            text-align: right;        
+            height:30px;
+            padding:10px 0px 0px 0px !important;
+            outline:none !important;
+            margin-right:5px;
+        }
+        /*      small box design  end    */
+
+        /*   popup window disign      */
+
+        html body .fp_gdpr_popup_wrapper{
+            position: fixed !important;
+            width:100%;
+            height:100%;
+            top:0;
+            left:0;
+            display:none;
+            background:#fefefe !important;
+            z-index:99999 !important;
+        }
+        .fp_gdpr_popup_content_box{
+            background:#fefefe !important;
+            width:100%;
+            height:100%;
+            top:0;
+            left:0;
+            z-index:99999 !important;
+            position: relative;
+        }
+/*        .fp_gdpr_popup_content_box .close{
+            opacity: 1 !important;
+            margin-right:5px;
+            margin-top:5px;
+            float:right;
+        }*/
+        .fp_gdpr_popup_content{
+            background:#fefefe !important;
+            width:100%;
+/*            margin:20px auto;*/
+            height:98%;
+        }
+        #is_access_disabled_ppy, #is_access_disabled_terms{
+            text-align:center;
+        }
+        #is_access_disabled_ppy h2, #is_access_disabled_terms h2{
+            text-align:center !important;
+        } 
+        #is_access_disabled_ppy p, #is_access_disabled_terms p{
+            text-align:center !important;
+        }
+        .fpgdpr_ppy_tc_content{
+            width: 740px;
+            min-height:100px;
+            max-height: 350px; 
+            margin: 20px auto; 
+            overflow-y: scroll;
+        }
+        .fpgdpr_ppy_tc_content{
+            text-align:left;
+        }
+        .fp_gdpr_popup_content table{
+            border-collapse:collapse;
+            width:70%;
+            margin:50px auto;
+        }
+        .fp_gdpr_popup_content table td{
+            padding:15px;
+            border:1px solid #ccc;
+            text-align:center;
+            color:#000;
+        }
+        .fp_gdpr_popup_content table th{
+            padding:15px;
+            font-weight:bold;
+            color:#000;
+            border:1px solid #ccc;
+            text-align:center;
+        }
+        .fp_gdpr_popup_content table thead{
+            background:#f1f1f1;
+        }
+
+        .fp_gdpr_animate{
+            -webkit-animation: animatezoom 0.6s;
+            animation: animatezoom 0.6s;
+        }
+        @-webkit-keyframes animatezoom {
+            from {-webkit-transform: scale(0)} 
+            to {-webkit-transform: scale(1)}
+        }
+
+        @keyframes animatezoom {
+            from {transform: scale(0)} 
+            to {transform: scale(1)}
+        }
+        /*   popup window disign  end    */
+
+        /*   mobile screen disign  */
+        @media only screen and (max-width: 768px) {
+            .fpgdpr_ppy_tc_content{
+                width: 95%;
+                min-height:100px;
+                max-height: 150px; 
+                margin: 20px auto; 
+                overflow-y: scroll;
+            }
+            .fp_cookie form .cookie_notice_content a{
+            font-size:14px !important;
+            text-decoration: underline !important;
+            height:auto;
+            padding:0px !important;
+            outline:none !important;
+            margin:0px;
+            width:auto;
+            float:none;
+            display:initial;
+        }
+        }
+        @media (max-width: 962px) and (orientation:landscape)  {
+            .fpgdpr_ppy_tc_content{
+                width: 95%;
+                min-height:20px;
+                max-height: 50px;
+                margin: 20px auto;
+                overflow-y: scroll;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .fp_gdpr_frontend_wrapper{
+                width:100%;
+                height:auto;
+                margin:0 auto;
+                padding:0px;
+            }
+            .fp_gdpr_frontend_container{
+                width:100%;
+                height:auto;
+                margin:0;
+                float:left;
+                background:#f1f1f1;
+                padding:0px;
+            }
+            .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container ul.fp_gdpr_front_tab_ul{
+                margin: 0;
+                width: 100%;
+                min-height:auto;
+                float: left;
+                line-height: 1em;
+                padding: 0 0 10px;
+                position: relative;
+                box-sizing: border-box;
+            }
+            .fp_gdpr_frontend_wrapper .fp_gdpr_frontend_container .fp_gdpr_frontend_content{
+                width: 100%;
+                border:1px solid #cccccc;
+                min-height:450px;
+                float:left;
+                border-radius:10px;
+                margin-left:0px;
+            }
+        }
+    </style>
+    <script type="application/javascript">var newsmax_ruby_ajax_url = "https://www.elcarrocolombiano.com/wp-admin/admin-ajax.php"</script><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v17.7 (Yoast SEO v18.0) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>El Ford Mustang Shelby GT 2021 es más potente y atractivo: alcanza hasta 700 hp</title>
+	<meta name="description" content="2021 trajo una nueva temporada para el querido muscle car de Ford, de la mano del Shelby con el nuevo Mustang GT. Los paquetes de modificaciones que se ofrecen para el auto deportivo norteamericano, incluye potencia de hasta 700 hp. " />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" id="rb-preload-gfonts" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPoppins%3A700%2C500%2C400%2C300%7CLato%3A100%2C300%2C400%2C700%2C900%2C100italic%2C300italic%2C400italic%2C700italic%2C900italic%7CPoppins%3A700%2C500%2C400%2C300&amp;display=swap" crossorigin><noscript><link rel="stylesheet" id="rb-preload-gfonts" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPoppins%3A700%2C500%2C400%2C300%7CLato%3A100%2C300%2C400%2C700%2C900%2C100italic%2C300italic%2C400italic%2C700italic%2C900italic%7CPoppins%3A700%2C500%2C400%2C300&amp;display=swap"></noscript><link rel="canonical" href="https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="El Ford Mustang Shelby GT 2021 es más potente y atractivo: alcanza hasta 700 hp" />
+	<meta property="og:description" content="2021 trajo una nueva temporada para el querido muscle car de Ford, de la mano del Shelby con el nuevo Mustang GT. Los paquetes de modificaciones que se ofrecen para el auto deportivo norteamericano, incluye potencia de hasta 700 hp. " />
+	<meta property="og:url" content="https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/" />
+	<meta property="og:site_name" content="El Carro Colombiano" />
+	<meta property="article:publisher" content="http://www.facebook.com/elcarrocolombiano/" />
+	<meta property="article:published_time" content="2021-05-11T16:52:23+00:00" />
+	<meta property="article:modified_time" content="2021-05-13T12:29:49+00:00" />
+	<meta property="og:image" content="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-PORTADA.jpg" />
+	<meta property="og:image:width" content="1100" />
+	<meta property="og:image:height" content="675" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="El Ford Mustang Shelby GT 2021 es más potente y atractivo: alcanza hasta 700 hp" />
+	<meta name="twitter:description" content="2021 trajo una nueva temporada para el querido muscle car de Ford, de la mano del Shelby con el nuevo Mustang GT. Los paquetes de modificaciones que se ofrecen para el auto deportivo norteamericano, incluye potencia de hasta 700 hp. " />
+	<meta name="twitter:image" content="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-PORTADA.jpg" />
+	<meta name="twitter:creator" content="@carrocolombiano" />
+	<meta name="twitter:site" content="@carrocolombiano" />
+	<meta name="twitter:label1" content="Escrito por" />
+	<meta name="twitter:data1" content="Jessica Paola Vera García" />
+	<meta name="twitter:label2" content="Tiempo estimado de lectura" />
+	<meta name="twitter:data2" content="2 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.elcarrocolombiano.com/#website","url":"https://www.elcarrocolombiano.com/","name":"El Carro Colombiano","description":"Revista Virtual sobre Carros en Colombia","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.elcarrocolombiano.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es-CO"},{"@type":"ImageObject","@id":"https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/#primaryimage","inLanguage":"es-CO","url":"https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-PORTADA.jpg","contentUrl":"https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-PORTADA.jpg","width":1100,"height":675,"caption":"ford mustang shelby gt 2021, ford mustang shelby gt 2021 informacion, ford mustang shelby gt 2021 datos, ford mustang shelby gt 2021 caracteristicas, ford mustang shelby gt 2021 diseño, ford mustang shelby gt 2021 motor, ford mustang shelby gt 2021 colombia, ford mustang shelby gt 2021 argentina, ford mustang shelby gt 2021 chile, ford mustang shelby gt 2021 peru"},{"@type":"WebPage","@id":"https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/#webpage","url":"https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/","name":"El Ford Mustang Shelby GT 2021 es más potente y atractivo: alcanza hasta 700 hp","isPartOf":{"@id":"https://www.elcarrocolombiano.com/#website"},"primaryImageOfPage":{"@id":"https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/#primaryimage"},"datePublished":"2021-05-11T16:52:23+00:00","dateModified":"2021-05-13T12:29:49+00:00","author":{"@id":"https://www.elcarrocolombiano.com/#/schema/person/8017ce1fc84663c3f4eb6fd59f4e2d6d"},"description":"2021 trajo una nueva temporada para el querido muscle car de Ford, de la mano del Shelby con el nuevo Mustang GT. Los paquetes de modificaciones que se ofrecen para el auto deportivo norteamericano, incluye potencia de hasta 700 hp. ","breadcrumb":{"@id":"https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/#breadcrumb"},"inLanguage":"es-CO","potentialAction":[{"@type":"ReadAction","target":["https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/"]}]},{"@type":"BreadcrumbList","@id":"https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.elcarrocolombiano.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.elcarrocolombiano.com/blog/"},{"@type":"ListItem","position":3,"name":"El Ford Mustang Shelby GT 2021 es más potente y atractivo: alcanza hasta 700 hp"}]},{"@type":"Person","@id":"https://www.elcarrocolombiano.com/#/schema/person/8017ce1fc84663c3f4eb6fd59f4e2d6d","name":"Jessica Paola Vera García","image":{"@type":"ImageObject","@id":"https://www.elcarrocolombiano.com/#personlogo","inLanguage":"es-CO","url":"https://secure.gravatar.com/avatar/ea117ab6947f46784e80b776bb5dc6b0?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/ea117ab6947f46784e80b776bb5dc6b0?s=96&d=mm&r=g","caption":"Jessica Paola Vera García"},"description":"Comunicadora social","sameAs":["https://www.instagram.com/csjessicav/"],"url":"https://www.elcarrocolombiano.com/author/jessica21/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel="alternate" type="application/rss+xml" title="El Carro Colombiano &raquo; Feed" href="https://www.elcarrocolombiano.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="El Carro Colombiano &raquo; RSS de los comentarios" href="https://www.elcarrocolombiano.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="El Carro Colombiano &raquo; El Ford Mustang Shelby GT 2021 es más potente y atractivo: alcanza hasta 700 hp RSS de los comentarios" href="https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.elcarrocolombiano.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.3"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='newsmax_ruby_core_style-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/newsmax-core/assets/style.css?ver=4.0' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.elcarrocolombiano.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.3' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+</style>
+<link rel='stylesheet' id='ngg_basic_slideshow_style-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/ngg_basic_slideshow.css?ver=3.18' media='all' />
+<link rel='stylesheet' id='ngg_slick_slideshow_style-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/slick/slick.css?ver=3.18' media='all' />
+<link rel='stylesheet' id='ngg_slick_slideshow_theme-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/slick/slick-theme.css?ver=3.18' media='all' />
+<link rel='stylesheet' id='ngg_trigger_buttons-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/trigger_buttons.css?ver=3.18' media='all' />
+<link rel='stylesheet' id='simplelightbox-0-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/simplelightbox/simple-lightbox.css?ver=3.18' media='all' />
+<link rel='stylesheet' id='fontawesome_v4_shim_style-css'  href='https://use.fontawesome.com/releases/v5.3.1/css/v4-shims.css?ver=5.8.3' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://use.fontawesome.com/releases/v5.3.1/css/all.css?ver=5.8.3' media='all' />
+
+<link rel='stylesheet' id='bootstrap-css'  href='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/bootstrap.css?ver=v3.3.1' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/font-awesome.css?ver=v4.7.0' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css'  href='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/simple-line-icons.css?ver=v2.4.0' media='all' />
+<link rel='stylesheet' id='newsmax-miscellaneous-css'  href='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/css/miscellaneous.css?ver=4.0' media='all' />
+<link rel='stylesheet' id='newsmax-ruby-main-css'  href='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/css/main.css?ver=4.0' media='all' />
+<link rel='stylesheet' id='newsmax-ruby-responsive-css'  href='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/css/responsive.css?ver=4.0' media='all' />
+<link rel='stylesheet' id='newsmax-ruby-style-css'  href='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/style.css?ver=4.0' media='all' />
+<style id='newsmax-ruby-style-inline-css'>
+#newsmax_ruby_navbar_widget_button-_multiwidget .widget-btn {}#newsmax_ruby_navbar_widget_button-_multiwidget .widget-btn:hover {}
+.small-menu-inner > li > a, .breadcrumb-wrap, .widget-btn { font-family: Poppins;}.small-menu-inner > li > a, .widget-btn { font-weight: 500;}.small-menu-inner .sub-menu { font-family: Poppins;}.logo-inner img {max-height: 90px;}.block-ajax-filter-wrap { font-size: 14px;}h1 {font-family:Poppins;}h1 {font-weight:700;}h2 {font-family:Poppins;}h2 {font-weight:700;}h3 {font-family:Poppins;}h3 {font-weight:700;}h4 {font-family:Poppins;}h4 {font-weight:700;}h5 {font-family:Poppins;}h5 {font-weight:700;}h6 {font-family:Poppins;}h6 {font-weight:700;}@media only screen and (min-width: 992px) and (max-width: 1199px) {body .post-title.is-size-0 {font-size: 49px;line-height: 47px;}body .post-title.is-size-1 {font-size: 37px;line-height: 39px;}body .post-title.is-size-2 {font-size: 20px;line-height: 26px;}body .post-title.is-size-3 {font-size: 20px;line-height: 26px;}body .post-title.is-size-4 {font-size: 16px;line-height: 19px;}}@media only screen and (max-width: 991px) {body .post-title.is-size-0 {font-size: 38px;line-height: 42px;}body .post-title.is-size-1 {font-size: 32px;line-height: 37px;}body .post-title.is-size-2 {font-size: 18px;line-height: 24px;}body .post-title.is-size-3 {font-size: 18px;line-height: 22px;}body .post-title.is-size-4 {font-size: 16px;line-height: 19px;}}@media only screen and (max-width: 767px) {body .post-title.is-size-0 {font-size: 29px;line-height: 34px;}body .post-title.is-size-1 {font-size: 28px;line-height: 35px;}body .post-title.is-size-2 {font-size: 17px;line-height: 23px;}body .post-title.is-size-3 {font-size: 16px;line-height: 22px;}body .post-title.is-size-4, .post-list-2 .post-title a, .post-list-3 .post-title a {font-size: 16px;line-height: 18px;}}@media only screen and (max-width: 767px) {body, p {font-size: 18px !important;line-height: 28px !important;}.post-excerpt p {}.entry h1 {}.entry h2 {}.entry h3 {}.entry h4 {}.entry h5 {}.entry h6 {}}.single .post-title.single-title {color :#133b70!important;}.entry a:not(button), .widget_rss a:hover {color :#103a70;}.post-meta-info-duration { font-family:Lato;}.widget_recent_entries li a, .recentcomments a, .wp-block-latest-posts a { font-family:Poppins;}
+</style>
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.elcarrocolombiano.com/wp-content/tablepress-combined.min.css?ver=64' media='all' />
+<link rel='stylesheet' id='nextgen_widgets_style-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/widget/static/widgets.css?ver=3.18' media='all' />
+<link rel='stylesheet' id='nextgen_basic_thumbnails_style-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/thumbnails/nextgen_basic_thumbnails.css?ver=3.18' media='all' />
+<link rel='stylesheet' id='nextgen_basic_slideshow_style-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/ngg_basic_slideshow.css?ver=3.18' media='all' />
+<link rel='stylesheet' id='addthis_all_pages-css'  href='https://www.elcarrocolombiano.com/wp-content/plugins/addthis/frontend/build/addthis_wordpress_public.min.css?ver=5.8.3' media='all' />
+
+<link rel='stylesheet' id='nggallery-css'  href='https://www.elcarrocolombiano.com/wp-content/ngg_styles/nggallery.css?ver=3.18' media='all' />
+<script src='https://www.elcarrocolombiano.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/gdprsuite/assets/js/jquery.blockUI.js?ver=3.6' id='fpgdpr_block_UI-js'></script>
+<script id='fpgdpr_fronend-js-extra'>
+var fpgdpr_args = {"policy_error_wp":"Por favor acepte la pol\u00edtica de privacidad","policy_error_woo":"Please accept the Privacy checkbox"};
+</script>
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/gdprsuite/assets/js/jQuery-general-settings.js?ver=3.6' id='fpgdpr_fronend-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/slick/slick-1.8.0-modded.js?ver=3.18' id='ngg_slick-js'></script>
+<script id='photocrati_ajax-js-extra'>
+var photocrati_ajax = {"url":"https:\/\/www.elcarrocolombiano.com\/index.php?photocrati_ajax=1","wp_home_url":"https:\/\/www.elcarrocolombiano.com","wp_site_url":"https:\/\/www.elcarrocolombiano.com","wp_root_url":"https:\/\/www.elcarrocolombiano.com","wp_plugins_url":"https:\/\/www.elcarrocolombiano.com\/wp-content\/plugins","wp_content_url":"https:\/\/www.elcarrocolombiano.com\/wp-content","wp_includes_url":"https:\/\/www.elcarrocolombiano.com\/wp-includes\/","ngg_param_slug":"nggallery"};
+</script>
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ajax/static/ajax.min.js?ver=3.18' id='photocrati_ajax-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/ngg_basic_slideshow.js?ver=3.18' id='photocrati-nextgen_basic_slideshow-js'></script>
+<script src='https://use.fontawesome.com/releases/v5.3.1/js/v4-shims.js?ver=5.3.1' id='fontawesome_v4_shim-js'></script>
+<script defer integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous" data-auto-replace-svg="false" data-keep-original-source="false" data-search-pseudo-elements src='https://use.fontawesome.com/releases/v5.3.1/js/all.js?ver=5.3.1' id='fontawesome-js'></script>
+<!--[if lt IE 9]>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/html5shiv.min.js?ver=3.7.3' id='html5-js'></script>
+<![endif]-->
+
+<!-- Fragmento de código de Google Analytics añadido por Site Kit -->
+<script src='https://www.googletagmanager.com/gtag/js?id=UA-34075937-1' id='google_gtagjs-js' async></script>
+<script id='google_gtagjs-js-after'>
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["www.elcarrocolombiano.com"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-34075937-1", {"anonymize_ip":true});
+</script>
+
+<!-- Final del fragmento de código de Google Analytics añadido por Site Kit -->
+<link rel="https://api.w.org/" href="https://www.elcarrocolombiano.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.elcarrocolombiano.com/wp-json/wp/v2/posts/122682" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.elcarrocolombiano.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.elcarrocolombiano.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.3" />
+<link rel='shortlink' href='https://www.elcarrocolombiano.com/?p=122682' />
+<link rel="alternate" type="application/json+oembed" href="https://www.elcarrocolombiano.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.elcarrocolombiano.com%2Fautos-del-mundo%2Fel-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.elcarrocolombiano.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.elcarrocolombiano.com%2Fautos-del-mundo%2Fel-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp%2F&#038;format=xml" />
+        <!--Terms Content-->
+        <div class='fp_gdpr_popup_wrapper fp_gdpr_popup_wrapper_terms' id="fp_gdpr_terms" > 
+            <div class='fp_gdpr_popup_content_box fp_gdpr_animate'>
+
+                <div class='fp_gdpr_popup_content'>
+                    <p>        <div class="fp_gdpr_popup_wrapper1" id='is_access_disabled_terms'><h2>Terms & Conditions</h2>
+            <p>We have Recently updated our Terms and Conditions. Please read and accept the terms and conditions in order to access the site</p>  
+             
+            <div class="fpgdpr_ppy_tc_content">
+                    </div>
+                <p>Current Version: 1</p><input type=button class="fp-gdpr-accept-tac submit" name="fp-gdpr-accept-tac" value="Accept">        </div>
+
+        <script type="text/javascript">
+            jQuery ( document ).ready ( function () {
+                jQuery ( '.fp-gdpr-accept-tac' ).click ( function () {
+                    var dataparam = ( {
+                        action : 'fp_gdpr_tac_set_cookie' ,
+                        user_id : '0'
+                    } ) ;
+                    jQuery.post ( "https://www.elcarrocolombiano.com/wp-admin/admin-ajax.php" , dataparam ,
+                            function ( response ) {
+                                if ( response === 'success' ) {
+                                    location.reload () ;
+                                }
+                            } ) ;
+                } ) ;
+            } ) ;
+        </script>
+        </p>
+                </div>
+            </div> 
+        </div>
+        <!--Privacy Content-->
+        <div class='fp_gdpr_popup_wrapper fp_gdpr_popup_wrapper_ppy' id="fp_gdpr_ppy" >
+            <div class='fp_gdpr_popup_content_box fp_gdpr_animate'>
+                <div class='fp_gdpr_popup_content'>
+                    <p>        <div class="fp_gdpr_popup_wrapper2" id='is_access_disabled_ppy'><h2>Privacy Policy</h2>
+            <p>We have Recently updated our Privacy Policy. Please read and accept the Privacy Policy in order to access the site</p>
+                     <div class="fpgdpr_ppy_tc_content">
+                        </div>
+                <p>Current Version: 1</p><input type=button class="fp-gdpr-accept-ppy submit" name="fp-gdpr-accept-ppy" value="Accept">        </div>
+
+        <script type="text/javascript">
+            jQuery ( document ).ready ( function () {
+                jQuery ( '.fp-gdpr-accept-ppy' ).click ( function () {
+                    var dataparam = ( {
+                        action : 'fp_gdpr_ppy_set_cookie' ,
+                        user_id : '0'
+                    } ) ;
+                    jQuery.post ( "https://www.elcarrocolombiano.com/wp-admin/admin-ajax.php" , dataparam ,
+                            function ( response ) {
+                                if ( response === 'success' ) {
+                                    location.reload () ;
+                                }
+                            } ) ;
+                } ) ;
+            } ) ;
+        </script>
+        </p>
+                </div>
+            </div>
+        </div>
+                <script type="text/javascript">
+            jQuery ( function () {
+                jQuery ( 'document' ).ready ( function () {
+
+                    jQuery.ajax ( {
+                        data : ( {
+                            action : 'fp_gdpr_terms_privacy_check' ,
+                        } ) ,
+                        type : 'POST' ,
+                        url : "https://www.elcarrocolombiano.com/wp-admin/admin-ajax.php" ,
+                        success : function ( response ) {
+                            if ( 'terms' == response ) {
+                                jQuery ( '.fp_gdpr_popup_wrapper_terms' ).show () ;
+                            } else if ( 'ppy' == response ) {
+                                jQuery ( '.fp_gdpr_popup_wrapper_ppy' ).show () ;
+                            } else {
+                                jQuery ( '.fp_gdpr_popup_wrapper_terms' ).hide () ;
+                                jQuery ( '.fp_gdpr_popup_wrapper_ppy' ).hide () ;
+                            }
+                        }
+                    } ) ;
+
+                    jQuery.ajax ( {
+                        data : ( {
+                            action : 'fp_gdpr_fly_box_content' ,
+                            fpgdpr_cookie_page_id : '122682' ,
+                        } ) ,
+                        type : 'POST' ,
+                        url : "https://www.elcarrocolombiano.com/wp-admin/admin-ajax.php" ,
+                        success : function ( response ) {
+                            if ( true == response.success ) {
+                                        jQuery ( '.fp_cookie' ).show () ;
+                            } else {
+                                jQuery ( '.fp_cookie' ).hide () ;
+                            }
+                        }
+                    } ) ;
+
+                } ) ;
+            } ) ;
+
+        </script>
+                <div class="fp_cookie" >
+            <div class="fp_cookie_inner_box"></div>
+            <div class="fp_cookie_content">
+                <form>
+                    <div class="cookie_notice_content">
+                        <p ><p style="text-align: center;">Utilizamos cookies de terceros para generar estadísticas de audiencia y mostrar publicidad personalizada analizando tu navegación. Si sigues navegando estarás aceptando su uso.</p> </p>
+                    </div>
+                    <div class="cookie_notice_accept_btn">
+                        <input type="button"  class="fpgdpr_set_cookie_for_flybox" name="fpgdpr_set_cookie_for_flybox" value="Aceptar">
+                        <input type="button" id='fpgdpr_decline_cookie' value="Declinar">
+                                                                            <a target="_self"   href="https://www.elcarrocolombiano.com/cookies/">Política de Cookies</a>
+                                                        
+                    </div>
+                </form>
+                                    <img class="fpgdpr_cookie_close" src="https://www.elcarrocolombiano.com/wp-content/plugins/gdprsuite/assets/images/close1.png" alt="close">
+                            </div>
+        </div>
+        <div class='fp_gdpr_popup_wrapper' id="custom_id">
+            <div class='fp_gdpr_popup_content_box fp_gdpr_animate'>
+
+                <div class='fp_gdpr_popup_content'>
+                    <p>        <style type="text/css">
+                </style>
+        </p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jQuery ( function () {
+                function fpgdpr_cc_ajax_action( action_name ) {
+                    jQuery.ajax ( {
+                        data : ( {
+                            action : action_name ,
+                            user_id : '0' ,
+                        } ) ,
+                        type : 'POST' ,
+                        url : "https://www.elcarrocolombiano.com/wp-admin/admin-ajax.php" ,
+                        success : function ( response ) {
+                            console.log ( response ) ;
+                            if ( true == response.success ) {
+                                jQuery ( '.fp_cookie' ).hide () ;
+                                location.reload ( true ) ;
+                            }
+                        }
+
+                    } ) ;
+                }
+                jQuery ( '.fpgdpr_set_cookie_for_flybox' ).click ( function () {
+                    fpgdpr_cc_ajax_action ( 'fp_gdpr_set_flybox_cookie' ) ;
+                } ) ;
+                jQuery ( '#fpgdpr_decline_cookie' ).click ( function () {
+                    fpgdpr_cc_ajax_action ( 'fp_gdpr_set_decline_cookie' ) ;
+                } ) ;
+                jQuery ( '.fpgdpr_cookie_close' ).click ( function () {
+                    fpgdpr_cc_ajax_action ( 'fp_gdpr_set_decline_cookie' ) ;
+                } ) ;
+                jQuery ( '.fp_gdpr_cookie_consent_lb' ).click ( function ( e ) {
+                    e.preventDefault () ;
+                    jQuery ( '.fp_gdpr_popup_wrapper' ).show () ;
+                } ) ;
+                jQuery ( '.fp_gdpr_popup_content_box .close' ).click ( function () {
+                    jQuery ( '.fp_gdpr_popup_wrapper' ).hide () ;
+
+                } ) ;
+            } ) ;
+        </script>
+        <meta name="generator" content="Site Kit by Google 1.48.1" /><script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.elcarrocolombiano.com/?wordfence_lh=1&hid=DB9DCC9C04B08AA823BE82F1DDFEE868');
+</script>
+<!-- Fragmento de código de Google Adsense añadido por Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- Final del fragmento de código de Google Adsense añadido por Site Kit -->
+      <meta name="onesignal" content="wordpress-plugin"/>
+            <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PARAM = { scope: "/" };
+        OneSignal.setDefaultNotificationUrl("https://www.elcarrocolombiano.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '2e9c4b52-561f-4cf7-8fe7-e8de6afc3e79';
+oneSignal_options['allowLocalhostAsSecureOrigin'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "¡Gracias por suscribirte a El Carro Colombiano!";
+oneSignal_options['welcomeNotification']['message'] = "Aquí te contaremos las más importantes novedades del mundo automotor.";
+oneSignal_options['path'] = "https://www.elcarrocolombiano.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.201c9c11-2835-4563-82b9-55a6f9094e87";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['promptOptions']['actionMessage'] = "¿Quieres conocer lo más reciente del mundo automotor? Te invitamos a suscribirte.";
+oneSignal_options['promptOptions']['acceptButtonText'] = "¡Claro que sí!";
+oneSignal_options['promptOptions']['cancelButtonText'] = "Tal vez después.";
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'inverse';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = 'Suscríbete a nuestras notificaciones.';
+oneSignal_options['notifyButton']['text']['tip.state.subscribed'] = 'Te has suscrito a nuestras notificaciones.';
+oneSignal_options['notifyButton']['text']['tip.state.blocked'] = 'Has bloqueado nuestras notificaciones.';
+oneSignal_options['notifyButton']['text']['message.action.subscribed'] = 'Gracias por suscribirte a El Carro Colombiano, ¡el mundo automotor al alcance de todos!';
+oneSignal_options['notifyButton']['text']['message.action.resubscribed'] = '¡Gracias por suscribirte de nuevo a El Carro Colombiano!';
+oneSignal_options['notifyButton']['text']['message.action.unsubscribed'] = 'No recibirás nuevas notificaciones de El Carro Colombiano. ¡Te extrañaremos!';
+oneSignal_options['notifyButton']['text']['dialog.main.button.subscribe'] = 'Suscribirse';
+oneSignal_options['notifyButton']['text']['dialog.main.button.unsubscribe'] = 'Desvincularse';
+oneSignal_options['notifyButton']['text']['dialog.blocked.title'] = 'Desbloquear notificaciones';
+oneSignal_options['notifyButton']['text']['dialog.blocked.message'] = 'Sigue las siguientes instrucciones para desbloquear las notificaciones:';
+                OneSignal.init(window._oneSignalInitOptions);
+                OneSignal.showSlidedownPrompt();      });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+
+<!-- Fragmento de código de Google Adsense añadido por Site Kit -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4950087306183956" crossorigin="anonymous"></script>
+
+<!-- Final del fragmento de código de Google Adsense añadido por Site Kit -->
+<script data-cfasync="false" type="text/javascript">if (window.addthis_product === undefined) { window.addthis_product = "wpp"; } if (window.wp_product_version === undefined) { window.wp_product_version = "wpp-6.2.6"; } if (window.addthis_share === undefined) { window.addthis_share = {"passthrough":{"twitter":{"via":"carrocolombiano"}}}; } if (window.addthis_config === undefined) { window.addthis_config = {"data_track_clickback":true,"ignore_server_config":true,"data_ga_property":"34075937","data_ga_social":true,"ui_language":"es","ui_atversion":300}; } if (window.addthis_layers === undefined) { window.addthis_layers = {}; } if (window.addthis_layers_tools === undefined) { window.addthis_layers_tools = [{"share":{"counts":"none","numPreferredServices":6,"mobile":false,"position":"left","theme":"transparent","services":"facebook,twitter,linkedin,whatsapp,pinterest_share,addthis"},"sharedock":{"counts":"none","numPreferredServices":6,"mobileButtonSize":"large","position":"bottom","theme":"transparent","services":"facebook,twitter,linkedin,whatsapp,pinterest_share,addthis"}},{"dock":{"follow":"off","buttonBarTheme":"light","buttonBarPosition":"bottom","followServices":[]}}]; } else { window.addthis_layers_tools.push({"share":{"counts":"none","numPreferredServices":6,"mobile":false,"position":"left","theme":"transparent","services":"facebook,twitter,linkedin,whatsapp,pinterest_share,addthis"},"sharedock":{"counts":"none","numPreferredServices":6,"mobileButtonSize":"large","position":"bottom","theme":"transparent","services":"facebook,twitter,linkedin,whatsapp,pinterest_share,addthis"}}); window.addthis_layers_tools.push({"dock":{"follow":"off","buttonBarTheme":"light","buttonBarPosition":"bottom","followServices":[]}});  } if (window.addthis_plugin_info === undefined) { window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Share Buttons by AddThis","plugin_version":"6.2.6","plugin_mode":"WordPress","anonymous_profile_id":"wp-fc7775a311c977d4347956763101a470","page_info":{"template":"posts","post_type":""},"sharing_enabled_on_post_via_metabox":false}; } 
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          if (typeof window.addthis_layers !== 'undefined' && Object.getOwnPropertyNames(window.addthis_layers).length > 0) {
+                            window.addthis.layers(window.addthis_layers);
+                          }
+                          if (Array.isArray(window.addthis_layers_tools)) {
+                            for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                              window.addthis.layers(window.addthis_layers_tools[i]);
+                            }
+                          }
+                        }
+                     },1000)
+                    }());
+                </script> <script data-cfasync="false" type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=wp-fc7775a311c977d4347956763101a470" async="async"></script><style type="text/css" title="dynamic-css" class="options-output">.banner-wrap{background-color:#ffffff;background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:center center;}body,p{font-family:Lato;line-height:27px;font-weight:400;font-style:normal;font-size:17px;}.post-title.is-size-0{font-family:Poppins;line-height:54px;letter-spacing:-1.5px;font-weight:700;font-style:normal;font-size:49px;}.post-title.is-size-1{font-family:Poppins;line-height:48px;font-weight:700;font-style:normal;font-size:43px;}.post-title.is-size-2{font-family:Poppins;line-height:28px;font-weight:500;font-style:normal;font-size:23px;}.post-title.is-size-3{font-family:Poppins;line-height:26px;font-weight:500;font-style:normal;font-size:20px;}.post-title.is-size-4{font-family:Poppins;line-height:19px;font-weight:500;font-style:normal;font-size:16px;}.post-cat-info{font-family:Lato;text-transform:uppercase;font-weight:700;font-style:normal;}.post-meta-info{font-family:Lato;font-weight:400;font-style:normal;color:#aaaaaa;}.post-btn a{font-family:Lato;font-weight:400;font-style:normal;font-size:11px;}.block-header-wrap,.is-block-header-style-5 .block-header-wrap{font-family:Poppins;text-transform:none;font-weight:400;font-style:normal;font-size:18px;}.widget-title, .is-block-header-style-5 .widget-title.block-title{font-family:Poppins;text-transform:none;font-weight:400;font-style:normal;font-size:16px;}.main-menu-inner > li > a{font-family:Poppins;text-transform:uppercase;font-weight:500;font-style:normal;}.navbar-wrap .is-sub-default{font-family:Poppins;text-transform:capitalize;font-weight:400;font-style:normal;}.topbar-wrap{font-family:Poppins;text-transform:capitalize;font-weight:300;font-style:normal;}.off-canvas-nav-wrap{font-family:Poppins;text-transform:uppercase;font-weight:500;font-style:normal;}.off-canvas-nav-wrap .sub-menu a{font-family:Poppins;text-transform:uppercase;font-weight:500;font-style:normal;}.logo-wrap.is-logo-text .logo-title,.off-canvas-logo-wrap.is-logo-text .logo-text{font-family:Poppins;font-weight:700;font-style:normal;}.site-tagline{font-family:Poppins;font-weight:400;font-style:normal;}.logo-mobile-wrap .logo-text{font-family:Poppins;text-transform:uppercase;font-weight:normal;font-style:normal;}.entry h1{font-family:Poppins;line-height:43px;font-weight:700;font-style:normal;font-size:40px;}.entry h2{font-family:Poppins;line-height:27px;font-weight:700;font-style:normal;font-size:22px;}.entry h3{font-family:Poppins;line-height:25px;font-weight:700;font-style:normal;font-size:20px;}.entry h4{font-family:Poppins;line-height:23px;font-weight:700;font-style:normal;font-size:19px;}.entry h5{font-family:Poppins;line-height:21px;font-weight:700;font-style:normal;font-size:17px;}.entry h6{font-family:Poppins;line-height:22px;font-weight:700;font-style:normal;font-size:16px;}</style></head>
+<body data-rsssl=1 class="post-template-default single single-post postid-122682 single-format-standard ruby-body is-holder is-navbar-sticky is-site-fullwidth is-smart-sticky is-smooth-scroll is-site-smooth-display is-sidebar-style-1 is-breadcrumb is-tooltips is-back-top is-back-top-touch is-block-header-style-1 is-hide-excerpt is-cat-style-1 is-btn-style-1 is-entry-image-popup" data-slider_autoplay="1" data-slider_play_speed="5550" >
+
+<div class="off-canvas-wrap off-canvas-holder is-light-style is-dark-text">
+	<a href="#" id="ruby-off-canvas-close-btn"><i class="ruby-close-btn"></i></a>
+	<div class="off-canvas-inner">
+
+						<div class="off-canvas-logo-wrap is-logo-image">
+		<div class="logo-inner">
+			<a href="https://www.elcarrocolombiano.com/" class="logo" title="El Carro Colombiano">
+				<img height="61" width="300" src="https://www.elcarrocolombiano.com/wp-content/uploads/2019/05/20190515-LOGO-WEB-MAYO-2019-MOVIL.png" alt="El Carro Colombiano" loading="lazy">
+			</a>
+		</div>
+	</div>
+		
+		
+												<div class="off-canvas-social tooltips">
+					<a class="icon-facebook" title="facebook" href="https://www.facebook.com/elcarrocolombiano" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="icon-twitter" title="twitter" href="https://twitter.com/carrocolombiano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="icon-instagram" title="instagram" href="https://www.instagram.com/elcarrocolombiano/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><a class="icon-linkedin" title="linkedin" href="https://www.linkedin.com/company/elcarrocolombiano/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a><a class="icon-youtube" title="youtube" href="https://www.youtube.com/user/elcarrocolombiano" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>				</div>
+					
+		
+					<div class="off-canvas-widget-section-wrap">
+				<div id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-title block-title"><h3>El Carro Colombiano</h3></div><div class="menu-menu-ecc-container"><ul id="menu-menu-ecc" class="menu"><li id="menu-item-34892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-34892"><a href="https://www.elcarrocolombiano.com">Inicio</a></li>
+<li id="menu-item-205" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-205 is-category-3"><a href="https://www.elcarrocolombiano.com/./lanzamientos/">Lanzamientos</a></li>
+<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-198"><a href="https://www.elcarrocolombiano.com/carros/">Carros</a>
+<ul class="sub-menu">
+	<li id="menu-item-208" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-208 is-category-10"><a href="https://www.elcarrocolombiano.com/./novedades/">Novedades</a></li>
+	<li id="menu-item-209" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-209 is-category-2"><a href="https://www.elcarrocolombiano.com/./pruebas/">Pruebas</a></li>
+	<li id="menu-item-8822" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8822 is-category-87"><a href="https://www.elcarrocolombiano.com/./resenas/">Reseñas</a></li>
+	<li id="menu-item-201" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-201 is-category-4"><a href="https://www.elcarrocolombiano.com/./autos-del-mundo/">Autos del Mundo</a></li>
+	<li id="menu-item-203" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-203 is-category-11"><a href="https://www.elcarrocolombiano.com/./clasicos/">Clásicos Colombianos</a></li>
+	<li id="menu-item-202" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-202 is-category-56"><a href="https://www.elcarrocolombiano.com/./clasicos-del-mundo/">Clásicos del Mundo</a></li>
+</ul>
+</li>
+<li id="menu-item-206" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-206 is-category-34"><a href="https://www.elcarrocolombiano.com/./dos-ruedas/">Dos Ruedas</a></li>
+<li id="menu-item-207" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-207 is-category-22"><a href="https://www.elcarrocolombiano.com/./noticias/">Noticias</a></li>
+<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-196"><a href="https://www.elcarrocolombiano.com/magazine/">Magazine</a>
+<ul class="sub-menu">
+	<li id="menu-item-199" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-199 is-category-57"><a href="https://www.elcarrocolombiano.com/./notas-de-interes/">A usted le interesa</a></li>
+	<li id="menu-item-204" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-204 is-category-15"><a href="https://www.elcarrocolombiano.com/./industria/">Industria</a></li>
+	<li id="menu-item-200" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-200 is-category-58"><a href="https://www.elcarrocolombiano.com/./automovilismo/">Automovilismo</a></li>
+	<li id="menu-item-638" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-638 is-category-163"><a href="https://www.elcarrocolombiano.com/./eventos/">Eventos</a></li>
+	<li id="menu-item-210" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-210 is-category-35"><a href="https://www.elcarrocolombiano.com/./regiones/">Regiones</a></li>
+	<li id="menu-item-3981" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3981 is-category-436"><a href="https://www.elcarrocolombiano.com/./mi-carro-y-yo/">Mi carro y yo</a></li>
+</ul>
+</li>
+<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-197"><a href="https://www.elcarrocolombiano.com/especiales/">Especiales</a>
+<ul class="sub-menu">
+	<li id="menu-item-120751" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-120751"><a href="https://www.elcarrocolombiano.com/tag/publicronicas/">Publicrónicas</a></li>
+	<li id="menu-item-154064" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-154064"><a href="https://www.elcarrocolombiano.com/tag/14-canonazos-automotrices-2021">14 Cañonazos Automotrices 2021</a></li>
+	<li id="menu-item-140273" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140273 is-category-7127"><a href="https://www.elcarrocolombiano.com/./pruebas/cx-30-por-3-meses/">CX-30 por tres meses</a></li>
+	<li id="menu-item-3051" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3051 is-category-393"><a href="https://www.elcarrocolombiano.com/./los-anos-tenebrosos-del-sector-automotor/">Los Años Tenebrosos del Sector Automotor</a></li>
+	<li id="menu-item-23331" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23331 is-category-1199"><a href="https://www.elcarrocolombiano.com/./salon-de-bogota-2018/">Salón del Automóvil de Bogotá 2018</a></li>
+</ul>
+</li>
+<li id="menu-item-8416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8416"><a href="https://www.elcarrocolombiano.com/quienes-somos/">Corporativo</a>
+<ul class="sub-menu">
+	<li id="menu-item-8415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8415"><a href="https://www.elcarrocolombiano.com/nuestra-historia/">Nuestra Historia</a></li>
+	<li id="menu-item-8414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8414"><a href="https://www.elcarrocolombiano.com/empresa/">Publicaciones El Carro Colombiano</a></li>
+	<li id="menu-item-154973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-154973"><a href="https://www.elcarrocolombiano.com/cookies/">Política de Cookies</a></li>
+	<li id="menu-item-9430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9430"><a href="https://www.elcarrocolombiano.com/paute-con-nosotros/">Paute con Nosotros</a></li>
+	<li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="https://www.elcarrocolombiano.com/contacto/">Contáctenos</a></li>
+</ul>
+</li>
+</ul></div></div>			</div>
+			</div>
+</div><div id="ruby-site" class="site-outer">
+	<div class="header-wrap header-style-1">
+	<div class="header-inner">
+				<div class="topbar-wrap topbar-style-1">
+	<div class="ruby-container">
+		<div class="topbar-inner container-inner clearfix">
+			<div class="topbar-left">
+				
+<div class="topbar-date">
+	<span >lunes, enero 31, 2022</span>
+</div>											</div>
+			<div class="topbar-right">
+													<div class="topbar-social tooltips">
+		<a class="icon-facebook" title="facebook" href="https://www.facebook.com/elcarrocolombiano" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="icon-twitter" title="twitter" href="https://twitter.com/carrocolombiano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="icon-instagram" title="instagram" href="https://www.instagram.com/elcarrocolombiano/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><a class="icon-linkedin" title="linkedin" href="https://www.linkedin.com/company/elcarrocolombiano/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a><a class="icon-youtube" title="youtube" href="https://www.youtube.com/user/elcarrocolombiano" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>	</div>
+							</div>
+		</div>
+	</div>
+</div>
+
+		<div class="banner-wrap clearfix">
+			<div class="ruby-container">
+				<div class="banner-inner container-inner clearfix">
+					<div class="logo-wrap is-logo-image"  itemscope  itemtype="https://schema.org/Organization" >
+	<div class="logo-inner">
+						<a href="https://www.elcarrocolombiano.com/" class="logo" title="El Carro Colombiano">
+				<img height="90" width="300" src="https://www.elcarrocolombiano.com/wp-content/uploads/2019/05/20190515-LOGO-WEB-MAYO-2019-FINAL-01.png" alt="El Carro Colombiano" loading="lazy">
+			</a>
+				</div>
+
+	</div>
+						<aside class="header-ad-wrap is-script-ad">
+		<div class="header-ad-inner">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!--header--><script type="text/javascript">
+var screen_width = document.body.clientWidth;
+ if ( screen_width >= 1170 ) {
+                        document.write('<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4950087306183956" data-ad-slot="7215019402"></ins>');
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }if ( screen_width >= 768  && screen_width < 1170 ) {
+                        document.write('<ins class="adsbygoogle" style="display:inline-block;width:468px;height:60px" data-ad-client="ca-pub-4950087306183956" data-ad-slot="7215019402"></ins>');
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }if ( screen_width < 768 ) {
+                        document.write('<ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px" data-ad-client="ca-pub-4950087306183956" data-ad-slot="7215019402"></ins>');
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }</script>
+					</div>
+	</aside>
+				</div>
+			</div>
+		</div><!--#banner wrap-->
+
+		<div class="navbar-outer clearfix">
+			<div class="navbar-wrap">
+				<div class="ruby-container">
+					<div class="navbar-inner container-inner clearfix">
+						<div class="navbar-mobile">
+							<div class="off-canvas-btn-wrap">
+	<div class="off-canvas-btn">
+		<a href="#" class="ruby-toggle" title="off-canvas button">
+			<span class="icon-toggle"></span>
+		</a>
+	</div>
+</div>
+							
+	<div class="logo-mobile-wrap is-logo-image">
+		<a href="https://www.elcarrocolombiano.com/" class="logo-mobile" title="El Carro Colombiano">
+			<img height="61" width="300" src="https://www.elcarrocolombiano.com/wp-content/uploads/2019/05/20190515-LOGO-WEB-MAYO-2019-MOVIL.png" alt="El Carro Colombiano" loading="lazy">
+		</a>
+	</div>
+						</div><!--#mobile -->
+						<div class="navbar-left">
+														<nav id="ruby-main-menu" class="main-menu-wrap"  itemscope  itemtype="https://schema.org/SiteNavigationElement" >
+	<div class="menu-menu-ecc-container"><ul id="main-menu" class="main-menu-inner"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-34892"><a href="https://www.elcarrocolombiano.com">Inicio</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-205 is-category-3"><a href="https://www.elcarrocolombiano.com/./lanzamientos/">Lanzamientos</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-198"><a href="https://www.elcarrocolombiano.com/carros/">Carros</a><ul class="sub-menu is-sub-default">	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-208 is-category-10"><a href="https://www.elcarrocolombiano.com/./novedades/">Novedades</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-209 is-category-2"><a href="https://www.elcarrocolombiano.com/./pruebas/">Pruebas</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8822 is-category-87"><a href="https://www.elcarrocolombiano.com/./resenas/">Reseñas</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-201 is-category-4"><a href="https://www.elcarrocolombiano.com/./autos-del-mundo/">Autos del Mundo</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-203 is-category-11"><a href="https://www.elcarrocolombiano.com/./clasicos/">Clásicos Colombianos</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-202 is-category-56"><a href="https://www.elcarrocolombiano.com/./clasicos-del-mundo/">Clásicos del Mundo</a></li></ul></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-206 is-category-34"><a href="https://www.elcarrocolombiano.com/./dos-ruedas/">Dos Ruedas</a></li><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-207 is-category-22"><a href="https://www.elcarrocolombiano.com/./noticias/">Noticias</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-196"><a href="https://www.elcarrocolombiano.com/magazine/">Magazine</a><ul class="sub-menu is-sub-default">	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-199 is-category-57"><a href="https://www.elcarrocolombiano.com/./notas-de-interes/">A usted le interesa</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-204 is-category-15"><a href="https://www.elcarrocolombiano.com/./industria/">Industria</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-200 is-category-58"><a href="https://www.elcarrocolombiano.com/./automovilismo/">Automovilismo</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-638 is-category-163"><a href="https://www.elcarrocolombiano.com/./eventos/">Eventos</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-210 is-category-35"><a href="https://www.elcarrocolombiano.com/./regiones/">Regiones</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3981 is-category-436"><a href="https://www.elcarrocolombiano.com/./mi-carro-y-yo/">Mi carro y yo</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-197"><a href="https://www.elcarrocolombiano.com/especiales/">Especiales</a><ul class="sub-menu is-sub-default">	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-120751"><a href="https://www.elcarrocolombiano.com/tag/publicronicas/">Publicrónicas</a></li>	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-154064"><a href="https://www.elcarrocolombiano.com/tag/14-canonazos-automotrices-2021">14 Cañonazos Automotrices 2021</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140273 is-category-7127"><a href="https://www.elcarrocolombiano.com/./pruebas/cx-30-por-3-meses/">CX-30 por tres meses</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3051 is-category-393"><a href="https://www.elcarrocolombiano.com/./los-anos-tenebrosos-del-sector-automotor/">Los Años Tenebrosos del Sector Automotor</a></li>	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23331 is-category-1199"><a href="https://www.elcarrocolombiano.com/./salon-de-bogota-2018/">Salón del Automóvil de Bogotá 2018</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8416"><a href="https://www.elcarrocolombiano.com/quienes-somos/">Corporativo</a><ul class="sub-menu is-sub-default">	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8415"><a href="https://www.elcarrocolombiano.com/nuestra-historia/">Nuestra Historia</a></li>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8414"><a href="https://www.elcarrocolombiano.com/empresa/">Publicaciones El Carro Colombiano</a></li>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-154973"><a href="https://www.elcarrocolombiano.com/cookies/">Política de Cookies</a></li>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9430"><a href="https://www.elcarrocolombiano.com/paute-con-nosotros/">Paute con Nosotros</a></li>	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="https://www.elcarrocolombiano.com/contacto/">Contáctenos</a></li></ul></li></ul></div></nav>						</div><!--#left navbar -->
+
+						<div class="navbar-right">
+														<div class="navbar-search">
+	<a href="#" id="ruby-navbar-search-icon" data-mfp-src="#ruby-header-search-popup" data-effect="mpf-ruby-effect header-search-popup-outer" title="search" class="navbar-search-icon">
+		<i class="icon-simple icon-magnifier"></i>
+	</a>
+</div>
+													</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="ruby-header-search-popup" class="header-search-popup mfp-hide mfp-animation">
+	<div class="header-search-popup-inner is-light-text">
+		<form class="search-form" method="get" action="https://www.elcarrocolombiano.com/">
+			<fieldset>
+				<input id="ruby-search-input" type="text" class="field" name="s" value="" placeholder="Type to search&hellip;" autocomplete="off">
+				<button type="submit" value="" class="btn"><i class="icon-simple icon-magnifier" aria-hidden="true"></i></button>
+			</fieldset>
+			<div class="header-search-result"></div>
+		</form>
+	</div>
+</div></div>	<div class="site-wrap">
+		<div class="site-mask"></div>
+		<div class="site-inner"><div class="single-post-outer clearfix"><article id="122682" class="single-post-wrap single-post-2 is-single-left post-122682 post type-post status-publish format-standard has-post-thumbnail hentry category-autos-del-mundo tag-auto-deportivo tag-ford tag-ford-mustang tag-ford-mustang-shelby-gt tag-modificaciones"  itemscope  itemtype="https://schema.org/Article" ><div class="ruby-page-wrap ruby-section row is-sidebar-right ruby-container single-wrap">		<div id="site-breadcrumb" class="breadcrumb-outer">
+						<div class="breadcrumb-wrap">
+				<div class="breadcrumb-inner ruby-container">
+											<span class="breadcrumb-navxt" vocab="https://schema.org/" typeof="BreadcrumbList"><!-- Breadcrumb NavXT 7.0.2 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to El Carro Colombiano." href="https://www.elcarrocolombiano.com" class="home" ><span property="name">El Carro Colombiano</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Blog." href="https://www.elcarrocolombiano.com/blog/" class="post-root post post-post" ><span property="name">Blog</span></a><meta property="position" content="2"></span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the Autos del Mundo Categoría archives." href="https://www.elcarrocolombiano.com/./autos-del-mundo/" class="taxonomy category" ><span property="name">Autos del Mundo</span></a><meta property="position" content="3"></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name" class="post post-post current-item">El Ford Mustang Shelby GT 2021 es más potente y atractivo: alcanza hasta 700 hp</span><meta property="url" content="https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/"><meta property="position" content="4"></span></span>
+									</div>
+			</div>
+					</div>
+		<div class="single-post-top"><div class="post-cat-info single-post-cat-info"><a class="cat-info-el cat-info-id-4" href="https://www.elcarrocolombiano.com/./autos-del-mundo/" title="Autos del Mundo">Autos del Mundo</a></div><h1 class="single-title post-title entry-title is-size-0" itemprop="headline">El Ford Mustang Shelby GT 2021 es más potente y atractivo: alcanza hasta 700 hp</h1></div><div class="ruby-content-wrap single-inner col-sm-8 col-xs-12 content-with-sidebar" ><div class="single-post-header"><div class="single-post-meta-info clearfix"><div class="single-post-meta-info-inner"><div class="post-meta-info is-show-icon"><span class="meta-info-el meta-info-author"><i class="icon-simple icon-note"></i><span class="author-meta-name"><a href="https://www.elcarrocolombiano.com/author/jessica21/">Jessica Paola Vera García</a></span></span><span class="meta-info-el meta-info-date"><i class="icon-simple icon-clock"></i><span>11 mayo, 2021</span></span></div><div class="meta-info-date-full"><span class="meta-info-date-full-inner"><span>posted on</span> <time class="date published" datetime="2021-05-11T11:52:23+00:00">May. 11, 2021 at 11:52 am</time><time class="updated" datetime="2021-05-13T07:29:49-05:00">13 mayo, 2021</time></span></div></div></div><div class="single-post-thumb-outer"><div class="post-thumb"><img width="1100" height="675" src="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-PORTADA.jpg" class="attachment-full size-full wp-post-image" alt="ford mustang shelby gt 2021, ford mustang shelby gt 2021 informacion, ford mustang shelby gt 2021 datos, ford mustang shelby gt 2021 caracteristicas, ford mustang shelby gt 2021 diseño, ford mustang shelby gt 2021 motor, ford mustang shelby gt 2021 colombia, ford mustang shelby gt 2021 argentina, ford mustang shelby gt 2021 chile, ford mustang shelby gt 2021 peru" loading="lazy" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-PORTADA.jpg 1100w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-PORTADA-750x460.jpg 750w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-PORTADA-768x471.jpg 768w" sizes="(max-width: 1100px) 100vw, 1100px" /></div></div></div><div class="single-post-body"><div class="entry single-entry"><div class="entry-content" itemprop="articleBody"><div class="at-above-post addthis_tool" data-url="https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/"></div><h4>2021 trajo una nueva temporada para el querido <em>muscle car</em> de Ford, de la mano del Shelby con el nuevo Mustang GT. Los paquetes de modificaciones que se ofrecen para el auto deportivo norteamericano, incluye potencia de hasta 700 hp.&nbsp;</h4>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<P ALIGN=center><span style="font-size:9px; ">PUBLICIDAD</span><br>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Dentro de Texto Adaptable 01 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4950087306183956"
+     data-ad-slot="2284725800"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></P></div>
+<p>Ya está disponible en el mercado estadounidense el <strong>Ford Mustang Shelby GT 2021</strong>, el <em>muscle car</em> del <em>&#8216;blue oval&#8217;&nbsp;</em>tiene<strong> nuevas opciones de personalización</strong> gracias a la compañía preparadora que siempre ha sido aliada a la hora de hacer únicos los modelos de la marca.&nbsp;</p>
+<p>Para adquirir los nuevos <strong>paquetes de accesorios y diseño</strong>, Shelby ofrece varias alternativas. Cualquier ejemplar del Mustang a partir de 2018 puede ser modificado o el auto deportivo también se vende completo con las <strong>modificaciones listas y cero kilómetros.&nbsp;</strong></p>
+<p>Las diferencias claramente radicarán en el precio, mientras que realizar los ajustes a un modelo ya usado puede <strong>costar casi 25.000 dólares</strong>, el Shelby GT construido en su totalidad<strong> supera los 62.000 dólares.</strong> En ambos casos, la inversión valdrá la pena y se verán idénticos con la misma calidad de acabados.&nbsp;</p>
+<p><img loading="lazy" class="alignnone size-medium wp-image-122703" src="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-01-750x518.png" alt="ford mustang shelby gt 2021, ford mustang shelby gt 2021 informacion, ford mustang shelby gt 2021 datos, ford mustang shelby gt 2021 caracteristicas, ford mustang shelby gt 2021 diseño, ford mustang shelby gt 2021 motor, ford mustang shelby gt 2021 colombia, ford mustang shelby gt 2021 argentina, ford mustang shelby gt 2021 chile, ford mustang shelby gt 2021 peru" width="750" height="518" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-01-750x518.png 750w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-01-768x531.png 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-01.png 1100w" sizes="(max-width: 750px) 100vw, 750px" /></p><div class='code-block code-block-3' style='margin: 8px 0; clear: both;'>
+<P ALIGN=center><span style="font-size:9px; ">PUBLICIDAD</span><br>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Dentro de Texto Adaptable 02 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4950087306183956"
+     data-ad-slot="5098591401"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></P></div>
+
+<p><img loading="lazy" class="alignnone size-medium wp-image-122700" src="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-02-750x518.jpg" alt="ford mustang shelby gt 2021, ford mustang shelby gt 2021 informacion, ford mustang shelby gt 2021 datos, ford mustang shelby gt 2021 caracteristicas, ford mustang shelby gt 2021 diseño, ford mustang shelby gt 2021 motor, ford mustang shelby gt 2021 colombia, ford mustang shelby gt 2021 argentina, ford mustang shelby gt 2021 chile, ford mustang shelby gt 2021 peru" width="750" height="518" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-02-750x518.jpg 750w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-02-768x531.jpg 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-02.jpg 1100w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<h3>Características</h3>
+<p>Estéticamente, el Ford Mustang Shelby GT 2021 fue pintado en un <strong>llamativo color de carrocería</strong> como es habitual, en un tono de naranja oscuro con <strong>dos líneas en el centro</strong> que atraviesan el vehículo desde el capó hasta el borde del bumper trasero.&nbsp;</p>
+<p>El capó además de atraer con su diseño volumino, <strong>incorpora ventilaciones</strong> que lo hacen único frente a otras versiones del Mustang. El color negro también se aplica en otros elementos como parrilla delantera y espejos retrovisores. Cuenta con <strong>rines de 20 pulgadas</strong> con neumáticos con especificaciones Shelby.&nbsp;</p>
+<p>En el interior, un acogedor <strong>ambiente deportivo y sofisticado</strong> donde se combinan los mismos colores del exterior pero aquí predomina en el negro en la tapicería y accesorios del panel frontal, con<strong> inserciones en naranja en los asientos,</strong> y costuras del mismo tono.&nbsp;</p>
+<p><img loading="lazy" class="alignnone size-medium wp-image-122699" src="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-03-750x518.jpg" alt="ford mustang shelby gt 2021, ford mustang shelby gt 2021 informacion, ford mustang shelby gt 2021 datos, ford mustang shelby gt 2021 caracteristicas, ford mustang shelby gt 2021 diseño, ford mustang shelby gt 2021 motor, ford mustang shelby gt 2021 colombia, ford mustang shelby gt 2021 argentina, ford mustang shelby gt 2021 chile, ford mustang shelby gt 2021 peru" width="750" height="518" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-03-750x518.jpg 750w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-03-768x531.jpg 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-03.jpg 1100w" sizes="(max-width: 750px) 100vw, 750px" /></p><div class='code-block code-block-15' style='margin: 8px auto 8px 0; text-align: left; display: block; clear: both;'>
+<p align="left"><h4><a href="https://news.google.com/publications/CAAqMggKIixDQklTR3dnTWFoY0tGV1ZzWTJGeWNtOWpiMnh2YldKcFlXNXZMbU52YlNnQVAB?oc=3&amp;ceid=CO:es-419" target="_blank" rel="noopener">Elija a EL CARRO COLOMBIANO como su fuente favorita de noticias del motor.</a></h4></p></div>
+
+<p><img loading="lazy" class="alignnone size-medium wp-image-122698" src="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-04-750x518.jpg" alt="ford mustang shelby gt 2021, ford mustang shelby gt 2021 informacion, ford mustang shelby gt 2021 datos, ford mustang shelby gt 2021 caracteristicas, ford mustang shelby gt 2021 diseño, ford mustang shelby gt 2021 motor, ford mustang shelby gt 2021 colombia, ford mustang shelby gt 2021 argentina, ford mustang shelby gt 2021 chile, ford mustang shelby gt 2021 peru" width="750" height="518" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-04-750x518.jpg 750w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-04-768x531.jpg 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-04.jpg 1100w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p>Nada está completo en el Mustang Shelby sin un potente sistema de propulsión, que para el caso la compañía preparadora incorporó un bloque V8 atmósferico 5.0 litros de <strong>480 caballos de potencia.</strong> Como opción se puede optar por el V8 sobrealimentado de Ford Performance que<strong> aumenta la potencia 700 hp.&nbsp;</strong></p>
+<p>Las mejoras técnicas en el <em>muscle car</em> también incluyen nuevos resortes y barras estabilizadoras desarrolladas <strong>en asocio con Ford Performance</strong>, sistema de escape Borla y sistema de suspensión de pista Penske. Hay un nuevo juego de frenos Brembo y las opciones también están disponibles para los <strong>Mustang GT convertible.&nbsp;</strong></p>
+<p><a href="https://www.elcarrocolombiano.com/noticias/el-primer-ford-mustang-mach-e-llego-a-colombia-estas-son-las-imagenes/" target="_blank" rel="noopener noreferrer"><strong>Lea también:&nbsp;¡El primer Ford Mustang Mach-E llegó a Colombia! Estas son las imágenes</strong></a></p>
+<h3>Galería fotográfica: Ford Mustang Shelby GT 2021 (10 fotos)</h3>
+
+
+<div class="ngg-galleryoverview ngg-slideshow"
+	 id="ngg-slideshow-178ee42c3613e5fc329e0ad7126c8d92-330960630"
+     data-gallery-id="178ee42c3613e5fc329e0ad7126c8d92"
+     style="max-width: 750px; max-height: 500px;">
+
+ 	<div id="ngg-image-0" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-1.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-1.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-1.jpg"
+           data-image-id="29032"
+           data-title="2021-Shelby-GT-Mustang-1"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29032'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-1"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-1.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+<div id="ngg-image-1" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-10.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-10.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-10.jpg"
+           data-image-id="29041"
+           data-title="2021-Shelby-GT-Mustang-10"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29041'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-10"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-10.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+<div id="ngg-image-2" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-2.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-2.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-2.jpg"
+           data-image-id="29033"
+           data-title="2021-Shelby-GT-Mustang-2"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29033'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-2"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-2.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+<div id="ngg-image-3" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-3.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-3.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-3.jpg"
+           data-image-id="29034"
+           data-title="2021-Shelby-GT-Mustang-3"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29034'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-3"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-3.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+<div id="ngg-image-4" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-4.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-4.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-4.jpg"
+           data-image-id="29035"
+           data-title="2021-Shelby-GT-Mustang-4"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29035'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-4"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-4.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+<div id="ngg-image-5" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-5.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-5.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-5.jpg"
+           data-image-id="29036"
+           data-title="2021-Shelby-GT-Mustang-5"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29036'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-5"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-5.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+<div id="ngg-image-6" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-6.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-6.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-6.jpg"
+           data-image-id="29037"
+           data-title="2021-Shelby-GT-Mustang-6"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29037'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-6"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-6.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+<div id="ngg-image-7" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-7.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-7.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-7.jpg"
+           data-image-id="29038"
+           data-title="2021-Shelby-GT-Mustang-7"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29038'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-7"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-7.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+<div id="ngg-image-8" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-8.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-8.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-8.jpg"
+           data-image-id="29039"
+           data-title="2021-Shelby-GT-Mustang-8"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29039'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-8"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-8.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+<div id="ngg-image-9" class="ngg-gallery-slideshow-image" style="height:500px">
+
+        <a href="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-9.jpg"
+           title=""
+           data-src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-9.jpg"
+           data-thumbnail="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/thumbs/thumbs_2021-Shelby-GT-Mustang-9.jpg"
+           data-image-id="29040"
+           data-title="2021-Shelby-GT-Mustang-9"
+           data-description=""
+           class="ngg-simplelightbox" rel="178ee42c3613e5fc329e0ad7126c8d92">
+
+            <img data-image-id='29040'
+                 title=""
+                 alt="2021-Shelby-GT-Mustang-9"
+                 src="https://www.elcarrocolombiano.com/wp-content/gallery/20210511-ford-mustang-shelby-gt-2021/2021-Shelby-GT-Mustang-9.jpg"
+                 style="max-height: 480px;"/>
+        </a>
+
+        </div> 
+</div>
+
+
+
+
+<hr>
+<p>Jessica Paola Vera García.&nbsp;</p><div class='code-block code-block-6' style='margin: 8px 0; clear: both;'>
+<P ALIGN=center><span style="font-size:9px; ">PUBLICIDAD</span><br>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Dentro de Texto Adaptable 04 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4950087306183956"
+     data-ad-slot="1429174541"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<!-- AddThis Advanced Settings above via filter on the_content --><!-- AddThis Advanced Settings below via filter on the_content --><!-- AddThis Advanced Settings generic via filter on the_content --><!-- AddThis Share Buttons above via filter on the_content --><!-- AddThis Share Buttons below via filter on the_content --><div class="at-below-post addthis_tool" data-url="https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/"></div><!-- AddThis Share Buttons generic via filter on the_content --><div class='code-block code-block-2' style='margin: 8px 0; clear: both;'>
+<P ALIGN=center><span style="font-size:9px; ">PUBLICIDAD</span><br>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-4950087306183956"
+     data-ad-slot="4740384208"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></P></div>
+<!-- AI CONTENT END 1 -->
+<div class="single-post-tag-outer post-title is-size-4"><div class="single-post-tag"><span class="tag-label">Tags:</span><a target="_blank" href="https://www.elcarrocolombiano.com/tag/auto-deportivo/" title="auto deportivo">auto deportivo</a><a target="_blank" href="https://www.elcarrocolombiano.com/tag/ford/" title="ford">ford</a><a target="_blank" href="https://www.elcarrocolombiano.com/tag/ford-mustang/" title="ford mustang">ford mustang</a><a target="_blank" href="https://www.elcarrocolombiano.com/tag/ford-mustang-shelby-gt/" title="ford mustang shelby gt">ford mustang shelby gt</a><a target="_blank" href="https://www.elcarrocolombiano.com/tag/modificaciones/" title="modificaciones">modificaciones</a></div></div></div></div><div class="article-meta is-hidden"><meta itemprop="mainEntityOfPage" content="https://www.elcarrocolombiano.com/autos-del-mundo/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp/"><span class="vcard author" itemprop="author" content="Jessica Paola Vera García"><span class="fn">Jessica Paola Vera García</span></span><time class="date published entry-date" datetime="2021-05-11T11:52:23+00:00" content="2021-05-11T11:52:23+00:00" itemprop="datePublished">11 mayo, 2021</time><meta class="updated" itemprop="dateModified" content="2021-05-13T07:29:49+00:00"><span itemprop="image" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://www.elcarrocolombiano.com/wp-content/uploads/2021/05/20210511-FORD-MUSTANG-SHELBY-GT-2021-PORTADA.jpg"><meta itemprop="width" content="1100"><meta itemprop="height" content="675"></span><span itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="El Carro Colombiano"><span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://www.elcarrocolombiano.com/wp-content/uploads/2019/05/20190515-LOGO-WEB-MAYO-2019-FINAL-01.png"></span></span></div></div><div class="single-post-box-outer"><nav class="single-post-box single-post-box-nav clearfix row"><div class="col-sm-6 col-xs-12 nav-el nav-left"><div class="nav-arrow"><i class="fa fa-angle-left"></i><span class="nav-sub-title">previous article</span></div><h3 class="post-title is-size-4"><a href="https://www.elcarrocolombiano.com/noticias/subaru-solterra-el-primer-suv-electrico-de-la-marca-llegara-en-2022/" rel="bookmark" title="Subaru Solterra: el primer SUV eléctrico de la marca llegará en 2022">Subaru Solterra: el primer SUV eléctrico de la marca llegará en 2022</a></h3></div><div class="col-sm-6 col-xs-12 nav-el nav-right"><div class="nav-arrow"><span class="nav-sub-title">next article</span><i class="fa fa-angle-right"></i></div><h3 class="post-title is-size-4"><a href="https://www.elcarrocolombiano.com/noticias/un-ford-bronco-electrico-podria-tener-futuro-por-que-no-pensarlo/" rel="bookmark" title="Un Ford Bronco eléctrico podría tener futuro: ¿Por qué no pensarlo?">Un Ford Bronco eléctrico podría tener futuro: ¿Por qué no pensarlo?</a></h3></div></nav><div class="single-post-box-author clearfix"><div class="box-author-thumb"><a href="https://www.elcarrocolombiano.com/author/jessica21/"><img alt='Jessica Paola Vera García' src='https://secure.gravatar.com/avatar/ea117ab6947f46784e80b776bb5dc6b0?s=100&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ea117ab6947f46784e80b776bb5dc6b0?s=200&#038;d=mm&#038;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' loading='lazy'/></a></div><div class="box-author-content"><div class="box-author-title"><span class="box-author-title-caption">the author</span><a href="https://www.elcarrocolombiano.com/author/jessica21/">Jessica Paola Vera García</a></div><div class="box-author-desc">Comunicadora social</div><div class="box-author-footer"><div class="box-author-social tooltips"><a class="icon-instagram" title="instagram" href="https://www.instagram.com/csjessicav/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><a class="icon-whatsapp" title="whatsapp" href="http://3003729808" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></div><div class="box-author-viewmore"><i class="fa fa-long-arrow-right"></i><span>All posts by</span><a href="https://www.elcarrocolombiano.com/author/jessica21/">Jessica Paola Vera García</a></div></div></div></div><div class="single-post-box single-post-box-comment"><div class="box-comment-content"><div id="comments" class="comments-area">
+	
+	
+</div></div></div><div class="single-post-box-related clearfix box-related-2"><div class="box-related-header block-header-wrap"><div class="block-header-inner"><div class="block-title"><h3>También le puede interesar:</h3></div></div></div><div class="box-related-content row"><div class="post-outer col-sm-4 col-xs-12"><article class="post-wrap post-grid post-grid-3"><div class="post-header"><div class="post-thumb-outer ruby-animated-image ruby-fade"><div class="post-thumb is-image"><a href="https://www.elcarrocolombiano.com/autos-del-mundo/mercedes-benz-sprinter-se-convierte-en-una-sala-vip-rodante-con-todo-y-playstation-5/" title="Mercedes-Benz Sprinter se convierte en una sala VIP rodante, con todo y PlayStation 5" rel="bookmark"><span class="thumbnail-resize"><img width="272" height="170" loading="lazy" src="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-30-at-6.59.33-PM-1-272x170.jpeg" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-30-at-6.59.33-PM-1-272x170.jpeg 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-30-at-6.59.33-PM-1-100x65.jpeg 767w" sizes="(max-width: 767px) 33vw, 768px" alt="20223001-INTERIOR- Mercedes-Benz Sprinter por Klassen (4)"/></span></a></div><div class="post-mask-overlay"></div><div class="post-cat-info is-absolute is-light-text"><a class="cat-info-el cat-info-id-4" href="https://www.elcarrocolombiano.com/./autos-del-mundo/" title="Autos del Mundo">Autos del Mundo</a></div></div></div><!--#post header--><div class="post-body"><h2 class="post-title entry-title is-size-4"><a class="post-title-link" href="https://www.elcarrocolombiano.com/autos-del-mundo/mercedes-benz-sprinter-se-convierte-en-una-sala-vip-rodante-con-todo-y-playstation-5/" rel="bookmark" title="Mercedes-Benz Sprinter se convierte en una sala VIP rodante, con todo y PlayStation 5">Mercedes-Benz Sprinter se convierte en una sala VIP rodante, con todo y PlayStation 5</a></h2><div class="post-meta-info is-show-icon"><div class="post-meta-info-left"><span class="meta-info-el meta-info-date"><i class="icon-simple icon-clock"></i><span>30 enero, 2022</span></span></div></div></div><!--#post body--></article></div><div class="post-outer col-sm-4 col-xs-12"><article class="post-wrap post-grid post-grid-3"><div class="post-header"><div class="post-thumb-outer ruby-animated-image ruby-fade"><div class="post-thumb is-image"><a href="https://www.elcarrocolombiano.com/autos-del-mundo/lamborghini-countach-lpi-800-4-vuelve-el-mitico-supercar-ahora-hibrido-con-814-hp/" title="Lamborghini Countach LPI 800-4: vuelve el mítico &#8216;supercar&#8217;, ahora híbrido con 814 hp" rel="bookmark"><span class="thumbnail-resize"><img width="272" height="170" loading="lazy" src="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/20223001-PORTADA-Lamborghini-Countach-LPI-800-4-272x170.jpg" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/20223001-PORTADA-Lamborghini-Countach-LPI-800-4-272x170.jpg 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/20223001-PORTADA-Lamborghini-Countach-LPI-800-4-100x65.jpg 767w" sizes="(max-width: 767px) 33vw, 768px" alt="Lamborghini Countach LPI 800-4"/></span></a></div><div class="post-mask-overlay"></div><div class="post-cat-info is-absolute is-light-text"><a class="cat-info-el cat-info-id-4" href="https://www.elcarrocolombiano.com/./autos-del-mundo/" title="Autos del Mundo">Autos del Mundo</a></div></div></div><!--#post header--><div class="post-body"><h2 class="post-title entry-title is-size-4"><a class="post-title-link" href="https://www.elcarrocolombiano.com/autos-del-mundo/lamborghini-countach-lpi-800-4-vuelve-el-mitico-supercar-ahora-hibrido-con-814-hp/" rel="bookmark" title="Lamborghini Countach LPI 800-4: vuelve el mítico &#8216;supercar&#8217;, ahora híbrido con 814 hp">Lamborghini Countach LPI 800-4: vuelve el mítico &#8216;supercar&#8217;, ahora híbrido con 814 hp</a></h2><div class="post-meta-info is-show-icon"><div class="post-meta-info-left"><span class="meta-info-el meta-info-date"><i class="icon-simple icon-clock"></i><span>30 enero, 2022</span></span></div></div></div><!--#post body--></article></div><div class="post-outer col-sm-4 col-xs-12"><article class="post-wrap post-grid post-grid-3"><div class="post-header"><div class="post-thumb-outer ruby-animated-image ruby-fade"><div class="post-thumb is-image"><a href="https://www.elcarrocolombiano.com/autos-del-mundo/toyota-rav4-2022-estrena-acabado-adventure-y-versiones-hibridas-en-europa/" title="Toyota RAV4 2022: estrena acabado &#8216;Adventure&#8217; y versiones híbridas en Europa" rel="bookmark"><span class="thumbnail-resize"><img width="272" height="170" loading="lazy" src="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/20222801-PORTADA-Toyota-RAV4-Plug-in-2022-272x170.jpg" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/20222801-PORTADA-Toyota-RAV4-Plug-in-2022-272x170.jpg 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/20222801-PORTADA-Toyota-RAV4-Plug-in-2022-100x65.jpg 767w" sizes="(max-width: 767px) 33vw, 768px" alt="Toyota RAV4 Plug-in 2022"/></span></a></div><div class="post-mask-overlay"></div><div class="post-cat-info is-absolute is-light-text"><a class="cat-info-el cat-info-id-4" href="https://www.elcarrocolombiano.com/./autos-del-mundo/" title="Autos del Mundo">Autos del Mundo</a></div></div></div><!--#post header--><div class="post-body"><h2 class="post-title entry-title is-size-4"><a class="post-title-link" href="https://www.elcarrocolombiano.com/autos-del-mundo/toyota-rav4-2022-estrena-acabado-adventure-y-versiones-hibridas-en-europa/" rel="bookmark" title="Toyota RAV4 2022: estrena acabado &#8216;Adventure&#8217; y versiones híbridas en Europa">Toyota RAV4 2022: estrena acabado &#8216;Adventure&#8217; y versiones híbridas en Europa</a></h2><div class="post-meta-info is-show-icon"><div class="post-meta-info-left"><span class="meta-info-el meta-info-date"><i class="icon-simple icon-clock"></i><span>28 enero, 2022</span></span></div></div></div><!--#post body--></article></div><div class="post-outer col-sm-4 col-xs-12"><article class="post-wrap post-grid post-grid-3"><div class="post-header"><div class="post-thumb-outer ruby-animated-image ruby-fade"><div class="post-thumb is-image"><a href="https://www.elcarrocolombiano.com/autos-del-mundo/bmw-despide-a-su-primer-electrico-el-i3-abandonara-el-mercado-en-2022/" title="BMW despide a su primer eléctrico: el i3 abandonará el mercado en 2022" rel="bookmark"><span class="thumbnail-resize"><img width="272" height="170" loading="lazy" src="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/bmw-i3-electrico-sale-de-producción-272x170.jpg" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/bmw-i3-electrico-sale-de-producción-272x170.jpg 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/bmw-i3-electrico-sale-de-producción-100x65.jpg 767w" sizes="(max-width: 767px) 33vw, 768px" alt="bmw-i3-electrico-sale-de-producción"/></span></a></div><div class="post-mask-overlay"></div><div class="post-cat-info is-absolute is-light-text"><a class="cat-info-el cat-info-id-4" href="https://www.elcarrocolombiano.com/./autos-del-mundo/" title="Autos del Mundo">Autos del Mundo</a></div></div></div><!--#post header--><div class="post-body"><h2 class="post-title entry-title is-size-4"><a class="post-title-link" href="https://www.elcarrocolombiano.com/autos-del-mundo/bmw-despide-a-su-primer-electrico-el-i3-abandonara-el-mercado-en-2022/" rel="bookmark" title="BMW despide a su primer eléctrico: el i3 abandonará el mercado en 2022">BMW despide a su primer eléctrico: el i3 abandonará el mercado en 2022</a></h2><div class="post-meta-info is-show-icon"><div class="post-meta-info-left"><span class="meta-info-el meta-info-date"><i class="icon-simple icon-clock"></i><span>28 enero, 2022</span></span></div></div></div><!--#post body--></article></div><div class="post-outer col-sm-4 col-xs-12"><article class="post-wrap post-grid post-grid-3"><div class="post-header"><div class="post-thumb-outer ruby-animated-image ruby-fade"><div class="post-thumb is-image"><a href="https://www.elcarrocolombiano.com/autos-del-mundo/chevrolet-cruze-aun-vive-en-mercosur-asi-son-sus-nuevas-versiones-rs-y-midnight/" title="Chevrolet Cruze aún vive en Mercosur: así son sus nuevas versiones RS y Midnight" rel="bookmark"><span class="thumbnail-resize"><img width="272" height="170" loading="lazy" src="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/nuevo-chevrolet-cruze-versiones-rs-y-midnight-272x170.jpg" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/nuevo-chevrolet-cruze-versiones-rs-y-midnight-272x170.jpg 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/nuevo-chevrolet-cruze-versiones-rs-y-midnight-100x65.jpg 767w" sizes="(max-width: 767px) 33vw, 768px" alt="nuevo-chevrolet-cruze-versiones-rs-y-midnight"/></span></a></div><div class="post-mask-overlay"></div><div class="post-cat-info is-absolute is-light-text"><a class="cat-info-el cat-info-id-4" href="https://www.elcarrocolombiano.com/./autos-del-mundo/" title="Autos del Mundo">Autos del Mundo</a></div></div></div><!--#post header--><div class="post-body"><h2 class="post-title entry-title is-size-4"><a class="post-title-link" href="https://www.elcarrocolombiano.com/autos-del-mundo/chevrolet-cruze-aun-vive-en-mercosur-asi-son-sus-nuevas-versiones-rs-y-midnight/" rel="bookmark" title="Chevrolet Cruze aún vive en Mercosur: así son sus nuevas versiones RS y Midnight">Chevrolet Cruze aún vive en Mercosur: así son sus nuevas versiones RS y Midnight</a></h2><div class="post-meta-info is-show-icon"><div class="post-meta-info-left"><span class="meta-info-el meta-info-date"><i class="icon-simple icon-clock"></i><span>27 enero, 2022</span></span></div></div></div><!--#post body--></article></div><div class="post-outer col-sm-4 col-xs-12"><article class="post-wrap post-grid post-grid-3"><div class="post-header"><div class="post-thumb-outer ruby-animated-image ruby-fade"><div class="post-thumb is-image"><a href="https://www.elcarrocolombiano.com/noticias/ford-serie-f-numero-40-millones-acaba-sale-fabrica/" title="La Ford Serie F número 40 millones acaba de salir de fábrica: ¡todo un hito!" rel="bookmark"><span class="thumbnail-resize"><img width="272" height="170" loading="lazy" src="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/20220127-FORD-SERIE-F-NUMERO-40-MILLONES-PORTADA-272x170.jpg" srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/20220127-FORD-SERIE-F-NUMERO-40-MILLONES-PORTADA-272x170.jpg 768w, https://www.elcarrocolombiano.com/wp-content/uploads/2022/01/20220127-FORD-SERIE-F-NUMERO-40-MILLONES-PORTADA-100x65.jpg 767w" sizes="(max-width: 767px) 33vw, 768px" alt="Ford Serie F 40 millones"/></span></a></div><div class="post-mask-overlay"></div><div class="post-cat-info is-absolute is-light-text"><a class="cat-info-el cat-info-id-15" href="https://www.elcarrocolombiano.com/./industria/" title="Industria">Industria</a><a class="cat-info-el cat-info-id-22" href="https://www.elcarrocolombiano.com/./noticias/" title="Noticias">Noticias</a></div></div></div><!--#post header--><div class="post-body"><h2 class="post-title entry-title is-size-4"><a class="post-title-link" href="https://www.elcarrocolombiano.com/noticias/ford-serie-f-numero-40-millones-acaba-sale-fabrica/" rel="bookmark" title="La Ford Serie F número 40 millones acaba de salir de fábrica: ¡todo un hito!">La Ford Serie F número 40 millones acaba de salir de fábrica: ¡todo un hito!</a></h2><div class="post-meta-info is-show-icon"><div class="post-meta-info-left"><span class="meta-info-el meta-info-date"><i class="icon-simple icon-clock"></i><span>27 enero, 2022</span></span></div></div></div><!--#post body--></article></div></div></div></div></div><aside class="sidebar-wrap col-sm-4 col-xs-12 clearfix"><div class="sidebar-inner"><div id="newsmax_ruby_sb_widget_social_icon-3" class="widget sb-widget-social-icon"><div class="widget-title block-title"><h3>Estamos en Redes Sociales</h3></div>
+			
+							<div class="social-icon-wrap social-icon-color tooltips">
+						<a class="icon-facebook" title="facebook" href="https://www.facebook.com/elcarrocolombiano" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="icon-twitter" title="twitter" href="https://twitter.com/carrocolombiano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="icon-instagram" title="instagram" href="https://www.instagram.com/elcarrocolombiano/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><a class="icon-linkedin" title="linkedin" href="https://www.linkedin.com/company/elcarrocolombiano/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a><a class="icon-youtube" title="youtube" href="https://www.youtube.com/user/elcarrocolombiano" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>			</div>
+
+			</div><div id="newsmax_ruby_sidebar_widget_advertising-3" class="widget sb-widget-ad"><div class="widget-ad-content-wrap clearfix">
+																				<div class="ad-description"><span>- PUBLICIDAD -</span></div>
+										<div class="widget-ad-script">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!--header--><script type="text/javascript">
+var screen_width = document.body.clientWidth;
+ if ( screen_width >= 992 ) {
+                        document.write('<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-4950087306183956" data-ad-slot="9837081806"></ins>');
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }if ( screen_width >= 768  && screen_width < 992 ) {
+                        document.write('<ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4950087306183956" data-ad-slot="9837081806"></ins>');
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }if ( screen_width < 768 ) {
+                        document.write('<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-4950087306183956" data-ad-slot="9837081806"></ins>');
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }</script>
+					</div>
+							</div>
+
+			</div>
+		<div id="recent-posts-3" class="widget widget_recent_entries">
+		<div class="widget-title block-title"><h3>Lo más reciente</h3></div>
+		<ul>
+											<li>
+					<a href="https://www.elcarrocolombiano.com/industria/20-motos-mas-vendidas-de-colombia-en-2021/">Estas fueron las 20 motos más vendidas de Colombia durante 2021</a>
+									</li>
+											<li>
+					<a href="https://www.elcarrocolombiano.com/noticias/renault-master-e-tech-electrico-viene-a-america-latina-a-traves-de-brasil/">Renault Master E-Tech eléctrico viene a América Latina a través de Brasil</a>
+									</li>
+											<li>
+					<a href="https://www.elcarrocolombiano.com/autos-del-mundo/mercedes-benz-sprinter-se-convierte-en-una-sala-vip-rodante-con-todo-y-playstation-5/">Mercedes-Benz Sprinter se convierte en una sala VIP rodante, con todo y PlayStation 5</a>
+									</li>
+											<li>
+					<a href="https://www.elcarrocolombiano.com/clasicos-del-mundo/renault-5-turbo-3-black-edition-un-concept-car-para-tentar-a-los-fanaticos/">Renault 5 Turbo 3 Black Edition: un concept car para tentar a los fanáticos</a>
+									</li>
+											<li>
+					<a href="https://www.elcarrocolombiano.com/autos-del-mundo/lamborghini-countach-lpi-800-4-vuelve-el-mitico-supercar-ahora-hibrido-con-814-hp/">Lamborghini Countach LPI 800-4: vuelve el mítico &#8216;supercar&#8217;, ahora híbrido con 814 hp</a>
+									</li>
+					</ul>
+
+		</div><div id="text-26" class="widget widget_text"><div class="widget-title block-title"><h3>Facebook</h3></div>			<div class="textwidget"><div id="fb-root"></div>
+<p><script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5&appId=367131213460172";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script></p>
+<p><P ALIGN=center></p>
+<div class="fb-page" data-href="https://www.facebook.com/elcarrocolombiano" data-width="300" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
+<div class="fb-xfbml-parse-ignore">
+<blockquote cite="https://www.facebook.com/elcarrocolombiano"><p><a href="https://www.facebook.com/elcarrocolombiano">El Carro Colombiano</a></p></blockquote>
+</div>
+</div>
+</div>
+		</div><div id="newsmax_ruby_sidebar_widget_advertising-4" class="widget sb-widget-ad"><div class="widget-ad-content-wrap clearfix">
+																				<div class="ad-description"><span>- PUBLICIDAD -</span></div>
+										<div class="widget-ad-script">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!--header--><script type="text/javascript">
+var screen_width = document.body.clientWidth;
+ if ( screen_width >= 992 ) {
+                        document.write('<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-4950087306183956" data-ad-slot="9837081806"></ins>');
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }if ( screen_width >= 768  && screen_width < 992 ) {
+                        document.write('<ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4950087306183956" data-ad-slot="9837081806"></ins>');
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }if ( screen_width < 768 ) {
+                        document.write('<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-4950087306183956" data-ad-slot="9837081806"></ins>');
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }</script>
+					</div>
+							</div>
+
+			</div><div id="text-27" class="widget widget_text"><div class="widget-title block-title"><h3>Twitter</h3></div>			<div class="textwidget"><p><a class="twitter-timeline" href="https://twitter.com/carrocolombiano" data-widget-id="395796934075494400">Tweets por el @carrocolombiano.</a><br />
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+</div>
+		</div><div id="mostreadpostswidget-3" class="widget widget_mostreadpostswidget"><div class="widget-title block-title"><h3>Lo más leído</h3></div><ul class="mlrp_ul">
+        <li><a title="El primer Mazda CX-50 salió de la línea de ensamblaje en EE.UU." href="https://www.elcarrocolombiano.com/industria/mazda-cx-50-salio-de-la-linea-de-ensamblaje-en-ee-uu/">El primer Mazda CX-50 salió de la línea de ensamblaje en EE.UU.</a>
+					<span class="most_and_least_read_posts_hits"></span>
+          
+				</li>
+        <li><a title="Top 100: Los carros más vendidos de Colombia en 2021" href="https://www.elcarrocolombiano.com/industria/top-100-los-carros-mas-vendidos-de-colombia-en-2021/">Top 100: Los carros más vendidos de Colombia en 2021</a>
+					<span class="most_and_least_read_posts_hits"></span>
+          
+				</li>
+        <li><a title="Este Rolls-Royce &apos;pick-up&apos; es tan exótico que algunos quierrán tenerlo... pero no está en venta" href="https://www.elcarrocolombiano.com/clasicos-del-mundo/este-rolls-royce-pick-up-es-tan-exotico-que-algunos-quierran-tenerlo-pero-no-esta-en-venta/">Este Rolls-Royce 'pick-up' es tan exótico que algunos quierrán tenerlo... pero no está en venta</a>
+					<span class="most_and_least_read_posts_hits"></span>
+          
+				</li>
+        <li><a title="Toyota Sequoia 2023: Nueva generación a tope con sistema híbrido de alta potencia" href="https://www.elcarrocolombiano.com/autos-del-mundo/toyota-sequoia-2023-nueva-generacion-a-tope-con-sistema-hibrido/">Toyota Sequoia 2023: Nueva generación a tope con sistema híbrido de alta potencia</a>
+					<span class="most_and_least_read_posts_hits"></span>
+          
+				</li>
+        <li><a title="Una Toyota Hilux a un precio tan bajo que podría comprarla ahora mismo" href="https://www.elcarrocolombiano.com/clasicos-del-mundo/toyota-hilux-barata-a-la-venta-en-internet/">Una Toyota Hilux a un precio tan bajo que podría comprarla ahora mismo</a>
+					<span class="most_and_least_read_posts_hits"></span>
+          
+				</li></ul>
+		<div style="clear:both;"></div></div><div id="tag_cloud-2" class="widget widget_tag_cloud"><div class="widget-title block-title"><h3>Lo que quieres leer</h3></div><div class="tagcloud"><a href="https://www.elcarrocolombiano.com/tag/4x4/" class="tag-cloud-link tag-link-27 tag-link-position-1" style="font-size: 10.191304347826pt;" aria-label="4x4 (276 elementos)">4x4</a>
+<a href="https://www.elcarrocolombiano.com/tag/audi/" class="tag-cloud-link tag-link-103 tag-link-position-2" style="font-size: 9.095652173913pt;" aria-label="audi (222 elementos)">audi</a>
+<a href="https://www.elcarrocolombiano.com/tag/bmw/" class="tag-cloud-link tag-link-12 tag-link-position-3" style="font-size: 12.260869565217pt;" aria-label="bmw (405 elementos)">bmw</a>
+<a href="https://www.elcarrocolombiano.com/tag/camionetas/" class="tag-cloud-link tag-link-26 tag-link-position-4" style="font-size: 21.147826086957pt;" aria-label="camionetas (2.186 elementos)">camionetas</a>
+<a href="https://www.elcarrocolombiano.com/tag/carros-antiguos/" class="tag-cloud-link tag-link-14 tag-link-position-5" style="font-size: 10.55652173913pt;" aria-label="carros antiguos (295 elementos)">carros antiguos</a>
+<a href="https://www.elcarrocolombiano.com/tag/carros-de-alta-gama/" class="tag-cloud-link tag-link-996 tag-link-position-6" style="font-size: 10.921739130435pt;" aria-label="carros de alta gama (318 elementos)">carros de alta gama</a>
+<a href="https://www.elcarrocolombiano.com/tag/carros-deportivos/" class="tag-cloud-link tag-link-67 tag-link-position-7" style="font-size: 14.086956521739pt;" aria-label="carros deportivos (578 elementos)">carros deportivos</a>
+<a href="https://www.elcarrocolombiano.com/tag/carros-electricos/" class="tag-cloud-link tag-link-179 tag-link-position-8" style="font-size: 16.278260869565pt;" aria-label="carros electricos (870 elementos)">carros electricos</a>
+<a href="https://www.elcarrocolombiano.com/tag/carros-hibridos/" class="tag-cloud-link tag-link-334 tag-link-position-9" style="font-size: 11.773913043478pt;" aria-label="carros hibridos (371 elementos)">carros hibridos</a>
+<a href="https://www.elcarrocolombiano.com/tag/carros-nacionales/" class="tag-cloud-link tag-link-29 tag-link-position-10" style="font-size: 9.4608695652174pt;" aria-label="carros nacionales (241 elementos)">carros nacionales</a>
+<a href="https://www.elcarrocolombiano.com/tag/chevrolet/" class="tag-cloud-link tag-link-53 tag-link-position-11" style="font-size: 14.573913043478pt;" aria-label="chevrolet (632 elementos)">chevrolet</a>
+<a href="https://www.elcarrocolombiano.com/tag/cifras/" class="tag-cloud-link tag-link-68 tag-link-position-12" style="font-size: 12.869565217391pt;" aria-label="cifras (454 elementos)">cifras</a>
+<a href="https://www.elcarrocolombiano.com/tag/city-cars/" class="tag-cloud-link tag-link-8 tag-link-position-13" style="font-size: 12.626086956522pt;" aria-label="city cars (440 elementos)">city cars</a>
+<a href="https://www.elcarrocolombiano.com/tag/comentarios/" class="tag-cloud-link tag-link-32 tag-link-position-14" style="font-size: 9.704347826087pt;" aria-label="comentarios (250 elementos)">comentarios</a>
+<a href="https://www.elcarrocolombiano.com/tag/coupe/" class="tag-cloud-link tag-link-105 tag-link-position-15" style="font-size: 8.6086956521739pt;" aria-label="coupe (201 elementos)">coupe</a>
+<a href="https://www.elcarrocolombiano.com/tag/crossover/" class="tag-cloud-link tag-link-507 tag-link-position-16" style="font-size: 13.721739130435pt;" aria-label="crossover (532 elementos)">crossover</a>
+<a href="https://www.elcarrocolombiano.com/tag/fiat/" class="tag-cloud-link tag-link-108 tag-link-position-17" style="font-size: 10.313043478261pt;" aria-label="fiat (279 elementos)">fiat</a>
+<a href="https://www.elcarrocolombiano.com/tag/ford/" class="tag-cloud-link tag-link-72 tag-link-position-18" style="font-size: 15.182608695652pt;" aria-label="ford (710 elementos)">ford</a>
+<a href="https://www.elcarrocolombiano.com/tag/fotos-espia/" class="tag-cloud-link tag-link-362 tag-link-position-19" style="font-size: 13.478260869565pt;" aria-label="fotos espia (508 elementos)">fotos espia</a>
+<a href="https://www.elcarrocolombiano.com/tag/hatchback/" class="tag-cloud-link tag-link-7 tag-link-position-20" style="font-size: 16.278260869565pt;" aria-label="hatchback (860 elementos)">hatchback</a>
+<a href="https://www.elcarrocolombiano.com/tag/honda/" class="tag-cloud-link tag-link-40 tag-link-position-21" style="font-size: 9.9478260869565pt;" aria-label="honda (264 elementos)">honda</a>
+<a href="https://www.elcarrocolombiano.com/tag/hyundai/" class="tag-cloud-link tag-link-16 tag-link-position-22" style="font-size: 13.478260869565pt;" aria-label="hyundai (512 elementos)">hyundai</a>
+<a href="https://www.elcarrocolombiano.com/tag/jeep/" class="tag-cloud-link tag-link-125 tag-link-position-23" style="font-size: 9.095652173913pt;" aria-label="jeep (224 elementos)">jeep</a>
+<a href="https://www.elcarrocolombiano.com/tag/kia/" class="tag-cloud-link tag-link-70 tag-link-position-24" style="font-size: 13.234782608696pt;" aria-label="kia (493 elementos)">kia</a>
+<a href="https://www.elcarrocolombiano.com/tag/mazda/" class="tag-cloud-link tag-link-71 tag-link-position-25" style="font-size: 12.747826086957pt;" aria-label="mazda (442 elementos)">mazda</a>
+<a href="https://www.elcarrocolombiano.com/tag/mercado-automotor-colombiano/" class="tag-cloud-link tag-link-69 tag-link-position-26" style="font-size: 11.895652173913pt;" aria-label="Mercado Automotor Colombiano (376 elementos)">Mercado Automotor Colombiano</a>
+<a href="https://www.elcarrocolombiano.com/tag/mercedes-benz/" class="tag-cloud-link tag-link-119 tag-link-position-27" style="font-size: 11.165217391304pt;" aria-label="mercedes benz (327 elementos)">mercedes benz</a>
+<a href="https://www.elcarrocolombiano.com/tag/movilidad-electrica/" class="tag-cloud-link tag-link-2815 tag-link-position-28" style="font-size: 11.165217391304pt;" aria-label="movilidad electrica (327 elementos)">movilidad electrica</a>
+<a href="https://www.elcarrocolombiano.com/tag/nissan/" class="tag-cloud-link tag-link-73 tag-link-position-29" style="font-size: 13.6pt;" aria-label="nissan (526 elementos)">nissan</a>
+<a href="https://www.elcarrocolombiano.com/tag/noticias/" class="tag-cloud-link tag-link-3554 tag-link-position-30" style="font-size: 8.2434782608696pt;" aria-label="noticias (191 elementos)">noticias</a>
+<a href="https://www.elcarrocolombiano.com/tag/peugeot/" class="tag-cloud-link tag-link-82 tag-link-position-31" style="font-size: 9.8260869565217pt;" aria-label="peugeot (256 elementos)">peugeot</a>
+<a href="https://www.elcarrocolombiano.com/tag/pick-up/" class="tag-cloud-link tag-link-3062 tag-link-position-32" style="font-size: 10.069565217391pt;" aria-label="pick-up (270 elementos)">pick-up</a>
+<a href="https://www.elcarrocolombiano.com/tag/pick-ups/" class="tag-cloud-link tag-link-77 tag-link-position-33" style="font-size: 11.530434782609pt;" aria-label="pick ups (354 elementos)">pick ups</a>
+<a href="https://www.elcarrocolombiano.com/tag/proyeccion-digital/" class="tag-cloud-link tag-link-3731 tag-link-position-34" style="font-size: 9.3391304347826pt;" aria-label="proyeccion digital (236 elementos)">proyeccion digital</a>
+<a href="https://www.elcarrocolombiano.com/tag/renault/" class="tag-cloud-link tag-link-5 tag-link-position-35" style="font-size: 17.130434782609pt;" aria-label="renault (1.016 elementos)">renault</a>
+<a href="https://www.elcarrocolombiano.com/tag/sedan/" class="tag-cloud-link tag-link-30 tag-link-position-36" style="font-size: 16.278260869565pt;" aria-label="sedan (868 elementos)">sedan</a>
+<a href="https://www.elcarrocolombiano.com/tag/seguridad/" class="tag-cloud-link tag-link-80 tag-link-position-37" style="font-size: 8pt;" aria-label="seguridad (180 elementos)">seguridad</a>
+<a href="https://www.elcarrocolombiano.com/tag/suv/" class="tag-cloud-link tag-link-25 tag-link-position-38" style="font-size: 22pt;" aria-label="suv (2.584 elementos)">suv</a>
+<a href="https://www.elcarrocolombiano.com/tag/suzuki/" class="tag-cloud-link tag-link-47 tag-link-position-39" style="font-size: 10.434782608696pt;" aria-label="suzuki (288 elementos)">suzuki</a>
+<a href="https://www.elcarrocolombiano.com/tag/test-drive/" class="tag-cloud-link tag-link-33 tag-link-position-40" style="font-size: 8.1217391304348pt;" aria-label="test drive (186 elementos)">test drive</a>
+<a href="https://www.elcarrocolombiano.com/tag/todoterreno/" class="tag-cloud-link tag-link-1257 tag-link-position-41" style="font-size: 8.8521739130435pt;" aria-label="todoterreno (211 elementos)">todoterreno</a>
+<a href="https://www.elcarrocolombiano.com/tag/toyota/" class="tag-cloud-link tag-link-23 tag-link-position-42" style="font-size: 15.304347826087pt;" aria-label="toyota (726 elementos)">toyota</a>
+<a href="https://www.elcarrocolombiano.com/tag/urbanos/" class="tag-cloud-link tag-link-9 tag-link-position-43" style="font-size: 12.626086956522pt;" aria-label="urbanos (435 elementos)">urbanos</a>
+<a href="https://www.elcarrocolombiano.com/tag/videos/" class="tag-cloud-link tag-link-582 tag-link-position-44" style="font-size: 9.095652173913pt;" aria-label="videos (223 elementos)">videos</a>
+<a href="https://www.elcarrocolombiano.com/tag/volkswagen/" class="tag-cloud-link tag-link-74 tag-link-position-45" style="font-size: 14.817391304348pt;" aria-label="volkswagen (660 elementos)">volkswagen</a></div>
+</div><div id="archives-3" class="widget widget_archive"><div class="widget-title block-title"><h3>Archivos</h3></div>		<label class="screen-reader-text" for="archives-dropdown-3">Archivos</label>
+		<select id="archives-dropdown-3" name="archive-dropdown">
+			
+			<option value="">Elegir mes</option>
+				<option value='https://www.elcarrocolombiano.com/2022/01/'> enero 2022 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/12/'> diciembre 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/11/'> noviembre 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/10/'> octubre 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/09/'> septiembre 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/08/'> agosto 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/07/'> julio 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/06/'> junio 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/05/'> mayo 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/04/'> abril 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/03/'> marzo 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/02/'> febrero 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2021/01/'> enero 2021 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/12/'> diciembre 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/11/'> noviembre 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/10/'> octubre 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/09/'> septiembre 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/08/'> agosto 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/07/'> julio 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/06/'> junio 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/05/'> mayo 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/04/'> abril 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/03/'> marzo 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/02/'> febrero 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2020/01/'> enero 2020 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/12/'> diciembre 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/11/'> noviembre 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/10/'> octubre 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/09/'> septiembre 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/08/'> agosto 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/07/'> julio 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/06/'> junio 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/05/'> mayo 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/04/'> abril 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/03/'> marzo 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/02/'> febrero 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2019/01/'> enero 2019 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/12/'> diciembre 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/11/'> noviembre 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/10/'> octubre 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/09/'> septiembre 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/08/'> agosto 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/07/'> julio 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/06/'> junio 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/05/'> mayo 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/04/'> abril 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/03/'> marzo 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/02/'> febrero 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2018/01/'> enero 2018 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/12/'> diciembre 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/11/'> noviembre 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/10/'> octubre 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/09/'> septiembre 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/08/'> agosto 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/07/'> julio 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/06/'> junio 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/05/'> mayo 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/04/'> abril 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/03/'> marzo 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/02/'> febrero 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2017/01/'> enero 2017 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/12/'> diciembre 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/11/'> noviembre 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/10/'> octubre 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/09/'> septiembre 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/08/'> agosto 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/07/'> julio 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/06/'> junio 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/05/'> mayo 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/04/'> abril 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/03/'> marzo 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/02/'> febrero 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2016/01/'> enero 2016 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/12/'> diciembre 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/11/'> noviembre 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/10/'> octubre 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/09/'> septiembre 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/08/'> agosto 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/07/'> julio 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/06/'> junio 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/05/'> mayo 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/04/'> abril 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/03/'> marzo 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/02/'> febrero 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2015/01/'> enero 2015 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/12/'> diciembre 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/11/'> noviembre 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/10/'> octubre 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/09/'> septiembre 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/08/'> agosto 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/07/'> julio 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/06/'> junio 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/05/'> mayo 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/04/'> abril 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/03/'> marzo 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2014/02/'> febrero 2014 </option>
+	<option value='https://www.elcarrocolombiano.com/2013/10/'> octubre 2013 </option>
+	<option value='https://www.elcarrocolombiano.com/2013/09/'> septiembre 2013 </option>
+	<option value='https://www.elcarrocolombiano.com/2013/05/'> mayo 2013 </option>
+	<option value='https://www.elcarrocolombiano.com/2013/01/'> enero 2013 </option>
+	<option value='https://www.elcarrocolombiano.com/2012/11/'> noviembre 2012 </option>
+	<option value='https://www.elcarrocolombiano.com/2012/10/'> octubre 2012 </option>
+	<option value='https://www.elcarrocolombiano.com/2012/07/'> julio 2012 </option>
+	<option value='https://www.elcarrocolombiano.com/2012/06/'> junio 2012 </option>
+	<option value='https://www.elcarrocolombiano.com/2008/09/'> septiembre 2008 </option>
+	<option value='https://www.elcarrocolombiano.com/2008/07/'> julio 2008 </option>
+
+		</select>
+
+<script>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-3" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+			</div><div id="text-8" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Cabezote 728 principal -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-4950087306183956"
+     data-ad-slot="7215019402"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</div></div></aside></div></article></div><div id="ruby-footer" class="footer-wrap footer-style-1 is-light-text">
+		<div class="footer-inner">
+				
+<div class="footer-social-wrap bar-without-logo">
+	<div class="ruby-container">
+		<div class="footer-social-inner clearfix">
+						
+			
+			
+										<div class="social-icon-wrap social-icon-color tooltips">
+									<a class="icon-facebook" title="facebook" href="https://www.facebook.com/elcarrocolombiano" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="icon-twitter" title="twitter" href="https://twitter.com/carrocolombiano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="icon-instagram" title="instagram" href="https://www.instagram.com/elcarrocolombiano/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><a class="icon-linkedin" title="linkedin" href="https://www.linkedin.com/company/elcarrocolombiano/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a><a class="icon-youtube" title="youtube" href="https://www.youtube.com/user/elcarrocolombiano" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>				</div>
+								</div>
+	</div>
+</div>	</div>
+	<div id="ruby-copyright" class="footer-copyright-wrap copyright-without-nav">
+	<div class="ruby-container">
+		<div class="copyright-inner clearfix">
+
+						<p class="copyright-text">© 2000-2019 Publicaciones El Carro Colombiano S.A.S. Todos los derechos reservados. Prohibida su reproducción o copia total o parcial con fines de lucro.</p>
+			
+					</div>
+	</div>
+</div>
+
+</div></div>
+</div>
+</div><!--#site outer-->
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/newsmax-core/assets/script.js?ver=4.0' id='newsmax_ruby_core_script-js'></script>
+<script id='ngg_common-js-extra'>
+
+var galleries = {};
+galleries.gallery_178ee42c3613e5fc329e0ad7126c8d92 = {"id":null,"source":"galleries","container_ids":["1049"],"gallery_ids":[],"album_ids":[],"tag_ids":[],"display_type":"photocrati-nextgen_basic_slideshow","exclusions":[],"order_by":"filename","order_direction":"ASC","image_ids":[],"entity_ids":[],"tagcloud":false,"returns":"included","slug":null,"sortorder":[],"display_settings":{"gallery_width":"750","gallery_height":"500","autoplay":"0","pauseonhover":"1","arrows":"1","transition_style":"fade","interval":"3000","transition_speed":"300","show_thumbnail_link":"0","thumbnail_link_text":"View Thumbnails","display_view":"default","use_lightbox_effect":true,"template":"","ngg_triggers_display":"never","_errors":[]},"excluded_container_ids":[],"maximum_entity_count":500,"__defaults_set":true,"_errors":[],"ID":"178ee42c3613e5fc329e0ad7126c8d92"};
+galleries.gallery_178ee42c3613e5fc329e0ad7126c8d92.wordpress_page_root = "https:\/\/www.elcarrocolombiano.com\/autos-del-mundo\/el-ford-mustang-shelby-gt-2021-es-mas-potente-y-atractivo-alcanza-hasta-700-hp\/";
+var nextgen_lightbox_settings = {"static_path":"https:\/\/www.elcarrocolombiano.com\/wp-content\/plugins\/nextgen-gallery\/products\/photocrati_nextgen\/modules\/lightbox\/static\/{placeholder}","context":"nextgen_images"};
+</script>
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/common.js?ver=3.18' id='ngg_common-js'></script>
+<script id='ngg_common-js-after'>
+            var nggLastTimeoutVal = 1000;
+
+			var nggRetryFailedImage = function(img) {
+				setTimeout(function(){
+					img.src = img.src;
+				}, nggLastTimeoutVal);
+			
+				nggLastTimeoutVal += 500;
+			}
+        
+</script>
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/lightbox_context.js?ver=3.18' id='ngg_lightbox_context-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/simplelightbox/simple-lightbox.js?ver=3.18' id='simplelightbox-0-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/simplelightbox/nextgen_simple_lightbox_init.js?ver=3.18' id='simplelightbox-1-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/modernizr.min.js?ver=v2.8.3' id='modernizr-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/jquery.ui.totop.min.js?ver=v1.2' id='jquery-uitotop-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/jquery.waypoints.min.js?ver=v3.1.1' id='jquery-waypoints-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/slick.min.js?ver=v1.6.0' id='slick-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/jquery.tipsy.min.js?ver=v1.0' id='jquery-tipsy-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/jquery.magnific-popup.min.js?ver=v1.1.0' id='jquery-magnific-popup-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/jquery.justifiedGallery.min.js?ver=v3.6.0' id='jquery-justifiedgallery-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/jquery.backstretch.min.js?ver=v2.0.4' id='jquery-backstretch-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/smoothscroll.min.js?ver=v1.2.1' id='smoothscroll-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/jquery.fitvids.min.js?ver=v1.1' id='jquery-fitvids-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/jquery.sticky.min.js?ver=v1.0.3' id='jquery-sticky-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/external/jquery.ruby-sticky.min.js?ver=1.0' id='jquery-ruby-sticky-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-content/themes/newsmax/assets/js/global.js?ver=4.0' id='newsmax-ruby-global-js'></script>
+<script src='https://www.elcarrocolombiano.com/wp-includes/js/wp-embed.min.js?ver=5.8.3' id='wp-embed-js'></script>
+<script src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=5.8.3' async='async' id='remote_sdk-js'></script>
+</body>
+</html>
