@@ -1,4 +1,7 @@
 package Objetos;
+
+import java.util.Iterator;
+
 /**
  * A class to model a simple email client. The client is run by a
  * particular user, and sends and retrieves mail via a particular server.
@@ -30,6 +33,7 @@ public class MailClient
         return server.getNextMailItem(user);
     }
 
+    public String getUser(){return this.user;}
     /**
      * Print the next mail item (if any) for this user to the text 
      * terminal.
@@ -51,9 +55,17 @@ public class MailClient
      * @param to The intended recipient.
      * @param message The text of the message to be sent.
      */
-    public void sendMailItem(String to, String message)
+    public void sendMailItem(String to, String subject,String message)
     {
-        MailItem item = new MailItem(user, to, message);
-        server.post(item);
+        String [] toVarios= to.split(";");
+        for(int i= 0; i<toVarios.length;i++){
+            MailItem item = new MailItem(user,toVarios[i], subject,message);
+            server.post(item);
+        }
+ 
+    }
+
+    public void forwardLastMailItme(String forwardTo){
+    
     }
 }
