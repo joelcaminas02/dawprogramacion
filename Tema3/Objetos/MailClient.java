@@ -66,6 +66,14 @@ public class MailClient
     }
 
     public void forwardLastMailItme(String forwardTo){
-    
+        MailItem item = server.getNextMailItem(user);
+        if(item == null) {
+            System.out.println("No new mail.");
+        }
+        else {
+            item.setFrom(user);
+            item.setTo(forwardTo);
+            server.post(item);
+        }
     }
 }
