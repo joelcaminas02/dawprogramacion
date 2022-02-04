@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TecladoOrdenadorTest",
+            "request": "launch",
+            "mainClass": "Control03.TecladoOrdenadorTest",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch MailTest",
             "request": "launch",
             "mainClass": "Objetos.MailTest",

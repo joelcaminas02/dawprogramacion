@@ -13,6 +13,7 @@ public class MailTest {
         joel.sendMailItem("Juan;Pepe", "illou", "que paza pisha, como esta la mari xoxo??");
 
         juan.printNextMailItem();
+        pepe.printNextMailItem();
         pepe.forwardLastMailItme("Marcos");
         marcos.printNextMailItem();
     }

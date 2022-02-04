@@ -1,0 +1,18 @@
+Creamos una carpeta control 03
+
+Crea una clase teclado com los siguiente atributos privados: color, nºteclas, conectividad que indica si es inalambrico o
+va por cable(inalambrico o cable), idioma representado por dos letras que marcan el pais(es, us, it , uk ,arg), formato (compacto o extendido),
+
+Métodos crea los getters y setters apropiados teniendo en cuenta que una vez creado un teclado no se puede modificar sus atributos
+pero si se pueden leer.
+
+Crea tambn un contador que permita saber cuantos teclados se han ido añadiendo en el sistema.
+
+Crea una clase ordenador : atrb privados : formato(sobremesa o portatil), color(), teclado().
+
+Crea los getters y setters apropiados teniendo en cuenta que solo el teclado puede ser modificado despues de crear el ordenador.
+
+Para las dos clases tenemos que crear 2 constructores uno vacio con valores por defecto y otro que si se especifican los valores.
+
+En la clase ordenador crear un metodo que se llame conectar y que recibe como parametro otro ordenador de manera que un ordenador 
+puede estar conectado a otro.

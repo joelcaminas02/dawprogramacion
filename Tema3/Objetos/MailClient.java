@@ -57,9 +57,8 @@ public class MailClient
      */
     public void sendMailItem(String to, String subject,String message)
     {
-        String [] toVarios= to.split(";");
-        for(int i= 0; i<toVarios.length;i++){
-            MailItem item = new MailItem(user,toVarios[i], subject,message);
+        for(String nombre : to.split(";")){
+            MailItem item = new MailItem(user,nombre, subject,message);
             server.post(item);
         }
  
@@ -71,6 +70,7 @@ public class MailClient
             System.out.println("No new mail.");
         }
         else {
+            item.print();
             item.setFrom(user);
             item.setTo(forwardTo);
             server.post(item);
