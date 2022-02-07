@@ -68,6 +68,6 @@ public class Teclado {
 
     /**Devuelve tu objeto en forma de String para poder mostrarlo como texto plano como tu desees representarlo */
     public String toString(){
-        return "Teclado: "+color + " - " + numTeclas + " - " + formato;
+        return "Teclado: "+color + " - " + numTeclas + " - " + formato+ " - "+idioma;
     }
 }  
