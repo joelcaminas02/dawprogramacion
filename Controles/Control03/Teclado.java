@@ -1,7 +1,7 @@
 package Control03;
 
 public class Teclado {
-    private int teclas;
+    private int numTeclas;
     private String idioma;
     private String color;
     private String formato;
@@ -35,7 +35,7 @@ public class Teclado {
 
 
     public Teclado (){
-        this.teclas=254;
+        this.numTeclas=254;
         this.idioma= "ES";
         this.color= "verde";
         this.formato= "compacto";
@@ -44,7 +44,7 @@ public class Teclado {
     }
 
     public Teclado (int tecla, String idioma, String color, String formato, String conectividad){
-        this.teclas = tecla;
+        this.numTeclas = tecla;
         this.idioma = Teclado.comprobarIdioma(idioma);
         this.color = color;
         this.formato = Teclado.comprobarFormato(formato);
@@ -53,7 +53,7 @@ public class Teclado {
     }
 
     public int getTeclas(){
-        return this.teclas;}
+        return this.numTeclas;}
     public String getIdioma(){
         return this.idioma;}
     public String getColor(){
@@ -63,18 +63,7 @@ public class Teclado {
     public String getConectividad(){
         return this.conectividad;}
 
-    private void setTeclas(int teclas){
-        this.teclas = teclas;}
-    private void setIdioma(String idioma){
-        this.idioma = Teclado.comprobarIdioma(idioma);}
-    private void setColor(String color){
-        this.color = color;}
-    private void setFormato(String formato){
-        this.formato= Teclado.comprobarFormato(formato);}
-    private void setConectividad(String conectividad){
-        this.conectividad = Teclado.comprobarConectividad(conectividad);}
-
-    public void mostrarTeclados(){
+    public static void mostrarTeclados(){
         System.out.println(numTeclado);
     }
 }  

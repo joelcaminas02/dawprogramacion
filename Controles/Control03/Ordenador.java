@@ -5,6 +5,7 @@ public class Ordenador {
     private String formato;
     private String color;
     private Teclado teclado;
+    private Ordenador pcConectado = null;
 
     private static String comprobarFormatoOrdenador(String formato){
         if (formato.equalsIgnoreCase("sobremesa")|| formato.equalsIgnoreCase("portatil")){
@@ -32,14 +33,19 @@ public class Ordenador {
     public Teclado getTeclado(){ 
         return this.teclado;}
 
-    private void setFormato(String formato){
-        this.formato = Ordenador.comprobarFormatoOrdenador(formato);}
-    private void setColor(String color){
-        this.color = color;}
     public void setTeclado(Teclado teclado){
         this.teclado =teclado;}
 
-    public void conectar(Ordenador ordenador2){
+    public void conectar(Ordenador pcConectado){
+            this.pcConectado = pcConectado;
+    }
 
+    public void mostrarSiEstaConectado(){
+        if (this.pcConectado == null){
+            System.out.println("No esta conectado a ningun ordenador");
+        }else{
+            System.out.println("Ordenador conectado: "+ this.pcConectado
+            );
+        }
     }
 }

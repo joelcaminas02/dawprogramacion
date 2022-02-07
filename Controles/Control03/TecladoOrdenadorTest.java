@@ -9,7 +9,6 @@ public class TecladoOrdenadorTest{
 
         Ordenador ordenador1 = new Ordenador();
         Ordenador ordenador2 = new Ordenador("sobremesa", "amarillo", teclado2);
-
-        
+        Teclado.mostrarTeclados();
     }
 }
