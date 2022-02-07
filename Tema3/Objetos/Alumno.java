@@ -44,7 +44,6 @@ public class Alumno {
             System.out.println(alumno.nombre + "\t" + alumno.grupo );
         }
     }
-    public static void main(String[] args) {
-        
-    }
+
+    public int getIdAlumno(){return idAlumno;}
 }

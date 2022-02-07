@@ -14,6 +14,7 @@ public class Ejercicio32 {
 
         for (i = 0; i<10; i++){
             anArray[i] = lector.nextInt();
+            lector.close();
         }
 
         //numeros en orden inverso

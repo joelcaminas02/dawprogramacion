@@ -1,7 +1,5 @@
 package Objetos;
 
-import java.util.Iterator;
-
 /**
  * A class to model a simple email client. The client is run by a
  * particular user, and sends and retrieves mail via a particular server.

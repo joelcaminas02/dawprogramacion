@@ -10,13 +10,12 @@ public class Ejercicio35 {
         boolean wasTen = false;
         int sum = 0;
         int i = 0;
-        Scanner lector;
-        lector = new Scanner(System.in);
-
+    
         //Programas principales
         System.out.println("Introduce tu nota");
 
         for ( i = 0; i<10;i++) {
+            Scanner lector = new Scanner(System.in);
             operadores[i] = lector.nextInt();
             
             if (operadores[i]!=-1){
@@ -25,8 +24,8 @@ public class Ejercicio35 {
             if (operadores[i]==10){
                 wasTen = true;
             }
+            lector.close();
         }
-        lector.close();
         System.out.println("La nota media es: "+(sum/i));
         if (wasTen ) {
             System.out.println("There was a ten");
