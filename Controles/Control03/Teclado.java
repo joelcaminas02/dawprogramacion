@@ -18,7 +18,7 @@ public class Teclado {
     }
 
     private static String comprobarFormato (String formato){
-        if(formato == "compacto" || formato == "extendido"){
+        if(formato.equalsIgnoreCase("compacto")|| formato.equalsIgnoreCase("extendido")){
             return formato;
         }else{
             return formato = "extendido";
@@ -26,7 +26,7 @@ public class Teclado {
     }
 
     private static String comprobarConectividad(String conectividad){
-        if (conectividad == "inalambrico" || conectividad == "cable"){
+        if (conectividad.equalsIgnoreCase("inalambrico")|| conectividad.equalsIgnoreCase("cable")){
             return conectividad;
         }else{
             return conectividad = "cable";

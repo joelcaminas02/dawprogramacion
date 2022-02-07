@@ -7,7 +7,7 @@ public class Ordenador {
     private Teclado teclado;
 
     private static String comprobarFormatoOrdenador(String formato){
-        if (formato == "sobremesa" || formato == "portatil"){
+        if (formato.equalsIgnoreCase("sobremesa")|| formato.equalsIgnoreCase("portatil")){
             return formato;
         }else{
             return formato = "sobremesa";
