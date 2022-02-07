@@ -48,4 +48,8 @@ public class Ordenador {
             );
         }
     }
+
+    public String toString(){
+        return "Ordenador: "+color +" - " + formato + " - "+ teclado;
+    }
 }

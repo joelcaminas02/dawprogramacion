@@ -33,7 +33,6 @@ public class Teclado {
         } 
     }
 
-
     public Teclado (){
         this.numTeclas=254;
         this.idioma= "ES";
@@ -65,5 +64,10 @@ public class Teclado {
 
     public static void mostrarTeclados(){
         System.out.println(numTeclado);
+    }
+
+    /**Devuelve tu objeto en forma de String para poder mostrarlo como texto plano como tu desees representarlo */
+    public String toString(){
+        return "Teclado: "+color + " - " + numTeclas + " - " + formato;
     }
 }  

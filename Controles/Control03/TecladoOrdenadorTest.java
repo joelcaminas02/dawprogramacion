@@ -10,5 +10,10 @@ public class TecladoOrdenadorTest{
         Ordenador ordenador1 = new Ordenador();
         Ordenador ordenador2 = new Ordenador("sobremesa", "amarillo", teclado2);
         Teclado.mostrarTeclados();
+        System.out.println(teclado);
+        System.out.println(teclado3);
+        System.out.println(teclado4);
+        System.out.println(ordenador1);
+        System.out.println(ordenador2);
     }
 }
