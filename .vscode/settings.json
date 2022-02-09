@@ -6,5 +6,9 @@
         "DAWProgramacion/AceptoElReto",
         "Controles",
         "Tema3"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/INFORMATICA/alu10471923/Baixades/jl1.0.1.jar"
     ]
 }

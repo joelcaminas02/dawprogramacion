@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MusicTest",
+            "request": "launch",
+            "mainClass": "Objetos.MusicOrganaizerv2.MusicTest",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch MusicOrganizerTest",
             "request": "launch",
             "mainClass": "Objetos.MusicOrganizerTest",
