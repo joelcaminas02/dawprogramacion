@@ -171,4 +171,11 @@ public class MusicOrganizer
             addTrack(track);
         }
     }
+    public void findTitle(String searchTitle){
+        for (Track tracklist:tracks){
+            System.out.println(tracklist);
+        }
+    }
+
+    
 }
