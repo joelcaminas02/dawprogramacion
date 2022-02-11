@@ -93,26 +93,21 @@ public class MusicOrganizer
     public void listMatching (String match){
         int contador = 0;
         for(String filename:getMatching(match)){
-            if (filename.contains(match)){
                 System.out.println(filename);
-            }else{
                 contador++;
             }
-        }
-        if (contador>getMatching(match).size()-1){
+
+        if (contador==0){
             System.out.println("No habia ninguna cancion");
         }
     }
     public void playMatching (String match){
         int contador = 0;
         for(String filename:getMatching(match)){
-            if (filename.contains(match)){
                 player.playSample(filename);
-            }else{
                 contador++;
             }
-        }
-        if (contador>getMatching(match).size()-1){
+        if (contador==0){
             System.out.println("No habia ninguna cancion");
         }
     }
@@ -133,14 +128,26 @@ public class MusicOrganizer
     }
 
     public void findFirst(String searchString){
-        int contador = 0;
-        while(files.contains(searchString)==false){
-            System.out.println(contador);
-            contador++;
-            if(files.contains(searchString)== true)
-            break;
+        ArrayList <String> filesmatch = getMatching(searchString);
+        if(filesmatch.size()>0){
+            System.out.println(filesmatch.get(0));
+        }else{
+            System.out.println(-1);
         }
-        
+    }
+    public int findFirst2(String searchString){
+        int indice = 0;
+        int resultado = -1;
+
+        while (indice < files.size()){
+            if(files.get(indice).contains(searchString)){
+                resultado = indice;
+                break;
+            }else{
+                indice++;
+            }
+        }
+        return resultado;
     }
 
     public void listAllFilesMatching(String match){
