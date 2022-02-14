@@ -54,10 +54,12 @@ public class MusicOrganizer
      */
     public void playTrack(int index)
     {
+        
         if(indexValid(index)) {
             Track track = tracks.get(index);
             player.startPlaying(track.getFilename());
             System.out.println("Now playing: " + track.getArtist() + " - " + track.getTitle());
+            track.incrementarPlayCount();
         }
     }
     
@@ -78,7 +80,7 @@ public class MusicOrganizer
     {
         System.out.print("Track " + index + ": ");
         Track track = tracks.get(index);
-        System.out.println(track.getDetails());
+        System.out.println(track.toString());
     }
     
     /**
@@ -89,7 +91,7 @@ public class MusicOrganizer
         System.out.println("Track listing: ");
 
         for(Track track : tracks) {
-            System.out.println(track.getDetails());
+            System.out.println(track.toString());
         }
         System.out.println();
     }
@@ -102,7 +104,7 @@ public class MusicOrganizer
     {
         for(Track track : tracks) {
             if(track.getArtist().contains(artist)) {
-                System.out.println(track.getDetails());
+                System.out.println(track.toString());
             }
         }
     }
@@ -173,7 +175,8 @@ public class MusicOrganizer
     }
     public void findTitle(String searchTitle){
         for (Track tracklist:tracks){
-            System.out.println(tracklist);
+            if(tracklist.getTitle().contains(searchTitle))
+            System.out.println(tracklist.getTitle());
         }
     }
 
