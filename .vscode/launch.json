@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch MusicTest",
+            "request": "launch",
+            "mainClass": "Objetos.MusicOrganizer3.MusicTest",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch Arrays",
             "request": "launch",
             "mainClass": "Arrays.Arrays",

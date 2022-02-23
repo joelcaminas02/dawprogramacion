@@ -129,7 +129,7 @@ public class MusicPlayer
     /**
      * Terminate the player, if there is one.
      */
-    private void killPlayer()
+    public void killPlayer()
     {
         synchronized(this) {
             if(player != null) {

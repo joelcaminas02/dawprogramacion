@@ -5,7 +5,8 @@
         "DAWProgramacion/Controles/Control02",
         "DAWProgramacion/AceptoElReto",
         "Controles",
-        "Tema3"
+        "Tema3",
+        "Ejercicio"
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
