@@ -1,10 +1,10 @@
 public class Test {
     public static void main(String[] args) {
-        Usuario usuario1= new Usuario("joel@gmail.com", "122345");
+        Usuario usuario1= new Usuario("joel@pepe.com", "122345");
         Usuario usuario2= new Usuario("lucas@gmail.com", "122345");
         Usuario usuario3= new Usuario("messi@gmail.com", "122345");
         Usuario usuario4= new Usuario("joel@gmail.com", "122345");
-
+        Media media1=new Media("Pepe", "Juan", MediaType.AUDIO, usuario1);
         usuario1.getEmail();
 
         Usuario.imprirmArrayList();
@@ -17,8 +17,10 @@ public class Test {
 
         Usuario.imprirmArrayList();
 
-        Usuario.borrarDominios("@gmail.com");
+        Media.borrarMediaDominios("@pepe.com");
 
         Usuario.imprirmArrayList();
+
+        Media.imprirmArrayList();
     }
 }

@@ -92,4 +92,20 @@ public class Media {
             }
         }
     }
+    public static void imprirmArrayList(){
+        System.out.println();
+
+        System.out.println("------------------------------");
+
+        System.out.println();
+        for(Media media:mediaList){
+            System.out.println(media);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Media [contenido=" + contenido + ", idMedia=" + idMedia + ", nombre=" + nombre + ", tipoMedia="
+                + tipoMedia + ", usuario=" + usuario + "]";
+    }
 }
