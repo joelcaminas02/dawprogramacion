@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class Usuario {
     
@@ -7,7 +6,6 @@ public class Usuario {
     private int idUsuario;
     private String email;
     private String password;
-    private static int idGenerator=0;
 
     public Usuario(String email, String password){
         this.password=password;
