@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Usuario {
     
@@ -68,6 +69,10 @@ public class Usuario {
 
     public void setPassword(String password) {
         this.password = password;
+    }   
+
+    private void idBorrado(){
+        this.idUsuario=this.idUsuario-1;
     }
 
     private boolean comprobarEmail(String email){
@@ -81,6 +86,11 @@ public class Usuario {
         return resultado;
     }
     public static void imprirmArrayList(){
+        System.out.println();
+
+        System.out.println("------------------------------");
+
+        System.out.println();
         for(Usuario u1:usuarios){
             System.out.println(u1);
         }
@@ -88,5 +98,17 @@ public class Usuario {
 
     public static void borrarUsuario(int id){
         usuarios.remove(id);
+        for(Usuario u1:usuarios){
+            u1.idBorrado();
+        }
+    }
+
+    public static void borrarDominios(String dominioBorrar){
+        for(int i = 0; i<usuarios.size();i++){
+            if(usuarios.get(i).getEmail().contains(dominioBorrar)){
+                borrarUsuario(i);
+                i--;
+            }
+        }
     }
 }

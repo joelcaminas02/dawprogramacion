@@ -16,5 +16,9 @@ public class Test {
         Usuario usuario5=new Usuario("mimadre@klk.com", "834783");
 
         Usuario.imprirmArrayList();
+
+        Usuario.borrarDominios("@gmail.com");
+
+        Usuario.imprirmArrayList();
     }
 }
