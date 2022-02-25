@@ -2,16 +2,15 @@ public class Media {
     private int idMedia=0;
     private String nombre;
     private String contenido;
-    private String tipo;
     private Usuario usuario;
+    private static int autoID;
+    private MediaType tipoMedia;
 
-    public Media(String nombre, String contenido,String tipo, Usuario usuario){
-        this.idMedia++;
+    public Media(String nombre, String contenido,MediaType tipoMedia, Usuario usuario){
+        this.idMedia=autoID++;
         this.nombre=nombre;
         this.contenido=contenido;
-        if(tipo.equalsIgnoreCase("video")||tipo.equalsIgnoreCase("audio")){
-            this.tipo=tipo;
-        }
+        this.tipoMedia=tipoMedia;
         this.usuario=usuario;
     }
 
@@ -39,12 +38,12 @@ public class Media {
         this.contenido = contenido;
     }
 
-    public String getTipo() {
-        return tipo;
+    public MediaType getTipo() {
+        return tipoMedia;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setTipo(MediaType tipoMedia) {
+        this.tipoMedia = tipoMedia;
     }
 
     public Usuario getUsuario() {
@@ -54,4 +53,6 @@ public class Media {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
+
+    
 }

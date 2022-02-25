@@ -7,5 +7,14 @@ public class Test {
 
         usuario1.getEmail();
 
+        Usuario.imprirmArrayList();
+
+        Usuario.borrarUsuario(0);
+        
+        Usuario.imprirmArrayList();
+
+        Usuario usuario5=new Usuario("mimadre@klk.com", "834783");
+
+        Usuario.imprirmArrayList();
     }
 }
