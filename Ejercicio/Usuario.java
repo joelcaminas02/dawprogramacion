@@ -9,7 +9,6 @@ public class Usuario {
     private static int idGenerator=0;
 
     public Usuario(String email, String password){
-        this.idUsuario=idGenerator++;
         this.password=password;
         if(this.comprobarEmail(email)){
             this.email=email;
@@ -17,20 +16,23 @@ public class Usuario {
         }else{
             this.email= "Correo duplicado: "+email;
         }
-        
+        this.idUsuario=getIndiceArrayLIst(email);
         
     }
 
-    public int getIndiceArrayLIst(int idUsuario){
+    public int getIndiceArrayLIst(String email){
         int contador = 0;
         int indice = 0;
         for(Usuario id:usuarios){
-            if(id.getIdUsuario() == idUsuario){
+            if(id.getEmail().equals(email)){
                 indice = contador;
                 break;
             }
             else{
                 contador++;
+                if(contador==usuarios.size()){
+                    return 9999999;
+                }
             }
         } 
         return indice;
@@ -77,5 +79,14 @@ public class Usuario {
             }
         }
         return resultado;
+    }
+    public static void imprirmArrayList(){
+        for(Usuario u1:usuarios){
+            System.out.println(u1);
+        }
+    }
+
+    public static void borrarUsuario(int id){
+        usuarios.remove(id);
     }
 }
