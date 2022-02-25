@@ -1,0 +1,15 @@
+<!ELEMENT oferta (vehiculo+)>
+<!ELEMENT vehiculo (marca,modelo,motor,matricula,kilometros,precio_inicial,precio_oferta,extra*,foto*)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ATTLIST modelo color (blanco|champagne|gris) #IMPLIED> 
+<!ELEMENT motor (#PCDATA)>
+<!ATTLIST motor combustible (gasolina|diesel) #REQUIRED>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT kilometros (#PCDATA)>
+<!ELEMENT precio_inicial (#PCDATA)>
+<!ELEMENT precio_oferta (#PCDATA)>
+<!ELEMENT extra (#PCDATA)>
+ <!ATTLIST extra valor CDATA #IMPLIED> 
+<!ELEMENT foto (#PCDATA)>
+ <!ATTLIST foto imagen CDATA #IMPLIED> 

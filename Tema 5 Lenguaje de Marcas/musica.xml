@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="musica.css"?>
+<!DOCTYPE musica SYSTEM "musica.dtd">
+<musica>
+    <album>
+    <titulo_album>--KOR KOR LAKE--</titulo_album>
+    <seccion>
+        <artista>Rojuu</artista>
+        <discografica>Ninguna</discografica>
+        <fecha_publicacion>2022</fecha_publicacion>
+        <ISRC>84286358645619</ISRC>
+        </seccion>
+        <imagen></imagen>
+        <cd>
+            <numerocd>Número del cd: 1</numerocd>
+            <cancion id= "1">
+                <titulo_cancion>X100 PRE A TU LADO ESTARE</titulo_cancion>
+                <idioma id="1">Castellano</idioma>
+                <numero>01</numero>
+                <duracion minutos="1" segundos="59">1' 59''</duracion>
+            </cancion>
+            
+            <cancion id="2">
+                <titulo_cancion>NANA</titulo_cancion>
+                <idioma>Castellano</idioma>
+                <numero>02</numero>
+                <duracion minutos="2" segundos="22">2' 22''</duracion>
+            </cancion>
+            
+            <cancion id="3">
+                <titulo_cancion>FANTASIA PLACEBO</titulo_cancion>
+                <idioma>Castellano</idioma>
+                <numero>03</numero>
+                <duracion minutos="3" segundos="16">3' 16''</duracion>
+            </cancion>
+            
+            <cancion id="4">
+                <titulo_cancion>NADA ME LEVANTA</titulo_cancion>
+                <idioma>Castellano</idioma>
+                <numero>04</numero>
+                <duracion minutos="5" segundos="20">4' 20''</duracion>
+            </cancion>
+            
+            <cancion id="5">
+                <titulo_cancion>COLD AMSTERDAM(part3)</titulo_cancion>
+                <idioma>Castellano</idioma>
+                <numero>05</numero>
+                <duracion minutos="2" segundos="10">2' 10''</duracion>
+            </cancion>
+            
+            <cancion id="6">
+                <titulo_cancion>En la imaginación</titulo_cancion>
+                <idioma>Castellano</idioma>
+                <numero>06</numero>
+                <duracion minutos="3" segundos="45">3' 45''</duracion>
+            </cancion>
+            
+            <cancion id ="7">
+                <titulo_cancion>REHAB BOYS</titulo_cancion>
+                <idioma>Castellano</idioma>
+                <numero>07</numero>
+                <duracion minutos="2" segundos="24">2' 24''</duracion>
+            </cancion>
+            
+            <cancion id="8">
+                <titulo_cancion>INVASORES</titulo_cancion>
+                <idioma>Castellano</idioma>
+                <numero>08</numero>
+                <duracion minutos="3" segundos="30">3' 30''</duracion>
+            </cancion>
+            
+            <cancion id="9">
+                <titulo_cancion>UN PASEO MAS</titulo_cancion>
+                <idioma>Castellano</idioma>
+                <numero>09</numero>
+                <duracion minutos="3" segundos="46">3' 46''</duracion>
+            </cancion>
+            
+            <cancion id="10">
+                <titulo_cancion>NEZUKO</titulo_cancion>
+                <idioma>Castellano</idioma>
+                <numero>10</numero>
+                <duracion minutos="2" segundos="49">2' 49''</duracion>
+            </cancion>
+        </cd>
+    </album>
+</musica>

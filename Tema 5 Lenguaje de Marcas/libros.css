@@ -1,0 +1,149 @@
+libros{
+    background-image: url("Imagenes/Libros.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+inicio{
+  display: block;
+  color: rgb(54, 64, 73);
+  font-size: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nombre[id="1"]{
+    display: block;
+    color: rgb(117, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+}
+titulo{
+  display: block;
+}
+portada[imagen="1.jpg"]{
+   display: block;
+    background-image: url("Imagenes/9788467920574.jpg");
+    width: 178px;
+    height: 271px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: -275px;
+}
+isbn{
+  display: block;
+}
+nivel_profundidad{
+  display: block;
+}
+autores{
+  display: block;
+}
+editorial{
+  display: block;
+}
+fecha_de_publicacion{
+  display: block;
+}
+precio[moneda="euro"]{
+  display: block;
+}
+libro[id="1"]{
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 300px;
+}
+libro[id="2"]{
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 1000px;
+  margin-bottom: 500px;
+  margin-top: 200px;
+}
+portada[imagen="2.jpg"]{
+   display: block;
+    background-image: url("Imagenes/9788413426198.jpg");
+    width: 178px;
+    height: 271px;
+    margin-top: -200px;
+    margin-left: 720px;
+    margin-bottom: -475px;
+}
+libro[id="3"]{
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 300px;
+  margin-top: -270px;
+}
+portada[imagen="3.jpg"]{
+   display: block;
+    background-image: url("Imagenes/9788413412054.jpg");
+    width: 187px;
+    height: 271px;
+    margin-left:20px;
+    margin-top: -340px;
+}
+nombre[id="2"]{
+    display: block;
+    color: rgb(117, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+libro[id="4"]{
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 300px;
+  margin-top: -270px;
+}
+portada[imagen="4.jpg"]{
+   display: block;
+    background-image: url("Imagenes/9788426409690.jpg");
+    width: 190px;
+    height: 271px;
+    margin-left:20px;
+    margin-top: 40px;
+}
+libro[id="5"]{
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 1000px;
+  margin-bottom: 500px;
+  margin-top: 200px;
+}
+portada[imagen="5.jpg"]{
+   display: block;
+    background-image: url("Imagenes/9788408250876.jpg");
+    width: 190px;
+    height: 271px;
+    margin-top: -200px;
+    margin-left: 720px;
+    margin-bottom: -475px;
+}
+libro[id="6"]{
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 300px;
+  margin-top: -270px;
+}
+portada[imagen="6.jpg"]{
+   display: block;
+    background-image: url("Imagenes/Libro6.jpg");
+    width: 178px;
+    height: 271px;
+    margin-left:20px;
+    margin-top: -340px;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="coches.css"?>
+<!DOCTYPE oferta SYSTEM "coches.dtd">
+<oferta>
+  <vehiculo>
+    <inicio>Coches</inicio>
+    <marca>Marca:  Mate</marca>
+    <modelo color="blanco">Modelo: Mate Cars 2010</modelo>
+    <motor combustible="gasolina">Motor: Duratorc 14  </motor>
+    <matricula>Matricula: 1234AAA</matricula>
+    <kilometros>Kilometros:  12500 </kilometros>
+    <precio_inicial>El precio inicial es de 12500&#8364;</precio_inicial>
+    <precio_oferta>Precio oferta 10000&#8364;</precio_oferta>
+    <extra valor="250">Pintura Metalizada</extra>
+    <extra valor="300">Llantas</extra>
+    <foto imagen="fordblanco"/>
+   <foto imagen="fordblanco2"/>
+</vehiculo>
+
+<vehiculo>
+    <marca>Marca:  RAYO</marca>
+	<modelo color="champagne">Modelo:  RAYO McQUEEN</modelo>
+	<motor combustible="diesel">CLA 200 d, 136cv</motor>
+    <matricula>Matricula: 0000BBB</matricula>
+	<kilometros>Kilometros:  3500 </kilometros>
+	<precio_inicial>El precio inicial es de 22500&#8364;</precio_inicial>
+	<precio_oferta>Precio oferta 20000&#8364;</precio_oferta>	
+    <extra valor="150">Navegador Garmin MAP PILOT</extra>
+    <extra valor="350">Techo corredizo panoramico</extra>	
+    <foto imagen="mercedes"/>
+    <foto imagen="mercedes2"/>
+</vehiculo>
+
+<vehiculo>
+    <marca>Marca:  Chevrolet</marca>
+	<modelo color="blanco">Modelo:  CHIK HIKS 2009</modelo>
+	<motor combustible="gasolina">2.0 TDI 190CV</motor>
+    <matricula>Matricula: 9999KKK</matricula>
+	<kilometros>Kilometros:  100 </kilometros>
+	<precio_inicial>El precio inicial es de 36500&#8364;</precio_inicial>
+	<precio_oferta>Precio oferta 35000&#8364;</precio_oferta>	
+    <extra valor="170">Camara de marcha atras</extra>
+    <extra valor="180">Tapiceria en cuero Milano</extra>	
+    <foto imagen="audiA5"/>
+    <foto imagen="audiA52"/>
+</vehiculo>
+
+  <vehiculo>
+    <marca>Maraca: Ferrari</marca>
+    <modelo color="gris">Modelo: SALLY</modelo>
+    <motor combustible="diesel">Motor: Turbo 2.0 </motor>
+    <matricula>Matricula: 1235AAA</matricula>
+    <kilometros>Kilometros: 125000</kilometros>
+    <precio_inicial>El precio inicial es de 10000&#8364;</precio_inicial>
+    <precio_oferta>Precio oferta 9000&#8364;</precio_oferta>
+    <extra valor="250">Pintura metalizada</extra>
+    <extra valor="200">Spoiler trasero</extra>
+    <extra valor="500">Climatizador</extra>
+    <foto imagen="opel"/>
+     <foto imagen="opel2"/>
+</vehiculo>
+
+
+ 
+</oferta>

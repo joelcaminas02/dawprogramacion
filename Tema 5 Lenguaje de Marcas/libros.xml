@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="libros.css"?>
+<!DOCTYPE libros SYSTEM "libros.dtd">
+<libros>
+	 <libreria>
+   <inicio>Libros</inicio>
+       <nombre id ="1">Casa del Libro</nombre>
+         <portada imagen="1.jpg"></portada>
+		   <libro id ="1">
+                	<titulo>Oyasumi Pun Pun</titulo>
+                  <isbn>9788466357302</isbn>
+                	<nivel_de_profundidad>Avanzado</nivel_de_profundidad>
+                	<autores>Inio Asano</autores>
+                	<editorial>Debolsillo</editorial>
+                	<fecha_de_publicacion>07/10/2021</fecha_de_publicacion>
+                	<precio moneda="euro">8,07 €</precio>
+               
+  	   </libro>
+      <portada imagen="2.jpg"></portada>
+		   <libro id ="2">
+                	<titulo>Josee, el tigre y los peces</titulo>
+                  <isbn>9788490328729</isbn>
+                	<nivel_de_profundidad>Avanzado</nivel_de_profundidad>
+                	<autores>Seiko Tanabe</autores>
+                	<editorial>Planeta Comic</editorial>
+                	<fecha_de_publicacion>07/11/2013</fecha_de_publicacion>
+                	<precio moneda="euro">10,40 €</precio>
+       </libro>
+      <portada imagen="3.jpg"></portada>
+		   <libro id="3">
+                	<titulo>WEATHERING WITH YOU (NOVELA)</titulo>
+                  <isbn>9788413412054</isbn>
+                	<nivel_de_profundidad>Avanzado</nivel_de_profundidad>
+                	<autores>Makoto Shinkai</autores>
+                	<editorial>Planeta Comic</editorial>
+                	<fecha_de_publicacion>18/02/2020</fecha_de_publicacion>
+                	<precio moneda="euro">18,00 €</precio>
+
+         </libro>
+	 </libreria>
+
+	 <libreria>
+        <nombre id="2">Amazon</nombre>
+        <portada imagen="4.jpg"></portada>
+		    <libro id ="4">
+                	<titulo>Malas Mujeres</titulo>
+                  <isbn>9788426409690</isbn>
+                	<nivel_de_profundidad>Avanzado</nivel_de_profundidad>
+                	<autores>Maria Hesse</autores>
+                	<editorial>Random</editorial>
+                	<fecha_de_publicacion>03/02/2022</fecha_de_publicacion>
+                	<precio moneda="euro">20,80 €</precio>
+        	</libro>
+          <portada imagen="5.jpg"></portada>
+	      	<libro id="5">
+                	<titulo>NO TENGAS MIEDO A NADA</titulo>
+                  <isbn>9788408250876</isbn>
+                	<nivel_de_profundidad>Avanzado</nivel_de_profundidad>
+                	<autores>Curro Cañete</autores>
+                	<editorial>Planeta</editorial>
+                	<fecha_de_publicacion>06/11/2020</fecha_de_publicacion>
+                	<precio moneda="euro">10,40 €</precio>
+                 
+        	 </libro>
+          <portada imagen="6.jpg"></portada>
+		       <libro id="6">
+                	<titulo>Las cuatro estaciones</titulo>
+                  <isbn>9788497931311</isbn>
+                	<nivel_de_profundidad>Avanzado</nivel_de_profundidad>
+                	<autores>Stephen King</autores>
+                	<editorial>Debolsillo</editorial>
+                	<fecha_de_publicacion>05/03/2021</fecha_de_publicacion>
+                	<precio moneda="euro">9,45 €</precio>
+                      
+        	 </libro>
+	  </libreria>
+</libros>

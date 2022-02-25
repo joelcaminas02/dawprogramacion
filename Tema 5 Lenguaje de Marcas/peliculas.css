@@ -1,0 +1,105 @@
+filmoteca{
+    background: aqua;
+    display: block;
+}
+pelicula{
+    display: block;
+    font-size: 14pt;
+    margin-top: 8px;
+}
+titulo{
+    display: block;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-left: 275px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+estreno, duracion{
+    display: block;
+    text-indent: 2em;
+    color: crimson;
+    margin-left: 240px;
+    margin-bottom: 30px;
+}
+director{
+    display: block;
+    font-style: italic;
+    font-size: 18;
+    text-indent: 2em;
+    color: brown;
+    font-size: small;
+    margin-left: 250px;
+    margin-bottom: 120px;
+}
+#pelicula1{
+    position: relative;
+    background-color: rgb(red, green, blue);
+}
+portada[imagen="1"]{
+    display: block;
+    background-image: url("Imagenes/bohemian.jpeg");
+    width: 180px;
+    height: 272px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: -275px;
+}
+
+#pelicula2{
+    position: relative;
+    background-color: rgb(red, green, blue);
+}
+portada[imagen="2"]{
+    display: block;
+    background-image: url("Imagenes/peter.jpeg");
+    width: 180px;
+    height: 272px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: -550px;
+}
+portada[imagen="3"]{
+    display: block;
+    background-image: url("Imagenes/matrix.jpeg");
+    width: 180px;
+    height: 272px;
+    margin-right: 10px;
+    margin-left: 570px;
+    margin-top: -335px;
+}
+#titulo2{
+    margin-left: 800px;
+    margin-top: -50px;
+}
+#estreno2,#duracion2{
+    margin-left: 760px;
+}
+#director2{
+    margin-left: 770px;
+}
+#pelicula4{
+    position: relative;
+    background-color: rgb(red, green, blue);
+}
+portada[imagen="4"]{
+    display: block;
+    background-image: url("Imagenes/historia.jpeg");
+    width: 180px;
+    height: 272px;
+    margin-right: 10px;
+    margin-left: 570px;
+    margin-top: -300px;
+}
+#titulo4{
+    margin-left: 800px;
+    margin-top: -250px;
+}
+#estreno4,#duracion4{
+    margin-left: 760px;
+}
+#director4{
+    margin-left: 770px;
+}

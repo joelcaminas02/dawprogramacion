@@ -1,0 +1,152 @@
+musica{
+    background-image: url("Imagenes/000031.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+titulo_album{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  text-align: center;
+  text-decoration: underline;
+}
+artista{
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  text-decoration:overline;
+}
+discografica{
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+fecha_publicacion{
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ISRC{
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+imagen{
+  display: block;
+  background-image: url("Imagenes/rojuu-Kor-Kor-Lake.jpg");
+  width: 353px;
+  height: 353px;
+  text-align: center;
+  margin-left: 760px;
+  margin-top: -140px;
+}
+numerocd{
+  display: block;
+  color:rgba(236, 176, 206, 0.952);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+cancion[id="1"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 40px;
+}
+cancion[id="2"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 20px;
+}
+cancion[id="3"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 20px;
+}
+cancion[id="4"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 20px;
+}
+cancion[id="5"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 20px;
+}
+cancion[id="6"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 20px;
+}
+cancion[id="7"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 20px;
+}
+cancion[id="8"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 20px;
+}
+cancion[id="9"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 20px;
+}
+cancion[id="10"]{
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-align: center;
+  margin-top: 20px;
+}
+titulo_cancion{
+  display: block;
+}
+idioma{
+  display:block;
+}
+numero{
+  display: block;
+}
+duracion{
+  display: block;
+}

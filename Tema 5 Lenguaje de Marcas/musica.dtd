@@ -1,0 +1,18 @@
+<!ELEMENT musica (album+)>
+<!ELEMENT album (titulo_album, artista+, discografica?, fecha_publicacion, ISRC, cd+, imagen)>
+<!ELEMENT titulo_album (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT discografica (#PCDATA)>
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ELEMENT ISRC (#PCDATA)>
+<!ELEMENT cd (numerocd+, cancion+)>
+<!ELEMENT numerocd (#PCDATA)>
+<!ELEMENT cancion (titulo_cancion, idioma, numero, duracion)>
+<!ELEMENT titulo_cancion (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+	     <!ATTLIST duracion minutos CDATA #REQUIRED>
+	     <!ATTLIST duracion segundos CDATA #REQUIRED>
+<!ELEMENT imagen (#PCDATA)>
+
