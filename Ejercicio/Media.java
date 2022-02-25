@@ -81,11 +81,11 @@ public class Media {
     public static void borrarMediaDominios(String dominioBorrar){
         for(int i = 0; i<Usuario.usuarios.size();i++){
             if(Usuario.usuarios.get(i).getEmail().contains(dominioBorrar)){
-            for(Media media:mediaList){
-                if(media.getUsuario().equals(Usuario.usuarios.get(i))){
-                    mediaList.remove(media);
+                for(int j=0;j<mediaList.size();j++){
+                    if(mediaList.get(j).getUsuario().equals(Usuario.usuarios.get(i))){
+                        mediaList.remove(j);
+                    }
                 }
-            }
                 Usuario.borrarUsuario(i);
                 i--;
                 

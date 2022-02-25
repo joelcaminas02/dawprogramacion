@@ -8,8 +8,6 @@ public class Test {
         usuario1.getEmail();
 
         Usuario.imprirmArrayList();
-
-        Usuario.borrarUsuario(0);
         
         Usuario.imprirmArrayList();
 

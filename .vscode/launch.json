@@ -9,6 +9,13 @@
             "name": "Launch Test",
             "request": "launch",
             "mainClass": "Test",
+            "projectName": "dawprogramacion_2108e849"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
             "projectName": "dawprogramacion_68fd9e42"
         },
         {
