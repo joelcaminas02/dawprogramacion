@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Usuario {
+public class Usuario implements ParserXML{
     
     public static ArrayList<Usuario> usuarios = new ArrayList<>();
     private int idUsuario;
@@ -108,5 +108,13 @@ public class Usuario {
                 i--;
             }
         }
+    }
+
+    public String generateXML(){
+        return "<usuario\n>"+
+                "<id>"+this.idUsuario+"</id>\n"+
+                "<email>"+this.email+"</email>\n"+
+                "<contraseña>"+this.password+"</contraseña>\n"+
+               "</usuario>";
     }
 }

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Media {
+public class Media implements ParserXML {
     private int idMedia=0;
     private String nombre;
     private String contenido;
@@ -69,18 +69,34 @@ public class Media {
         }
     }
 
+    public static boolean removeOneByName(String nombreMedia){
+        
+        boolean resultado=false;
+        for(Media m1:mediaList){
+            if(m1.getNombre().equals(nombreMedia)){
+                m1 = null;
+                mediaList.remove(m1);
+                resultado=true;
+                break;
+            }
+        }
+
+        return resultado;
+    }
+
     public static void eliminarMediaTipo(MediaType tipo){
         for(Media m1:mediaList){
             if(m1.getTipo()==tipo){
                 m1 = null;
                 mediaList.remove(m1);
+                break;
             }
         }
     }
 
     public static void borrarMediaDominios(String dominioBorrar){
         for(int i = 0; i<Usuario.usuarios.size();i++){
-            if(Usuario.usuarios.get(i).getEmail().contains(dominioBorrar)){
+            if(Usuario.usuarios.get(i).getEmail().endsWith(dominioBorrar)){
                 for(int j=0;j<mediaList.size();j++){
                     if(mediaList.get(j).getUsuario().equals(Usuario.usuarios.get(i))){
                         mediaList.remove(j);
@@ -107,5 +123,15 @@ public class Media {
     public String toString() {
         return "Media [contenido=" + contenido + ", idMedia=" + idMedia + ", nombre=" + nombre + ", tipoMedia="
                 + tipoMedia + ", usuario=" + usuario + "]";
+    }
+    public String generateXML(){
+        return "<media>\n"+
+               "<contenido>"+this.contenido+"</contenido>\n"+
+               "<idMedia>"+this.idMedia+"</idMedia>\n"+
+               "<nombre>"+this.nombre+"</nombre>\n"+
+               "<tipoMedia>"+this.tipoMedia+"</tipoMedia>\n"+
+               "<usuario>"+this.usuario+"</usuario>"+
+               "</media>";
+
     }
 }
