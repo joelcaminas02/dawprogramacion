@@ -6,7 +6,8 @@
         "DAWProgramacion/AceptoElReto",
         "Controles",
         "Tema3",
-        "Ejercicio"
+        "Ejercicio",
+        "Club"
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
