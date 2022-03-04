@@ -23,7 +23,7 @@ public class Membership
         throws IllegalArgumentException
     {
         if(month < 1 || month > 12) {
-            throw new IllegalArgumentException(
+            throw new IllegalArgumentException (
                 "Month " + month + " out of range. Must be in the range 1 ... 12");
         }
         this.name = name;
