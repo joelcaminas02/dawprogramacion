@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 
 public class Media implements ParserXML {
     private int idMedia=0;
@@ -133,5 +136,23 @@ public class Media implements ParserXML {
                "<usuario>"+this.usuario+"</usuario>"+
                "</media>";
 
+    }
+
+    public void crearXMLMedia(){
+        try {
+            String ruta = "Ejercicio/media/"+this.idMedia+".xml";
+            String contenido = this.toString();
+            File file = new File(ruta);
+            // Si el archivo no existe es creado
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+            FileWriter fw = new FileWriter(file);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(contenido);
+            bw.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
