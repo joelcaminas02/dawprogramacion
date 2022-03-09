@@ -1,5 +1,8 @@
 import java.util.ArrayList;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -14,6 +17,10 @@ import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Text;
+import java.util.Scanner;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
 
 public class Usuario implements ParserXML{
     
@@ -190,6 +197,66 @@ public class Usuario implements ParserXML{
  
         } catch (ParserConfigurationException | TransformerException ex) {
             System.out.println(ex.getMessage());
+        }
+    }
+
+    public static void usuarioInput(){
+        Scanner lector = new Scanner(System.in);
+        int indice=0;
+        String email;
+        String passwd;
+        System.out.println("Introduce 1 si quieres crear un usuario y 0 para finalizar");
+        indice = lector.nextInt();
+        while(indice==1){
+            System.out.println("Introduce el email del usuario");
+            email = lector.next();
+            System.out.println("Introduce la contraseña del usuario");
+            passwd = lector.next();
+
+            Usuario u1 = new Usuario(email, passwd);
+            u1.crearXML();
+
+            System.out.println("Introduice 1 para continuar y 0 para finalizar");
+            indice=lector.nextInt();
+        }
+        lector.close();
+    }
+
+    public static void createUsuario(String fichero){
+        try {
+            FileReader fr = new FileReader(fichero);
+            BufferedReader br = new BufferedReader(fr);
+            String linia = br.readLine();
+            linia = linia.trim();
+            linia = linia.replaceAll(">", " ");
+            linia = linia.replaceAll("<", " ");
+            linia = linia.replaceAll(" +", " ");
+            String[] liniaArray = linia.split(" ");
+            String email="";
+            String passwd="";
+            for (int i =0 ; i<liniaArray.length;i++){
+                if(i!=0){
+                    if(liniaArray[i-1].equals("email")){
+                        email = liniaArray[i];
+                        break;
+                    }
+                }
+            }
+            for (int i =0 ; i<liniaArray.length;i++){
+                if(i !=0){
+                    if(liniaArray[i-1].equals("passwd")){
+                        passwd = liniaArray[i];
+                        break;
+                    }
+                }
+            }
+            Usuario u2 = new Usuario(email, passwd);
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         }
     }
 }
