@@ -4,5 +4,7 @@ public class Test {
         
         usuario1.crearXML();
         Usuario.createUsuario("Ejercicio/usuarios/1.xml");
+
+        Usuario.imprirmArrayList();
     }
 }
