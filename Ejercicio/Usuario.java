@@ -20,7 +20,6 @@ import org.w3c.dom.Text;
 import java.util.Scanner;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.Reader;
 
 public class Usuario implements ParserXML{
     
@@ -251,11 +250,11 @@ public class Usuario implements ParserXML{
                 }
             }
             Usuario u2 = new Usuario(email, passwd);
+            u2.getEmail();
+            br.close();
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

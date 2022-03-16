@@ -1,13 +1,12 @@
 {
     "java.project.sourcePaths": [
         "tema 1",
-        "Tema2",
-        "DAWProgramacion/Controles/Control02",
-        "DAWProgramacion/AceptoElReto",
-        "Controles",
         "Tema3",
+        "Tema2",
         "Ejercicio",
-        "Club"
+        "Controles",
+        "Club",
+        "Ejercicio2"
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
