@@ -6,7 +6,8 @@
         "Ejercicio",
         "Controles",
         "Club",
-        "Ejercicio2"
+        "Ejercicio2",
+        "Rpg"
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
