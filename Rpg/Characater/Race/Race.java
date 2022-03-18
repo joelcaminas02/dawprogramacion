@@ -11,6 +11,6 @@ public abstract class Race {
     }
 
     public String toString(){
-        return getClass().getName();
+        return "Race";
     }
 }

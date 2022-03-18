@@ -16,4 +16,9 @@ public class Warrior extends Job{
         }
         return resultado;
     }
+
+    @Override
+    public String toString() {
+        return "Warrior";
+    }
 }

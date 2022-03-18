@@ -20,5 +20,10 @@ public class Draconico extends Race {
         }
         return resultado;
     }
+
+    @Override
+    public String toString() {
+        return "Draconico";
+    }
     
 }

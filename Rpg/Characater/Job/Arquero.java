@@ -15,4 +15,9 @@ public class Arquero extends Job{
         }
         return resultado;
     }
+
+    @Override
+    public String toString() {
+        return "Arquero";
+    }
 }

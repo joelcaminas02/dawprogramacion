@@ -11,6 +11,6 @@ public abstract class Job {
     }
 
     public String toString(){
-        return getClass().getName();
+        return "Job";
     }
 }

@@ -4,7 +4,7 @@ import Characater.Stat.*;
 
 public class Mendigo extends Job {
     @Override
-    public int modifier(Stat stat) {
+    public int modifier(final Stat stat) {
         int resultado=0;
         if (stat instanceof Strength){
             resultado = -1;
@@ -14,5 +14,10 @@ public class Mendigo extends Job {
             resultado = -4;
         }
         return resultado;
+    }
+
+    @Override
+    public String toString() {
+        return "Mendigo";
     }
 }

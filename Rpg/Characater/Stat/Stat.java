@@ -21,6 +21,6 @@ public abstract class Stat {
     }
     
     public String toString(){
-        return "Value: "+this.value;
+        return ""+this.value;
     }
 }
