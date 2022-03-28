@@ -3,6 +3,7 @@ package Characater;
 import Characater.Job.*;
 import Characater.Race.*;
 import Characater.Stat.*;
+import Item.Food.IConsumable;
 
 
 public class Character implements IDamegable {
@@ -90,5 +91,11 @@ public class Character implements IDamegable {
             return true;
         else
         return false;
+    }
+
+    public void consumes(IConsumable consumable){
+        consumable.consumedBy(this);
+
+        System.out.println(this.nombre+" consumed: "+consumable);
     }
 }
