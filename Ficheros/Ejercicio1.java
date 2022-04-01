@@ -57,9 +57,12 @@ public class Ejercicio1{
 
         do{
             imprimirDirectorio(f);
+            System.out.println("Introduce el directorio al que quieres entrar o -1 para salir");
             i=lector.nextInt();
             if(i>= 1 && i <= f.listFiles().length){
                 f = f.listFiles()[i-1];
+            }else if(f.getParent()!=null && i == 0){
+                f = f.getParentFile();
             }
         }while(i !=-1);
         
