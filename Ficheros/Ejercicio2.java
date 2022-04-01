@@ -11,39 +11,39 @@ public class Ejercicio2 {
         if(!e.isHidden()){
             if(e.isFile()){
                 if(e.canRead()==true && e.canWrite()==true && e.canExecute()==true )
-                System.out.println("-rwx.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName()+".\t"+ e.length());
+                System.out.println("-rwx.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName()+".\t"+ e.length());
                 }else if(e.canRead()==false && e.canWrite()==true && e.canExecute()==true ){
-                    System.out.println("--wx.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName());
+                    System.out.println("--wx.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName());
                 }else if(e.canRead()==false && e.canWrite()==false && e.canExecute()==true){
-                    System.out.println("---x.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName());
+                    System.out.println("---x.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName());
                 }else if(e.canRead()==false && e.canWrite()==false && e.canExecute()==false){
-                    System.out.println("----.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName());
+                    System.out.println("----.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName());
                 }else if(e.canRead()==true && e.canWrite()==false && e.canExecute()==false){
-                    System.out.println("-r--.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName());
+                    System.out.println("-r--.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName());
                 }else if(e.canRead()==true && e.canWrite()==true && e.canExecute()==false){
-                    System.out.println("-rw-.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName());
+                    System.out.println("-rw-.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName());
                 }else if(e.canRead()==true && e.canWrite()==false && e.canExecute()==true){
-                    System.out.println("-r-x.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName());
+                    System.out.println("-r-x.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName());
                 }else if(e.canRead()==false && e.canWrite()==true && e.canExecute()==false){
-                    System.out.println("-w-.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName());
+                    System.out.println("-w-.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName());
                 }    
             if(e.isDirectory()){
                 if(e.canRead()==true && e.canWrite()==true && e.canExecute()==true )
-                System.out.println("drwx.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName()+"<Directorio>");
+                System.out.println("drwx.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName()+"<Directorio>");
                 }else if(e.canRead()==false && e.canWrite()==true && e.canExecute()==true ){
-                    System.out.println("d-wx.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName()+"<Directorio>");
+                    System.out.println("d-wx.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName()+"<Directorio>");
                 }else if(e.canRead()==false && e.canWrite()==false && e.canExecute()==true){
-                    System.out.println("d--x.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName()+"<Directorio>");
+                    System.out.println("d--x.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName()+"<Directorio>");
                 }else if(e.canRead()==false && e.canWrite()==false && e.canExecute()==false){
-                    System.out.println("d---.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName()+"<Directorio>");
+                    System.out.println("d---.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName()+"<Directorio>");
                 }else if(e.canRead()==true && e.canWrite()==false && e.canExecute()==false){
-                    System.out.println("dr--.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName()+"<Directorio>");
+                    System.out.println("dr--.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName()+"<Directorio>");
                 }else if(e.canRead()==true && e.canWrite()==true && e.canExecute()==false){
-                    System.out.println("drw-.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName()+"<Directorio>");
+                    System.out.println("drw-.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName()+"<Directorio>");
                 }else if(e.canRead()==true && e.canWrite()==false && e.canExecute()==true){
-                    System.out.println("dr-x.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName()+"<Directorio>");
+                    System.out.println("dr-x.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName()+"<Directorio>");
                 }else if(e.canRead()==false && e.canWrite()==true && e.canExecute()==false){
-                    System.out.println("d-w-.\t"+e.length()+".\t"+e.lastModified()+".\t"+e.getName()+"<Directorio>");
+                    System.out.println("d-w-.\t"+e.length()+".\t"+String.format("%-15d",e.length())+formatter.format(e.lastModified())+".\t"+e.getName()+"<Directorio>");
                 }       
         }   
     }
