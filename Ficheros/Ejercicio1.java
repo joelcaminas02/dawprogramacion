@@ -53,17 +53,16 @@ public class Ejercicio1{
         
         int i = 0;
         File f = File.listRoots()[0];
-        String [] array = arrayFile(f);
-        imprimirDirectorio(f);
-        System.out.println("Introduce una opción (-1 para salir)");
         Scanner lector = new Scanner(System.in);
-        i = lector.nextInt();
-        if(i==-1){
 
-        }else{
-            File x = new File("/"+array[i-1]);
-            imprimirDirectorio(x);
-        }
+        do{
+            imprimirDirectorio(f);
+            i=lector.nextInt();
+            if(i>= 1 && i <= f.listFiles().length){
+                f = f.listFiles()[i-1];
+            }
+        }while(i !=-1);
+        
 
         lector.close();
     }
