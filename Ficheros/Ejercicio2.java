@@ -75,21 +75,23 @@ public class Ejercicio2 {
         }
         return arrayFiles;
     }
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         
         int i = 0;
         File f = File.listRoots()[0];
-        String [] array = arrayFile(f);
-        imprimirDirectorio(f);
-        System.out.println("Introduce una opción (-1 para salir)");
         Scanner lector = new Scanner(System.in);
-        i = lector.nextInt();
-        if(i==-1){
 
-        }else{
-            File x = new File("/"+array[i-1]);
-            imprimirDirectorio(x);
-        }
+        do{
+            imprimirDirectorio(f);
+            System.out.println("Introduce el directorio al que quieres entrar o -1 para salir");
+            i=lector.nextInt();
+            if(i>= 1 && i <= f.listFiles().length){
+                f = f.listFiles()[i-1];
+            }else if(f.getParent()!=null && i == 0){
+                f = f.getParentFile();
+            }
+        }while(i !=-1);
+        
 
         lector.close();
     }
