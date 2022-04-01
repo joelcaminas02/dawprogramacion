@@ -1,9 +1,13 @@
 import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Ejercicio2 {
     private static void imprimirFichero(File e) throws IOException{
+        DateFormat formatter;
+        formatter = DateFormat.getDateTimeInstance(DateFormat.MEDIUM, DateFormat.MEDIUM,Locale.getDefault());
         if(!e.isHidden()){
             if(e.isFile()){
                 if(e.canRead()==true && e.canWrite()==true && e.canExecute()==true )
