@@ -28,7 +28,7 @@ public class TransformaImagen {
     public void transformaNegativo() throws IOException{
 
         FileInputStream reader = new FileInputStream(this.f);
-        File fOut = new File("fichero_n.bmp");
+        File fOut = new File("./fichero_n.bmp");
         FileOutputStream writer = new FileOutputStream(this.f);
         byte[] contenido = new byte[54];
 
