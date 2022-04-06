@@ -11,19 +11,15 @@ import java.io.FileReader;
 import java.io.FileWriter;
 
 public class TransformaImagen {
-    private File f = null;
-
-    public TransformaImagen (File fEnt){
-        try {
-            if(fEnt.exists()){
-                if(fEnt.getName().endsWith(".bmp")){
-                    f=fEnt;
-                }
+        File f = null;
+        public TransformaImagen(File fEnt) {        
+            if(!fEnt.getName().substring(fEnt.getName().indexOf(".")).equals(".bmp")) {
+                    
             }
-        } catch (Exception e) {
-            System.out.println("No existe la imagen");
+            else {
+                f = fEnt;
+            }
         }
-    }
 
     public void transformaNegativo() throws IOException{
 
