@@ -1,16 +1,19 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class TrasnformaImagen {
+public class TransformaImagen {
     private File f = null;
 
-    public TrasnformaImagen (File fEnt){
+    public TransformaImagen (File fEnt){
         try {
             if(fEnt.exists()){
                 if(fEnt.getName().endsWith(".bmp")){
@@ -24,15 +27,24 @@ public class TrasnformaImagen {
 
     public void transformaNegativo() throws IOException{
 
-        BufferedReader f_ent = new BufferedReader(new FileReader(this.f));
-        BufferedWriter f_sal = new BufferedWriter(new FileWriter(this.f));
-        int c = f_ent.read();
+        FileInputStream reader = new FileInputStream(this.f);
+        File fOut = new File("fichero_n.bmp");
+        FileOutputStream writer = new FileOutputStream(this.f);
+        byte[] contenido = new byte[54];
+
+        reader.read(contenido);
+        writer.write(contenido);
+
+        int c = 0;
+
+        c = reader.read();
 
         while (c != 1 ){
-            c=f_ent.read();
+            writer.write((char)(255-c));
+            c = reader.read();
         }
-        f_ent.close();
-        f_sal.close();
+        writer.close();
+        reader.close();
     }
 
     public void transformaOscuro()  throws IOException{
