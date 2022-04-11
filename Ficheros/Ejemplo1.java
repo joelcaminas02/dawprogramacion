@@ -1,5 +1,4 @@
 import java.io.FileInputStream;
-import java.io.IOError;
 import java.io.IOException;
 
 public class Ejemplo1 {

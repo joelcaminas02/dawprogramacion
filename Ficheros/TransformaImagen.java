@@ -1,14 +1,8 @@
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.ByteArrayInputStream;
+
 import java.io.File;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
 
 public class TransformaImagen {
         File f = null;
@@ -35,7 +29,7 @@ public class TransformaImagen {
 
         c = reader.read();
 
-        while (c != 1 ){
+        while (c != -1 ){
             writer.write((char)(255-c));
             c = reader.read();
         }

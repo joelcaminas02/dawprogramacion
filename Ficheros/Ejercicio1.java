@@ -40,15 +40,6 @@ public class Ejercicio1{
         }
     }
 
-    private static String[] arrayFile(File e){
-        String [] arrayFiles = new String[e.list().length];
-        int i =0;
-        for (String f:e.list()){
-            arrayFiles[i]=f;
-            i++;
-        }
-        return arrayFiles;
-    }
     public static void main(String[] args) throws IOException {
         
         int i = 0;
