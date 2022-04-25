@@ -17,18 +17,19 @@ public class Primos2 {
     public static void main(String[] args) throws IOException{
         File f1 = new File("./primos.dat");
         BufferedReader lector = new BufferedReader(new FileReader(f1));
-        String c = lector.readLine();
-        while (c != null){
-            c = c.trim();
-            c = c.replaceAll(" ","");
-            String [] array = c.split(",");
+        String cadena = lector.readLine();
+        
+        while (cadena != null){
+            cadena = cadena.trim();
+            cadena = cadena.replaceAll(" ","");
+            String [] array = cadena.split(",");
             for(int i = 0;i<array.length;i++){
                 int primo = Integer.parseInt(array[i]);
                 if(esPrimo(primo)){
                     System.out.println(primo);
                 }
             }
-            c=lector.readLine();
+            cadena=lector.readLine();
         }
         lector.close();
     }
