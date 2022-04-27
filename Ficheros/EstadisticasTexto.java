@@ -28,6 +28,21 @@ public class EstadisticasTexto {
         numLineas = contador;
         return numLineas;
     }
+    public static int contarTodo (File archivo) throws IOException{
+        int numLineas = 0;
+        int contador = 0;
+        BufferedReader lector = new BufferedReader(new FileReader(archivo));
+        String linea = lector.readLine();
+        if(archivo.exists()){
+            while (linea != null){
+                contador += linea.length();
+                linea = lector.readLine();
+            }
+        }
+        lector.close();
+        numLineas = contador;
+        return numLineas;
+    }
     public static int contarPalbras (File archivo) throws IOException{
         int numPalabras = 0;
         int contador = 0;
@@ -123,17 +138,17 @@ public class EstadisticasTexto {
         return numTabuladores;
     }
 
-    public static int porcentajeVocales(File archivo) throws IOException{
-        return ((conatarVocales(archivo)*100)/(contarEspacios(archivo)+contarLetras(archivo)+contarTabuladores(archivo)));
+    public static float porcentajeVocales(File archivo) throws IOException{
+        return ((conatarVocales(archivo)*100)/contarTodo(archivo));
     }
-    public static int porcentajeConsonantes(File archivo) throws IOException{
-        return (((contarLetras(archivo)-conatarVocales(archivo))*100)/(contarEspacios(archivo)+contarLetras(archivo)+contarTabuladores(archivo)));
+    public static float porcentajeConsonantes(File archivo) throws IOException{
+        return (((contarLetras(archivo)-conatarVocales(archivo))*100)/contarTodo(archivo));
     }
-    public static int porcentajeEspacios(File archivo) throws IOException{
-        return ((contarEspacios(archivo)*100)/(contarEspacios(archivo)+contarLetras(archivo)+contarTabuladores(archivo)));
+    public static float porcentajeEspacios(File archivo) throws IOException{
+        return ((contarEspacios(archivo)*100)/contarTodo(archivo));
     }
-    public static int porcentajeTabs(File archivo) throws IOException{
-        return ((contarTabuladores(archivo)*100)/(contarEspacios(archivo)+contarLetras(archivo)+contarTabuladores(archivo)));
+    public static float porcentajeTabs(File archivo) throws IOException{
+        return ((contarTabuladores(archivo)*100)/contarTodo(archivo));
     }
     public static void main(String[] args) throws IOException{
         File fichero = new File("ficheroEstadisticas.txt");
