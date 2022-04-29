@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PersistenciaTest",
+            "request": "launch",
+            "mainClass": "Control04.PersistenciaTest",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClienteTest",
+            "request": "launch",
+            "mainClass": "Control04.ClienteTest",
+            "projectName": "dawprogramacion_68fd9e42"
+        },
+        {
+            "type": "java",
             "name": "Launch TestForma",
             "request": "launch",
             "mainClass": "Objetos.TestForma",

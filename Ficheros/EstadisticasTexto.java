@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
 public class EstadisticasTexto {
 
 
-    public static int contarLineas (File archivo) throws IOException{
+    public static float contarLineas (File archivo) throws IOException{
         int numLineas = 0;
         int contador = 0;
         BufferedReader lector = new BufferedReader(new FileReader(archivo));
@@ -28,7 +28,7 @@ public class EstadisticasTexto {
         numLineas = contador;
         return numLineas;
     }
-    public static int contarTodo (File archivo) throws IOException{
+    public static float contarTodo (File archivo) throws IOException{
         int numLineas = 0;
         int contador = 0;
         BufferedReader lector = new BufferedReader(new FileReader(archivo));
@@ -43,7 +43,7 @@ public class EstadisticasTexto {
         numLineas = contador;
         return numLineas;
     }
-    public static int contarPalbras (File archivo) throws IOException{
+    public static float contarPalbras (File archivo) throws IOException{
         int numPalabras = 0;
         int contador = 0;
         BufferedReader lector = new BufferedReader(new FileReader(archivo));
@@ -59,7 +59,7 @@ public class EstadisticasTexto {
         numPalabras = contador;
         return numPalabras;
     }
-    public static int contarLetras (File archivo) throws IOException{
+    public static float contarLetras (File archivo) throws IOException{
         int numLetras = 0;
         int contador = 0;
         BufferedReader lector = new BufferedReader(new FileReader(archivo));
@@ -83,7 +83,7 @@ public class EstadisticasTexto {
         numLetras = contador;
         return numLetras;
     }
-    public static int conatarVocales (File archivo) throws IOException{
+    public static float conatarVocales (File archivo) throws IOException{
         int contarVocales = 0;
         BufferedReader lector = new BufferedReader(new FileReader(archivo));
         String linea = lector.readLine();
@@ -106,7 +106,7 @@ public class EstadisticasTexto {
         return contarVocales;
     }
 
-    public static int contarEspacios(File archivo) throws IOException{
+    public static float contarEspacios(File archivo) throws IOException{
         int numEspacios = 0;
         BufferedReader lector = new BufferedReader(new FileReader(archivo));
         String linea = lector.readLine();
@@ -122,7 +122,7 @@ public class EstadisticasTexto {
         lector.close();
         return numEspacios;
     }
-    public static int contarTabuladores(File archivo) throws IOException{
+    public static float contarTabuladores(File archivo) throws IOException{
         int numTabuladores = 0;
         BufferedReader lector = new BufferedReader(new FileReader(archivo));
         String linea = lector.readLine();
