@@ -32,6 +32,7 @@ public class PersistenciaCliente {
             clientes.add(cliente1);
             cliente = reader.readLine();
         }
+        reader.close();
         return clientes;
     }
 }
