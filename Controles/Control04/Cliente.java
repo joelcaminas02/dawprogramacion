@@ -14,6 +14,8 @@ public class Cliente extends Persona{
         setNombre(nombre);
         setApellidos(apellidos);
         this.email = email;
+
+        clientes.add(this);
     }
     public int getIndiceArrayLIst(String email){
         int contador = 0;

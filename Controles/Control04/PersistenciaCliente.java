@@ -6,15 +6,18 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.io.OutputStreamWriter;
+import java.io.FileOutputStream;
 
 public class PersistenciaCliente {
     
     public static File write(ArrayList<Cliente> clientes) throws IOException {
         File fichero = new File("clientes.dat");
-        BufferedWriter writer = new BufferedWriter(new FileWriter(fichero));
+        PrintWriter writer = new PrintWriter(new OutputStreamWriter(new FileOutputStream(fichero)));
         for (Cliente cliente:Cliente.clientes){
-            writer.write(cliente.fichero());
+            writer.println(cliente.fichero());
         }
         writer.close();
         return fichero;
