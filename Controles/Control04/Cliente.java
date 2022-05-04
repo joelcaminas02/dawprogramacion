@@ -1,8 +1,9 @@
 package Control04;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Cliente extends Persona{
+public class Cliente extends Persona implements Serializable{
 
     public static ArrayList<Cliente> clientes = new ArrayList<>();
     private int idCliente;
@@ -34,7 +35,7 @@ public class Cliente extends Persona{
         } 
         return indice;
     }
-    private String getEmail() {
+    public String getEmail() {
         return email;
     }
 
@@ -50,4 +51,20 @@ public class Cliente extends Persona{
     public String fichero(){
         return idCliente+", "+nif+", "+nombre+", "+apellidos+", "+email;
     }
+    public static ArrayList<Cliente> getClientes() {
+        return clientes;
+    }
+    public static void setClientes(ArrayList<Cliente> clientes) {
+        Cliente.clientes = clientes;
+    }
+    public int getIdCliente() {
+        return idCliente;
+    }
+    public void setIdCliente(int idCliente) {
+        this.idCliente = idCliente;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
 }
