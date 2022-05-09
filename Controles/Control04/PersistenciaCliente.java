@@ -24,6 +24,8 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.OutputStreamWriter;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class PersistenciaCliente {
 
@@ -120,5 +122,14 @@ public class PersistenciaCliente {
 
         trans.transform(source, result);
         reader.close();
+    }
+    public static void crearJSON(File fichero) throws IOException{
+        ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(fichero));
+        final Gson prettyGson = new GsonBuilder().setPrettyPrinting().create();
+        for(Cliente cliente: Cliente.clientes){
+            final String prettyPrinting = prettyGson.toJson(cliente);
+            writer.writeUTF(prettyPrinting);
+        }
+        writer.close();
     }
 }
