@@ -1,9 +1,6 @@
-package Control04;
-
-import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Cliente extends Persona implements Serializable{
+public class Cliente extends Persona{
 
     public static ArrayList<Cliente> clientes = new ArrayList<>();
     private int idCliente;

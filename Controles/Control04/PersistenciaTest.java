@@ -1,19 +1,22 @@
-package Control04;
-
 import java.io.File;
 import java.io.IOException;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
 
 public class PersistenciaTest {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException,ParserConfigurationException,TransformerException {
         File fichero = new File("clientes.dat");
+        File ficheroObjects = new File("clientesObjetos.dat");
         Cliente cl1 =  new Cliente("joel@pepo", "12345678k", "Joel", "Carrillero");
         Cliente cl2 =  new Cliente("jose@pepo", "12348978k", "Juan", "Calvo");
         Cliente cl3 =  new Cliente("juan@pepo", "12341278k", "Pepe", "Sendo");
         Cliente cl4 =  new Cliente("pepe@pepo", "12344378k", "Mesi", "Kbron");
         Cliente cl5 =  new Cliente("aaaa@pepo", "12344378k", "Jose", "Carri");
 
-        PersistenciaCliente.write(Cliente.clientes);
+        //PersistenciaCliente.write(Cliente.clientes);
 
-        PersistenciaCliente.read(fichero);
+        PersistenciaCliente.writeObjects(Cliente.clientes);
+        PersistenciaCliente.crearXML(ficheroObjects);
+        //PersistenciaCliente.read(fichero);
     }
 }

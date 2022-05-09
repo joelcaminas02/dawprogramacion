@@ -10,8 +10,3 @@
  * 1, 123213123123, Julio, pufpuf, sadsd@
  * Metodo inverso read(Fichero), recibe de parametro el fichero, devuelve un arrayList con los clientes leidos.
  */
-package Control04;
-
-public class ControlFicheros {
-    
-}
