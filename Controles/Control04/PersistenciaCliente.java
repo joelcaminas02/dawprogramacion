@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
@@ -61,7 +62,7 @@ public class PersistenciaCliente {
         }
         writer.close();
     }
-    public static ArrayList<Cliente> readObjects(File fichero) throws IOException {
+    public static ArrayList<Cliente> readObject(File fichero) throws IOException,ClassNotFoundException {
         ArrayList<Cliente> clientes = new ArrayList<>();
         ObjectInputStream reader = new ObjectInputStream(new FileInputStream(fichero));
         Cliente e;
