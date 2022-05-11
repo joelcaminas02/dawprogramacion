@@ -14,11 +14,12 @@ public class PersistenciaTest {
         Cliente cl4 =  new Cliente("pepe@pepo", "12344378k", "Mesi", "Kbron");
         Cliente cl5 =  new Cliente("aaaa@pepo", "12344378k", "Jose", "Carri");
 
-        PersistenciaCliente.write(Cliente.clientes);
+        //PersistenciaCliente.write(Cliente.clientes);
 
-        PersistenciaCliente.writeObjects(Cliente.clientes);
-        PersistenciaCliente.crearXML(ficheroObjects);
-        PersistenciaCliente.crearJSON(ficheroJSON);
-        PersistenciaCliente.read(fichero);
+        //PersistenciaCliente.writeObjects(Cliente.clientes);
+        //PersistenciaCliente.crearXML(ficheroObjects);
+        //PersistenciaCliente.crearJSON(ficheroJSON);
+        //PersistenciaCliente.read(fichero);
+        PersistenciaCliente.leerJSON(ficheroJSON);
     }
 }

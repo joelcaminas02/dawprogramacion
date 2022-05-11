@@ -132,4 +132,17 @@ public class PersistenciaCliente {
         }
         writer.close();
     }
+    public static void leerJSON(File fichero) throws IOException{
+        ArrayList<Cliente> clientes2 =  new ArrayList<>();
+        ObjectInputStream reader = new ObjectInputStream(new FileInputStream(fichero));
+        Cliente cliente;
+        String linea = reader.readUTF();
+        Gson gson = new Gson(); 
+        while(linea != null){
+            cliente = gson.fromJson(linea, Cliente.class);
+            clientes2.add(cliente);
+            linea = reader.readUTF();
+        }
+        reader.close();
+    }
 }
