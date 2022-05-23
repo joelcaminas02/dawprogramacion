@@ -1,0 +1,13 @@
+Una aplicacion que tenga los siguientes requisitos
+Tener un método que pida nombre, apellidos, email y telefono, Y añada estos datos a un fichero 
+agenda.dat, 
+-el formato del fichero será :
+    nombre, apellidos, email, telefono (todo separado por tabuladores)
+
+- De forma paralela se debe guardar un objeto con los atributos anteriores en un fichero agendaObjetos.dat
+
+- Cada vez que pedimos datos nuevos se deben añadir al final del fichero, no se debe borrar en cada ejecucion.
+
+-Crear un método que muestre un listado usando agenda.dat
+
+-El programa se podrá utilizar de forma no interactiva, se le puede pasar la información sobre el usuario en la linea de comandos.
