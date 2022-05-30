@@ -60,7 +60,7 @@ public class Agenda{
         int indice = 0;
         char arrayChar[] = cadena.toCharArray();
         for (int i = 0; i<arrayChar.length-1;i++){
-            arrayChar[i];
+            //arrayChar[i];
         }
         return indice;
     }

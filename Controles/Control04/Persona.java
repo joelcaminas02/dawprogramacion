@@ -1,3 +1,5 @@
+package Control04;
+
 import java.io.Serializable;
 
 public class Persona implements Serializable{
