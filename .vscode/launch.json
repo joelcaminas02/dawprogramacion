@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AgendaTest",
+            "request": "launch",
+            "mainClass": "ControlAgenda.AgendaTest",
+            "projectName": "dawprogramacion_2108e849"
+        },
+        {
+            "type": "java",
             "name": "Launch PersistenciaTest",
             "request": "launch",
             "mainClass": "Control04.PersistenciaTest",

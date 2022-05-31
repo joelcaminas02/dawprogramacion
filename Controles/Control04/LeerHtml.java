@@ -6,19 +6,16 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.BufferedInputStream;
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-import org.jsoup.*;
 
 public class LeerHtml {
     public static void main(String[] args) throws IOException{
         Document doc = Jsoup.connect("https://www.sprkcrtv.com/").get();
-        Elements elsUrl = doc.select("a");
         Elements elsImg = doc.select("img");
         InputStream writer;
         URL url;

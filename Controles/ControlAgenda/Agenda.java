@@ -1,3 +1,5 @@
+package ControlAgenda;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -5,12 +7,8 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-import java.io.Writer;
-import java.util.ArrayList;
+
 
 public class Agenda{
 
@@ -38,30 +36,21 @@ public class Agenda{
         wrObejct.close();
     }
 
-    public static ArrayList<Usuario> read() throws IOException {
-        ArrayList<Usuario> usuarios = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(agenda));
-        String cliente = reader.readLine();
-        while (cliente != null) {
-            cliente = cliente.trim();
-            cliente = cliente.replaceAll(" ", "");
-            String[] array = cliente.split(":");
-            Usuario usuario = new Usuario();
-            usuario.setNombre(array [1].substring(1));
-            usuario.setApellidos(array[1]);
-            usuarios.add(usuario);
-            cliente = reader.readLine();
-        }
-        reader.close();
-        return usuarios;
-    }
+    public static void imprimirListadoTexto() throws IOException{
 
-    private static int comprobarIndice(String cadena){
-        int indice = 0;
-        char arrayChar[] = cadena.toCharArray();
-        for (int i = 0; i<arrayChar.length-1;i++){
-            //arrayChar[i];
+        BufferedReader lectorTexto = new BufferedReader(new FileReader(agenda));
+        
+        String linea = lectorTexto.readLine();
+        
+        while (linea != null){
+            String[] elementos = linea.split("\t");
+            System.out.println(elementos[0] + "," +
+                                elementos[1] + "," + 
+                                elementos[2] + "," +
+                                elementos[3]);
+            linea = lectorTexto.readLine();
         }
-        return indice;
+
+        lectorTexto.close();
     }
 }
