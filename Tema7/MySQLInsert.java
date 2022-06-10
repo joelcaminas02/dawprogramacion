@@ -11,14 +11,14 @@ public class MySQLInsert {
 
     public static void main(String[] args) throws ClassNotFoundException {
        
-        String consulta = " insert into Cliente (nombre, apellidos, nif, email)"
+        String consulta = " insert into Cliente (nombre, apellido, nif, email)"
         + " values (?, ?, ?, ?)";
         String connectioURL = "jdbc:mysql://10.0.20.4:3306/clientes";
  
         try {
              Class.forName("com.mysql.cj.jdbc.Driver");
        
-        Connection conn =DriverManager.getConnection(connectioURL,"phpmyadmin2","phpmyadmin2");
+        Connection conn =DriverManager.getConnection(connectioURL,"phpmyadmin3","phpmyadmin3");
              PreparedStatement ps = conn.prepareStatement(consulta);
              Scanner lector = new Scanner(System.in);
              

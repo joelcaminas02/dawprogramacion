@@ -17,7 +17,7 @@ public class MySqlAll{
            e.printStackTrace();
        }
 
-       try (Connection conn =DriverManager.getConnection(connectioURL,"phpmyadmin2","phpmyadmin2");
+       try (Connection conn =DriverManager.getConnection(connectioURL,"phpmyadmin3","phpmyadmin3");
             PreparedStatement ps = conn.prepareStatement(consulta);
             ResultSet rs = ps.executeQuery()){
 

@@ -16,7 +16,7 @@ public class MySqlCount {
             e1.printStackTrace();
         }
 
-        try (Connection conn = DriverManager.getConnection(connectionUrl, "phpmyadmin2", "phpmyadmin2");
+        try (Connection conn = DriverManager.getConnection(connectionUrl, "phpmyadmin3", "phpmyadmin3");
                 PreparedStatement ps = conn.prepareStatement(consulta);
                 ResultSet rs = ps.executeQuery()) {
 
